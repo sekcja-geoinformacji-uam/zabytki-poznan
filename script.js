@@ -27,6 +27,7 @@ var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1,
     }});
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
 var zabytki_grupa = L.layerGroup([zabytki]).addTo(map);
+var granice_poznania = L.geoJson(granice_poznania).addTo(map);
 
 // grupy warstw
 var baseMaps = {
@@ -35,7 +36,8 @@ var baseMaps = {
 };
 var overlayMaps = {
     "punkt": marker,
-    "zabytki": zabytki_grupa
+    "zabytki": zabytki_grupa,
+    "granice Poznania": granice_poznania
 };
 
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
