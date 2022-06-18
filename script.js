@@ -21,8 +21,8 @@ function punkty(point, latlng){
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
 var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
     onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Zamiana_dat_Wiek_zabytku +
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
         "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
     }});
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
