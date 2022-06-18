@@ -16,7 +16,6 @@ var mapbox = L.tileLayer('https://api.mapbox.com/styles/v1/acisek/cl4i8m7gf004q1
 function punkty(point, latlng){
     return L.circleMarker(latlng, {radius: 1, color: '#ff0000'})
 }
-
 // warstwy wektorowe
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
 var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1, pane: 'warstwy',

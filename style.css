@@ -17,7 +17,10 @@ body {
 #menu {
     height: 5%;
     width: 100%;
-    background-color: brown;
+    background-color: rgba(90, 6, 6, 0.577);
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    text-align:center;
 }
 
 #side {
