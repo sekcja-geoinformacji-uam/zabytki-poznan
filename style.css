@@ -9,7 +9,7 @@ body {
 }
 
 #map {
-    height: 95%;
+    height: 100%;
     width: 80%;
     float: left;
 }
@@ -20,11 +20,16 @@ body {
     background-color: rgba(90, 6, 6, 0.577);
     font-family: 'Quicksand', sans-serif;
     font-size: larger;
-    text-align:center;
+    text-align: center;
+}
+
+#container {
+    height: 95%;
+    width: 100%;
 }
 
 #side {
-    height: 95%;
+    height: 100%;
     width: 20%;
     float: left;
     background-color: rgb(96, 150, 26);

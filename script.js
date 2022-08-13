@@ -3,6 +3,7 @@ var map = L.map('map', {center: [52.408, 16.934], zoom: 14});
 map.createPane('warstwy'); map.createPane('base');
 map.getPane('warstwy').style.zIndex = 10;
 map.getPane('base').style.zIndex = 0;
+var sidebar = L.control.sidebar('sidebar').addTo(map);
 
 // warstwy bazowe
 var OSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
