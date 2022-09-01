@@ -80,7 +80,29 @@ var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1,
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
 var zabytki_grupa = L.layerGroup([zabytki]).addTo(map);
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
-var pomniki = L.geoJson(pomniki)
+
+//trzeba dodać ikonę zamiast markerów pomników - do zrobienia
+var Ikona_pomniki = L.icon({
+    iconUrl: 'ikona_posagu.png',
+    iconSize:     [20, 20], // size of the icon
+});
+
+
+var pomniki = L.geoJson(pomniki, {  
+    
+    pointToLayer: function(feature, latlng) {
+    return new L.marker(latlng, {
+        icon: Ikona_pomniki
+    });
+},
+
+onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
+        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
+        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
+        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania:</b>" + 
+        feature.properties.Pomniki_edycja_Powstanie + "<br><b>Artykuł: </b>" + feature.properties.Pomniki_edycja_url);
+}});
 
 
 
@@ -88,6 +110,7 @@ var pomniki = L.geoJson(pomniki)
 var granice_poznania = L.geoJson(granice_poznania, {color:'#bbbb68', weight: 3.7}).addTo(map);
 var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight: 3.7,
     onEachFeature: function(feature, layer) {
+        //nie działają etykiety, nawet, gdy działały, to wyglądały brzydko fest
       var label = L.marker(layer.getBounds().getCenter(), {
         icon: L.divIcon({
           className: 'label',
@@ -109,7 +132,6 @@ var baseMaps = {
     "Mapbox": mapbox
 };
 var overlayMaps = {
-    "Punkt": marker,
     "Zabytki": zabytki_grupa,
     "Cmentarze": cmentarze,
     "Pomniki": pomniki,
@@ -121,7 +143,6 @@ var overlayMaps = {
     "Granica z 1973 roku": m1973,
     "Granica z 1986 roku": m1986,
     "Obecne granice Poznania": granice_poznania,
-    
 };
 
 
@@ -143,8 +164,8 @@ map.on('zoomend', function(ev){
 var stateChangingButton = L.easyButton({
     states: [{
             stateName: 'timelapse',        // name the state
-            icon:      "S",               // and define its properties
-            title:     'timelapse',      // like its title
+            icon:      'ikona',               // and define its properties
+            title:     'Granice Poznania na przestrzeni lat.',      // like its title
             onClick: function(btn, map) {
                 m1933.remove();
                 m1940.remove();

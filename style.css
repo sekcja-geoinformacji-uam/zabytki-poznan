@@ -10,17 +10,20 @@ body {
 
 #map {
     height: 100%;
-    width: 80%;
+    width: 83%;
     float: left;
 }
 
 #menu {
     height: 5%;
     width: 100%;
-    background-color: rgba(90, 6, 6, 0.577);
+    background-color: rgba(225, 225, 225, 0.208);
     font-family: 'Quicksand', sans-serif;
     font-size: larger;
+    padding-top: 5px;
+    letter-spacing: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 #container {
@@ -30,7 +33,7 @@ body {
 
 #side {
     height: 100%;
-    width: 20%;
-    float: left;
+    width: 17%;
+    float: right;
     background-color: rgb(96, 150, 26);
 }

@@ -1,0 +1,685 @@
+full_id,osm_id,osm_type,historic,plaque:type,name2,name1,artwork_type,person:death,person:name,material,width,website,ref:CRFOP,natural,denotation,circumference,inscription:url,layer,tourism,source_ref,flood_mark,flood_date,source:name,url,memorial:type,tower:type,man_made,wikipedia:pl,entrance,location,name:fa,power,backrest,amenity,subject:wikipedia,denomination,tomb,religion,description2,wheelchair:description,wheelchair,toilets:wheelchair,noexit,inscription,image,description,artist_name,wikipedia,wikidata,subject:wikidata,start_date,name:pl,name:en,name:de,name,memorial
+n413493263,"413493263",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Figura św. Jana Nepomucena w Poznaniu,Q9259473,Q221522,"1724",Św. Jan Nepomucen,John of Nepomuk statue,Johannes-Nepomuk-Statue,Św. Jan Nepomucen,statue
+n583405206,"583405206",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W hołdzie wdzięczności Jezusowi Chrystusowi zbawicielowi człowieka w 2000 lecie narodzin. Parafia Najświętszego Zbawiciela w 50-lecie istnienia,"Eugeniusz Olechowski; Zygmunt Roszak",pl:Pomnik Najświętszego Zbawiciela w Poznaniu,Q11823355,,"2000",,,,Najświętszy Zbawiciel,statue
+n640100905,"640100905",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Święty Jan Vianney 1818-1859 patron parafii. W 50-tą rocznicę kapłaństwa wdzięczny za błogosławione patronowanie. A.D.2007,"https://commons.wikimedia.org/wiki/File:Pozna%C5%84,_ko%C5%9Bci%C3%B3%C5%82_par._p.w._%C5%9Bw._Jana_Vianney,_1928-1930_10_pomnik_przed_ko%C5%9Bcio%C5%82em.JPG",,,,,,"2007",,,,Św. Jan Vianney,statue
+n650843700,"650843700",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik upamiętniający miejsce stracenia 2000 ofiar II Wojny Światowej w styczniu 1940 roku,Jan Cieśliński,pl:Pomnik ofiar Fortu VII nad Rusałką w Poznaniu (wschodni brzeg),Q4343487,,"1961",,,,Pomnik ofiar Fortu VII (wschodni brzeg),
+n1327573336,"1327573336",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,pl:Pomnik Jurija Gagarina w Poznaniu,Q56329529,,1977-11-07,,,,Jurij Gagarin,sculpture
+n1420429945,"1420429945",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E. Haust,pl:Pomnik Stanisława Moniuszki w Poznaniu,Q11823450,,"1951",,,,Stanisław Moniuszko,bust
+n1429353158,"1429353158",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,En: Accessible via uneven paving or over grass.,limited,no,yes,,,,Robert Sobociński,pl:Pomnik Ofiar Katynia i Sybiru w Poznaniu,Q4217547,Q134301,1999-09-17,,,,Pomnik Ofiar Katynia i Sybiru,
+n1812386460,"1812386460",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce straceń kilkuset polskich patriotów przez hitlerowskich okupantów w kilku egzekucjach w latach 1939-1940,,"Pomnik upamiętniający miejsce straceń kilkuset polskich patriotów, rozstrzelanych przez hitlerowskich okupantów w latach 1939 - 1940",,,,,"1974; 1996",,,,Miejsce straceń kilkuset polskich patriotów,
+n1942804084,"1942804084",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik upamiętniający Powstańców Wielkopolskich, poległych śmiercią walecznych na polu chwały 15.02.1919r.",,,,,Ku Wieczystej Chwale Powstańcom Wielkopolskim którzy zmarli i zginęli w Obozach Hitlerowskich,,Polegli śmiercią walecznych na polu chwały 15.2.1919 r. pod Grójcem Małym Stanisław Kończal Stanisław Zajączkowski,,,,,"1935; 1950",,,,Pomnik Powstańców Wielkopolskich,
+n1955069529,"1955069529",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,war_grave,christian,,,,,,Tu pochowano 5 Radzieckich żołnierzy i oficerów którzy zginęli śmiercią bohaterów w walkach z Niemiecko Faszystowskimi zaborcami. Wieczna Chwała Bohaterom którzy oddali swe życie za wolność i niepodległość Związku Radzieckiego i Rzeczpolitej Polskiej 1945,,"Pomnik nagrobny 5 żołnierzy radzieckich, poległych w walkach o wyzwolenie rejonu Starołęka",,,,,"1945",,,,Pomnik nagrobny żołnierzy radzieckich,
+n2423988554,"2423988554",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Katyń 1940,,"Pomnik upamiętniający Oficerów WP, Ofiar NKWD",Z. Dłużniewicz,,,Q134301,"1990",,,,Katyń 1940,stone
+n2467296693,"2467296693",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus,statue
+n2467339456,"2467339456",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz upamiętniający prekursorów i pionierów zorganizowanej turystyki, krajoznawstwa oraz przewodnictwa na terenie Wielkopolski",,pl:Pomnik stulecia Polskiego Towarzystwa Krajoznawczego w Poznaniu,Q11823589,,"2006",,,,Głaz prekursorów turystyki i krajoznawstwa,stone
+n2486284021,"2486284021",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roman_catholic,,christian,,,,,,,,Fundowała gmina Wielka Starołęka,,,,,,,,,Matka Boża,statue
+n2486284023,"2486284023",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kolumna ufundowana przez Józefa i Maryannę Heigelmann w 1892 r.,,pl:Figura Matki Boskiej na Minikowie w Poznaniu,Q24948935,,"1892",,,,Matka Boża,statue
+n2486284025,"2486284025",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miłością wieczną umiłowałem was Jer 13.3.1933,,,,,,,,,Jezus Chrystus,statue
+n2659156639,"2659156639",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Gustaw Manitius,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Pomnik_Manitiusa.jpg,,Władysław Wróblewski,,,Q1556175,,,,,Gustaw Manitius,
+n2997286169,"2997286169",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Grażyna Bielska–Kozakiewicz; Mariusz Kozakiewicz",pl:Pomnik kryptologów w Poznaniu,Q4343521,,"2007",,,,Pomnik kryptologów,
+n3039927418,"3039927418",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roman_catholic,,christian,,,,,,,,,,,,,,,,,Matka Boża Niepokalanego Serca,statue
+n3061157129,"3061157129",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stadion Miejski był obozem hitlerowskim eksterminacji obywateli polskich pochodzenia żydowskiego z Poznania i okolic,,Pomnik upamiętniający martyrologię żydowską na stadionie miejskim w latach 1940 - 1943,"Jan Rassumowski; Józef Kaliszan",pl:Pomnik Ofiar obozu pracy dla Żydów w Poznaniu,Q11823380,,1983-10-30,,,,Pomnik ofiar hitlerowskiego obozu pracy,
+n3188465004,"3188465004",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Pyry w Poznaniu,Q11823426,,2007-09,,,,Poznańska Pyra,stone
+n3234142086,"3234142086",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ŚW. / RAFAŁ KALINOWSKI / KARMELITA BOSY / 1835 – 1907 / POWSTANIEC / SYBIRAK / ZAKONNIK / GORĄCY PATRIOTA / WIELKI CHRZEŚCIJANIN,,"Pomnik św. Rafała Kalinowskiego karmelity bosego - powstańca, sybiraka, zakonnika",Kazimierz Szczecina OCD,,,,"1989",,,,Św. Rafał Kalinowski,statue
+n3234668562,"3234668562",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Karol Marcinkowski 1800-1846 Twórca pracy organicznej,,,Stanisław Radwański,pl:Pomnik Karola Marcinkowskiego w Poznaniu,Q4343196,,"2005",,,,Karol Marcinkowski,statue
+n3312478225,"3312478225",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz upamiętniający harcerzy poznańskich, poległych i zamęczonych w okresie II Wojny Światowej",,,,,"1998",,,,Pomnik poległych i zamęczonych Harcerzy Poznańskich,
+n3312516766,"3312516766",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Władysław Marcinkowski,pl:Pomnik Juliusza Słowackiego w Poznaniu,Q4343419,Q243267,"1923",,,,Juliusz Słowacki,bust
+n3317213701,"3317213701",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Powstańców Wielkopolskich,Q11823416,,,,,,Powstańcy Wielkopolscy,statue
+n3490774435,"3490774435",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik upamiętniający zdobycie szturmem Bazy Lotniczej Ławica przez Powstańców Wielkopolskich,"Jerzy Sobociński; Saturnin Skubiszyński",pl:Pomnik Zdobywców Lotniska Ławica,Q11823518,,1984-01-06,,,,Pomnik Zdobywców Lotniska Ławica,
+n3503171347,"3503171347",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Rafał Nowak,pl:Pomnik Ignacego Jana Paderewskiego w Poznaniu,Q24947087,Q191957,2015-05-06,,,,Ignacy Jan Paderewski,statue
+n3562887421,"3562887421",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Fontanna na Malcie w Poznaniu,Q9261267,,,,,,Fontanna na Malcie,plaque
+n3580190208,"3580190208",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym miejscu w dniu 7.06.1977 roku zginęli śmiercią lotnika płk dypl. pil. Rejewski Romuald płk pil. Babkiewicz Antoni Cześć ich pamięci !,,,,,,,2001-09-01,,,,Miejsce śmierci płk dypl. Romualda Rejewskiego i płk Antoniego Babkiewicza,stone
+n3585858121,"3585858121",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,UAM,stone
+n3646023204,"3646023204",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca zawieszenie polskiej flagi na siedzibie Prezydium Niemieckiej Policji w dniu 2 marca 1940 r.,J. Hoffman,,,,"1992",,,,Zawieszenie polskiej flagi na siedzibie Prezydium Niemieckiej Policji,plaque
+n3648628350,"3648628350",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bench,,,,,,,,,,,,,Grzegorz Godawa,pl:Ławeczka Heliodora Święcickiego w Poznaniu,Q9394064,,2010-05-08,,,,Ławka prof. Heliodora Święcickiego,bench
+n3648628351,"3648628351",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,bench,,,,,,,,,,,,,,pl:Ławeczka Ignacego Łukasiewicza w Poznaniu,Q16621131,Q28978,2013-09-23,,,,Ławka Ignacego Łukasiewicza,bench
+n3648628352,"3648628352",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bench,,,,,,,,,,,,,Grzegorz Godawa,pl:Ławeczka Józefa Kostrzewskiego w Poznaniu,Q9394069,,2012-10-16,,,,Ławka prof. Józefa Kostrzewskiego,bench
+n3659211612,"3659211612",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Roman Wilhelmi 1936–1991 wybitny aktor obywatel Miasta Poznania,https://upload.wikimedia.org/wikipedia/commons/0/07/Pomnik_Romana_Wilhelmiego%2C_Pozna%C5%84..jpg,,Roman Kosmala,pl:Pomnik Romana Wilhelmiego w Poznaniu,Q16589967,,2012-11-03,,,,Roman Wilhelmi,bust
+n3663183783,"3663183783",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,catenary_mast,,,,,,,,,,,,Słup kratowy / Rok budowy: 1955 / Rok odnowy: 2017,,,,,,,,,,,Słup kratowy,plaque
+n3679992757,"3679992757",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,ایگناسی پادروسکی,,,,,,,,,,,,,,,,"Stanisław Jagmin; I. Woch",,,Q191957,"1928; 1978",,,,Ignacy Paderewski,plaque
+n3699642948,"3699642948",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marcin Rożek,pl:Pomnik Fryderyka Chopina w Poznaniu,Q4343413,Q1268,"1923; 1999",,,,Fryderyk Chopin,bust
+n3709572355,"3709572355",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,wall,,,,,,,,,,,,,,,,,"Romuald Łuczko; Irena Woch",,Q1169414,,"1998",,,,Jan Baptysta Quadro,statue
+n3709607486,"3709607486",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,Pałac Górków,plaque
+n3710929511,"3710929511",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1603",,,,Św. Stanisław Biskup,statue
+n3710929542,"3710929542",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża z Dzieciątkiem,statue
+n3771622846,"3771622846",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Na rozkaz gen. Władysława Sikorskiego, w dniu 21 lutego 1942 oddział dywersji bojowej Związku Odwetu „Kuba”, w brawurowej Akcji „Bollwerk”, dokonał spalenia obiektów magazynów portu rzecznego, zadając okupantowi dotkliwe straty. W odwecie za tę akcję...",https://commons.wikimedia.org/wiki/File:PomnikBollwerk.JPG,,"Marian Banasiewicz; Jerzy Nowakowski",pl:Pomnik Akcji Bollwerk w Poznaniu,Q11823106,,"1982",,,,Akcja Bollwerk,
+n3773009439,"3773009439",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Zbiorowa mogiła jeńców wojennych pracujących przy kopaniu Rusałki. Niech spoczywają w spokoju, a ludzie niech o tym pamiętają.",,,,,,,,,,,Zbiorowa mogiła jeńców wojennych,
+n3789422957,"3789422957",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz przy ""Dębie Woności"" upamiętniającym 25 lat Wolności",,,,,,,,,Dąb Wolności,stone
+n3789422958,"3789422958",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Katastrofa lotnicza w Poznaniu (1952),,,,,,,,,W tym miejscu 10 czerwca 1952 r. doszło do utajnionej przez władze komunistyczne katastrofy bombowca Pe-2. Władze miasta Poznania 10 czerwca 2008 r.,,,Roman Kosmala,pl:Pomnik ofiar katastrofy lotniczej w Poznaniu,Q104147295,Q11737204,2008-06-10,,,,Pomnik ofiar katastrofy bombowca,stone
+n3873723106,"3873723106",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://upload.wikimedia.org/wikipedia/commons/7/79/Klemens_Janicki_Monument_in_Poznan_%286%29.JPG,,,pl:Pomnik Klemensa Janickiego w Poznaniu,Q24948397,,"2015",,,,Klemens Janicki,statue
+n4215342689,"4215342689",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Jaz Maltański zbudowany w roku 1952, przebudowa i modernizacja w roku 1993, projekt B.S. i P. Architektonika, wykonawca Hydrotrust, Inwestor P.O.S.iR.","https://commons.wikimedia.org/wiki/File:Jaz_Maltanski,_Poznan.JPG",,,,,,,,,,Jaz Maltański,plaque
+n4240886694,"4240886694",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1886",,,,Matka Boża Niepokalana,statue
+n4246009884,"4246009884",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Najświętsza Maryja Panna,statue
+n4264310805,"4264310805",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n4266781035,"4266781035",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018-12-27,,,,Tablica Wdzięczności,plaque
+n4266781106,"4266781106",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W dniu włączenia Wielkopolski do rodziny regionów UE,,,,,2004-05-01,,,,Włączenie Wielkopolski do regionów Unii Europejskiej,stone
+n4266854759,"4266854759",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,pl:Głaz Honoriusza Kowalczyka,Q9284109,,2000-10-22,,,,O. Honoriusz Kowalczyk,stone
+n4267950922,"4267950922",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,"Tablica informująca, że w tym miejscu w latach 1945-1953 mieściło się więzienie śledcze Wojewódzkiego Urzędu Bezpieczeństwa Publicznego","Benedykt Kasznia; Piotr Andruszka",,,,"1990",,,,Miejsce więzienia śledczego UB,plaque
+n4268119844,"4268119844",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,pl:Pomnik Adama Mickiewicza w Poznaniu (PTPN),Q11823096,Q79822,1998-05-07,,,,Adam Mickiewicz,statue
+n4269621941,"4269621941",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik upamiętniający zamordowanego przez ZOMO Piotra Majchrzaka,Józef Petruk,pl:Głaz Piotra Majchrzaka,Q4343307,,1990-08-29,,,,Piotr Majchrzak,stone
+n4271635759,"4271635759",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józefa Kaliszana (tablica pamiątkowa),pl:Pomnik Adama Mickiewicza w Poznaniu,Q11823093,Q79822,"1957",,,,Cokół po pomniku Adama Mickiewicza,
+n4289031066,"4289031066",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Zgromadzenie Narodowe zwołane w celu wysłuchania orędzia Prezydenta Rzeczypospolitej Polskiej Andrzeja Dudy w Sali Ziemi Międzynarodowych Targów Poznańskich w ramach Jubileuszu 1050. Rocznicy Chrztu Polski. Poznań, 15 kwietnia 2016",,,,,,,2016-04-15,,,,Zgromadzenie Narodowe w ramach Jubileuszu 1050. Rocznicy Chrztu Polski,plaque
+n4293668175,"4293668175",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,Cześć bohaterom ZWM którzy w latach 1945-48 polegli na terenie Wielkopolski w walce o utrwalenie władzy ludowej,,,,,,,"1975",,,,Pomnik ZWM,
+n4293670312,"4293670312",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,"https://polska-org.pl/9157947,Poznan,Pomnik_PPR_owcow.html",,Ryszard Skupin,,,,1967-09-08,,,,Pomnik Ofiar 1939-1956,
+n4298845588,"4298845588",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pamięcią czcimy zwycięstwa naszych Ojców oraz Powstańcom harcerzom lat 1918-1919 i podpis Zuchy, harcerki i harcerze oraz instruktorzy hufca ZHP im. Powstańców Wielkopolskich. Poznań Stare Miasto. Zwracano wtedy uwagę w prasie na nielogiczne...","https://fotopolska.eu/390936,obiekt.html?map_z=17",Pomnik poświęcony poległym i pomordowanym harcerzom i harcerkom ze staromiejskiej dzielnicy Poznania,"Marian Skrzypczak; Józef Kaliszan",pl:Pomnik Harcerski przy ul. Za Cytadelą w Poznaniu,Q11823214,,"1987",,,,Pomnik poległych harcerzy,
+n4298962099,"4298962099",node,memorial,,,,,,,,,,,,,,,,,,,,,,,bell_tower,tower,,,,,,,,,,,,,,,,,,,,"Jerzy Nowakowski; Saturnin Skubiszyński",pl:Dzwon Pokoju i Przyjaźni Między Narodami,Q9249046,,1986-10-11,,,,Dzwon Pokoju i Przyjaźni Między Narodami,
+n4304978451,"4304978451",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,,,,,,,,,Georgij Gierasimowicz Bondar,bust
+n4304978452,"4304978452",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,,,,,"2003",,,,Prof. Jarosław Maszewski,stone
+n4304978453,"4304978453",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,"https://polska-org.pl/7524075,Poznan,Pomnik_poleglych_w_I_wojnie_swiatowej.html",,W. D. Borkiewicz-Szukowski,,,,"1930",,,,Mauzoleum żołnierzy rosyjskich,
+n4304978454,"4304978454",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,Pomnik poświęcony poległym żołnierzom 7 Pułku Strzelców Konnych Wielkopolskich,Jan M. Jakób,,,,"1961",,,,Pomnik 7. Pułku Strzelców Konnych Wielkopolskich,
+n4304978455,"4304978455",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,"Pomnik poświęcony żołnierzom, poległym podczas niemieckiego bombardowania Bazy Lotniczej Ławica, w dniu 1 września 1939r.",Ryszard Skupin,,,,"1963",,,,Pomnik nagrobny poległych podczas bombardowania Ławicy,
+n4304978456,"4304978456",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,Marian Banasiewicz,,,,"1982",,,,Gen. Wasilij Czujkow,
+n4304978457,"4304978457",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"https://polska-org.pl/7524076,Poznan,Pomnik_zolnierzy_francuskich.html",,,pl:Pomnik jeńców francuskich w Poznaniu,Q18433368,,"1934",,,,Pomnik jeńców francuskich,obelisk
+n4304978458,"4304978458",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,,,,,,,,,Zygmunt Berling,bust
+n4319983751,"4319983751",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik poświęcony adwokatom, niezłomnych obrońcom w procesach Czerwca 1956r. i procesach politycznych",Andrzej Kurzawski,pl:Pomnik Adwokatów Czerwca '56,Q4343433,,"2010",,,,Pomnik Adwokatów Poznańskiego Czerwca 1956,
+n4336106949,"4336106949",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pamięci Cegielszczaków poległych w czasie II Wojny Światowej w czerwcu 1956 roku i na posterunku pracy,,,Anna Krzymańska,,,,"1963; 2000",,,,Pomnik poległych Cegielszczaków,
+n4336106951,"4336106951",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W 43 rocznicę tragicznego września 1939 roku załoga Zakładów H. Cegielski poświęca tę tablicę pamięci Robotniczego Plutonu Obrony Przeciwlotniczej HCP, który w pierwszych dniach wojny skutecznie odpierał ataki hitlerowskiego lotnictwa na miasto Poznań.",,,Marian Banasiewicz,,,,"1982",,,,Pomnik Robotniczego Plutonu Obrony Przeciwlotniczej HCP,
+n4336899453,"4336899453",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Poznański Czerwiec,,,,,,,,,Stąd upomniano się po raz pierwszy o prawo do ludzkiej godności. W 25-tą rocznicę Wydarzeń Czerwcowych 1956 Cegielszczacy 28 VI 1981,,,,,,Q52967,,,,,25. rocznica Wydarzeń Czerwcowych 1956,plate
+n4340776835,"4340776835",node,memorial,,,,,,,,,,,,,,,,,,,,,,plaque,,,,,,,,,,,,,,,,,,,,,Miejsce kaplicy pałacowej Mieszka I i Dobrawy 966 rok,,,,,,,,,Miejsce kaplicy pałacowej,
+n4340896329,"4340896329",node,memorial,,,,,,,,,,,,,,,,,,,,,,plate,,,,,,,,,,,,,,,,,,,W dniu I września 1939 w czasie pełnienia służby patrolowej w rejonie byłej Radiostacji Poznańskiej polegli od wybuchu bomby niemieckiej jedni z pierwszych poznańskich harcerzy dh Edward Pietrzykowski (…) dh Henryk Wysocki.,https://commons.wikimedia.org/wiki/File:Pozna%C5%84_-_Pomnik_harcerzy_poleg%C5%82ych_we_wrze%C5%9Bniu_1939_roku.jpg,Pomnik upamiętniający pierwszych poległych harcerzy w dniu 1.09.1939r.,Benedykt Kasznia,pl:Pomnik Harcerski przy ul. Bukowskiej w Poznaniu,Q11823215,Q150812,1985..1989,,,,Pomnik poległych harcerzy,war_memorial
+n4340969113,"4340969113",node,memorial,,,,,,,,,,,,,,,,,,,,,,stone,,,,,,,,,,,,,,,,,,,Pamięci osób zasłużonych dla powstania i rozwoju Ogrodu Botanicznego w Poznaniu w 50-tą rocznicę jego założenia 13 września 1975 r.,,,,,,,,,,,Głaz zasłużonych dla Ogrodu Botanicznego,
+n4342519014,"4342519014",node,memorial,,,,,,,,,,,,,,,,,,,,,,plate,,,,,,,,,,pl:Samuel Dambrowski,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Tablica_pami%C4%85tkowa_ks._Samuela_Dambrowskiego.jpg,,,,,Q9333377,,,,,Samuel Dambrowski,
+n4344588176,"4344588176",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku w latach 1939 - 1945 mieściła się siedziba Gestapo",P. Andruszko,,,,"1984",,,,Miejsce siedziby Gestapo,plaque
+n4344762091,"4344762091",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wiesław Koronowski,pl:Pomnik Edwarda Taylora i Zbigniewa Zakrzewskiego w Poznaniu,Q24947091,,"2011",,,,Edward Taylor,statue
+n4344762093,"4344762093",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wiesław Koronowski,pl:Pomnik Edwarda Taylora i Zbigniewa Zakrzewskiego w Poznaniu,Q24947091,,"2011",,,,Zbigniew Zakrzewski,statue
+n4350110582,"4350110582",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Krzysztof Skubiszewski,,,,,,,,,"Krzysztofowi Skubiszewskiemu 8 X 1926-8 II 2010 Ministrowi Spraw Zagranicznych 1989-1993, twórcy suwerennej polityki zagranicznej niepodległej Ojczyzny, wybitnemu Mężowi Stanu w 25 rocznicę powołania na urząd Ministra Spraw Zagranicznych - Rodacy",https://commons.wikimedia.org/wiki/File:Tablica_Krzysztofa_Skubiszewskiego_Instytut_Zachodni_w_Poznaniu.jpg,,,,,Q663033,,,,,Krzysztof Skubiszewski,plaque
+n4352578575,"4352578575",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym zamku najjaśniejszy Pan Jan Olbracht Król Polski i Wielki Książę Litewski w dniu 29 maja 1493 roku przyjął hołd lenny z Ziemi Pruskiej i przysięgę wierności Rzeczypospolitej od Wielkiego Mistrza Krzyżackiego Hansa von Tieffena,https://commons.wikimedia.org/wiki/File:Zamek_Kr%C3%B3lewski_Pozna%C5%84_-_tablica_ho%C5%82du_lennego_z_1493_roku.jpg,,Benedykt Kasznia,,,,"1993",,,,Miejsce hołdu lennego i przysięgi wierności,plaque
+n4352578576,"4352578576",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Przemysł II,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Zamek_Kr%C3%B3lewski_Pozna%C5%84_-_tablice_Kr%C3%B3la_Przemys%C5%82a_II_i_Kr%C3%B3lowej_Ryksy_El%C5%BCbiety.jpg,,Benedykt Kasznia,,,Q54017,"1995",,,,Król Przemysł II,plaque
+n4353572100,"4353572100",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głównym dowódcom Powstania Wielkopolskiego gen. Stanisławowi Taczakowi, gen. Józefowi Dowbór-Muśnickiemu ku czci ich czynów oraz na wieczną pamiątkę powrotu Poznańskiego do Macierzy tablicę tę ufundowali Wielkopolanie, grudzień 1988",https://commons.wikimedia.org/wiki/File:P%C5%82yta_g%C5%82%C3%B3wnodowodz%C4%85cych_Powstaniem_Wielkopolskim.jpg,,Jerzy Kopczyński,,,,"1988",,,,Tablica dowódców Powstania Wielkopolskiego,plaque
+n4362675142,"4362675142",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n4363226728,"4363226728",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n4379108632,"4379108632",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Jarosław Ziętara,,,,,,,,,,,,,,,Q10997259,,,,,Jarosław Ziętara,
+n4381179402,"4381179402",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Franciszek z Asyżu,statue
+n4399022976,"4399022976",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz upamiętniający pracowników Energetyki Poznańskiej, ofiar II Wojny Światowej",,pl:Głaz Energetyków w Poznaniu,Q9284107,,1979-09-15,,,,Głaz energetyków,stone
+n4411599137,"4411599137",node,memorial,,,,,,,,,,,,,,,,,,,,,https://pl.wikipedia.org/wiki/Kaplica_Zwiastowania_Najświętszej_Maryi_Panny_w_Poznaniu#/media/File:Kaplica_Zwiastowania_NMP_Pozna%C5%84_02.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus ze św. Piotrem,
+n4418581460,"4418581460",node,memorial,,,,,,,,,,,,,,,,,,,,wikipedia,,,,,,,,,,,,,,,,,,,,,,,,Ryszard Skupin,pl:Pomnik Zwycięstwa w Parku Manitiusa w Poznaniu,Q11823521,,1968-05-09,,,,Pomnik Zwycięstwa,
+n4447980968,"4447980968",node,memorial,,,,,,,,,,,,,,,,attraction,http://www.wielkawoda.umk.pl/lokalizacja/odra/ZWW_poznan.pdf,yes,"1736",,,flood_mark,,,,,outdoor,,,,,,,,,,,,,,POWODZ R:1736 DNA 9: IVLII,,,,,,,,,,,Powódź 1736,
+n4469726996,"4469726996",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q989,,,,,Jan Paweł II,stone
+n4511759254,"4511759254",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n4555488069,"4555488069",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bóg Honor Ojczyzna,plaque
+n4555488105,"4555488105",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kościół pw. Najświętszej Bogarodzicy Maryi,plaque
+n4559878785,"4559878785",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marcin Rożek,pl:Pomnik Siewcy w Poznaniu,Q11823438,,"1979",,,,Siewca,statue
+n4583817399,"4583817399",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n4583817456,"4583817456",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Kapliczki przydrożne na Żegrzu i Ratajach w Poznaniu#Kapliczka Serca Jezusa,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n4698862711,"4698862711",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,pl:Pomnik Poległych w Powstaniu Poznańskim,Q11823405,,"1996",,,,Pomnik Poległych w Powstaniu Poznańskim,stone
+n4704949939,"4704949939",node,memorial,,,,,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Tablica_pami%C4%85tkowa_Krystyny_Feldman.jpg,,,,,,,,,,,,,,,,,,pl:Krystyna Feldman,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania Krystyny Feldman w latach 1979-2007,,,,Q55718,"2008",,,,Miejsce zamieszkania Krystyny Feldman,plaque
+n4759835521,"4759835521",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Pozna%C5%84_D%C4%99bina_-_pomnik_Mi%C5%82o%C5%9Bnik%C3%B3w_D%C4%99biny.jpg,,,,,,,,,,Pomnik miłośników Dębiny,
+n4772842185,"4772842185",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Katyn_monument_Poznan_Ogrody.jpg,"Pomnik Ofiar Zbrodni Katyńskiej 1940 roku: ppor W. Dewojno, mjr W. Hardego i kpt A. Kowalczyka",,pl:Pomnik Katyński w Poznaniu#Głaz na Ogrodach,,Q134301,"2010",,,,Głaz ofiar zbrodni katyńskiej 1940,stone
+n4916755734,"4916755734",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,KASIA MUSIAŁ 27 lat Zginęła 01.04.2010,,,,,,,,,,,Biały rower,ghost_bike
+n4916755735,"4916755735",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Andrzej, 19 lat, 19.07.2014",,,,,,,,,,,Biały rower,ghost_bike
+n4935294692,"4935294692",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"En: Gentle ramp from pedestrian area to south, steep ramp from patio north side.",yes,,,,,Tablica informująca o miejscu modlitwy Jana Pawła II w 1997 r.,,,,Q989,,,,,Miejsce modlitwy Jana Pawła II,plaque
+n4937896054,"4937896054",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2013",,,,Biały rower,
+n4955688940,"4955688940",node,memorial,,,,,,,,,,,,,,,,,,,,,https://pl.wikipedia.org/wiki/Kaplica_Zwiastowania_Najświętszej_Maryi_Panny_w_Poznaniu#/media/File:Kaplica_Zwiastowania_NMP_Pozna%C5%84_06.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus,statue
+n5002773445,"5002773445",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik poświęcony pomordowanym przez NKWD policjantom z Województwa Poznańskiego w 1940r.,,pl:Pomnik Pomordowanych Policjantów II RP Województwa Poznańskiego,Q11823414,,2010-05-14,,,,Pomnik Pomordowanych Policjantów II RP,
+n5063813620,"5063813620",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik na mogile zbiorowej 57 nieznanych ofiar niemieckiego bombardowania Poznania 1.9.1939 r.,,,,,"1965",,,,Pomnik nagrobny ofiar hitlerowskiego bombardowania,
+n5064781827,"5064781827",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Park Tysiąclecia - zbudowany czynem społecznym załogi i mieszkańców dzielnicy Nowe Miasto,,,,,,,"1966",,,,Park Tysiąclecia,obelisk
+n5086338733,"5086338733",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik SS Poznań,Q11823434,,1975 (?),,,,Pomnik statku SS Poznań,
+n5121641755,"5121641755",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,bench,,,,,,,,,,,,,,pl:Ławeczka Klemensa Mikuły w Poznaniu,Q48847576,,2017-09-22,,,,Ławka Klemensa Mikuły,bench
+n5124236953,"5124236953",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n5130606517,"5130606517",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Antoni Bazaniak,stone
+n5434738612,"5434738612",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,pl:Głaz Kazimierza Nowakowskiego,Q11703181,,1980-11-14,,,,Kazimierz Nowakowski,stone
+n5434812518,"5434812518",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,~1945,,,,Św. Jan Nepomucen,statue
+n5472335577,"5472335577",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Krzysztof Jakubik,pl:Pomnik Czesława Piotrowskiego w Poznaniu,Q65162393,,2017-03-21,,,,Ks. Czesław Piotrowski,statue
+n5472350510,"5472350510",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n5472350511,"5472350511",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Paweł,statue
+n5472350512,"5472350512",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Piotr,statue
+n5488999387,"5488999387",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100-lecie Polskiego Związku Wędkarskiego i 5 lecie Koła Rataje. W czynie społecznym dla S.M. Osiedla Młodych Wędkarze Rataj,,,Władysław Gniot,pl:Pomnik stulecia Polskiego Związku Wędkarskiego w Poznaniu,Q11823590,,"1979",,,,100-lecie Polskiego Związku Wędkarskiego,
+n5566789854,"5566789854",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bench,,,,,,,,,,,,,Adam Wójkiewicz,,,,2019-10-08,,,,Ławka prof. Eugeniusza Piaseckiego,bench
+n5580956131,"5580956131",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki Jana Pawła II w Poznaniu#Pomnik przy kościele pw. Karola Boromeusza,,,,,,,,,,,,,,,,,,,,,,Q989,2016-10-22,,,,Jan Paweł II,statue
+n5585753422,"5585753422",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1935-05-11,,,,Pomnik ks. Zygmunta Masłowskiego,
+n5611305684,"5611305684",node,memorial,,,,,,,,"2.6",http://crfop.gdos.gov.pl/CRFOP/widok/viewpomnikprzyrody.jsf?fop=PL.ZIPOP.1393.PP.3064011.2631,PL.ZIPOP.1393.PP.3064011.2631,stone,natural_monument,"4.8",,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pamięci Franciszka Jaśkowiaka / 1903 – 1983 / krajoznawcy, wybitnego przewodnika, orędownika ochrony przyrody i zabytków / Koło Przewodników PTTK / Poznań 5 X 2003",,,,pl:Głaz Franciszka Jaśkowiaka w Poznaniu,Q15993901,,2003-10-05,,,,Franciszek Jaśkowiak,stone
+n5617159780,"5617159780",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n5617159785,"5617159785",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus,statue
+n6027125044,"6027125044",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n6047417495,"6047417495",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik ze słowami homilii Jana Pawła II wygłoszonej w Poznaniu w 1983r.,,,,Q989,,,,,Wizyta Jana Pawła II w Poznaniu,stone
+n6047417496,"6047417496",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stanisław Mystek,,,,"2006",,,,Abp. Walenty Dymek,bust
+n6061562014,"6061562014",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica pamiątkowa działań wojsk amerykańskich,plaque
+n6131415608,"6131415608",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Mikołaja Kopernika w Poznaniu,Q11823345,Q619,"1969",,,,Mikołaj Kopernik,bust
+n6327882814,"6327882814",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,August Gaul,pl:Pomnik Roberta Jaeckla w Poznaniu,Q105389802,,1910-05-13,,,,Pomnik Roberta Jaeckla,
+n6356724450,"6356724450",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Alfons Maćkowiak,,,,,,,,,,https://commons.wikimedia.org/wiki/File:G%C5%82az_pami%C4%99ci_gen._Alfonsa_Ma%C4%87kowiaka.jpg,,,,,Q28922122,,,,,Gen. bryg. Alfons Maćkowiak,stone
+n6360356991,"6360356991",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik Trzech Tramwajarek,plaque
+n6416136552,"6416136552",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętnijąca dziennikarza Wojciecha Cieślewicza, zamordowanego przez ZOMO w dniu 13.02.1982r.",Józef Petruk,,,,"1992",,,,Wojciech Cieślewicz,plaque
+n6421070821,"6421070821",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Kapliczki przydrożne na Żegrzu i Ratajach w Poznaniu#Kapliczka Matki Boskiej Nieustającej Pomocy,,,,,,,,,,,,,,,,,,,,,,,"1920",,,,Matka Boża Nieustającej Pomocy,statue
+n6421070829,"6421070829",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Roch,statue
+n6459472544,"6459472544",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"..lecz zbryzgano mózgiem bruk / i bruk się wzdyma powoli / krew nie płynie już, już tylko skrzep / rozstrzelano moje serce w Poznaniu./ K.Iłłakowiczówna / Pracownikom komunikacji miejskiej w 25-rocznicę tragicznych Wydarzeń Czerwcowych / Załoga WPK",,,"Henryk Bartkowiak; Krzysztof Mielczak",pl:Pomnik Ofiar Czerwca 1956 (ul. Gajowa),Q11823370,,1981-06-27,,,,Pomnik pracowników komunikacji miejskiej,
+n6517572963,"6517572963",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Piotra Szczęsnego - Szarego Człowieka, który 19 października 2017 r. w Warszawie dokonał aktu samospalenia w imię wolności i demokracji",,,,,,,"2019",,,,Piotr Szczęsny - Szary Człowiek,plaque
+n6523308799,"6523308799",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku, w latach 1918–1919, mieściła się siedziba Biura Wydziału Wykonawczego Poznańskiej Rady Robotników i Żołnierzy",Stanisława Mystka,,,,"1988",,,,Miejsce siedziby Biura Wydziału Wykonawczego Poznańskiej Rady Robotników i Żołnierzy,plaque
+n6523308808,"6523308808",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,bench,,,,,,,,,,,,,,pl:Ławeczka Stanisława Kozierowskiego w Poznaniu,Q86668705,,2019-06-06,,,,Ławka prof. Stanisława Kozierowskiego,bench
+n6591232269,"6591232269",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ryszard Skupin,pl:Pomnik Stanisława Staszica w Poznaniu,Q11823455,,1967-09-04,,,,Stanisław Staszic,bust
+n6863978090,"6863978090",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n6899826006,"6899826006",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ryszard Skupin,pl:Pomnik Powstańców Wielkopolskich na Górczynie w Poznaniu,Q11823418,,"1968",,,,Pomnik nagrobny Powstańców Wielkopolskich,
+n6899826007,"6899826007",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ofiarom hitlerowskiej napaści na Polskę we wrześniu 1939 r. i wszystkim Wielkopolanom którzy życie oddali ojczyźnie w latach Drugiej Wojny Światowej. Pokój od Bog - wdzięczność od potomków.,,,,,,,,,Pomnik ofiar hitlerowskiej napaści na Polskę,
+n6982920010,"6982920010",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,pl:Pomnik Pawła Edmunda Strzeleckiego na Łazarzu w Poznaniu,Q65165970,,"2003",,,,Paweł Edmund Strzelecki,statue
+n7005941731,"7005941731",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Otwarty pomnik Kazimierza Nowaka,
+n7008902921,"7008902921",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1999",,,,Józef Piłsudski,plaque
+n7008902923,"7008902923",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca pochód pierwszomajowy klasy robotniczej w 1891r.,,,,,"1951; 1982",,,,Pierwszy w Poznaniu pochód pierwszomajowy,plaque
+n7012210582,"7012210582",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,J. Kasiński,,,,"1993",,,,"Tablica harcerzy poznańskiej ""Piątki""",plaque
+n7015040151,"7015040151",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca Karola Marcinkowskiego w 100. rocznicę śmierci,Edward Haupt,,,,"1946",,,,Karol Marcinkowski,plaque
+n7039256214,"7039256214",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bł. Maria Karłowska,plaque
+n7040071288,"7040071288",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca uroczyste przekazanie sztandaru ufundowanego przez społeczeństwo Wielkopolski dla 3 Brygady Pancernej Armii Wojska Polskiego,,,,,,,,,Uroczyste przekazanie sztandaru dla 3 Brygady Pancernej Armii Wojska Polskiego,plaque
+n7040071289,"7040071289",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania Romana Dmowskiego w latach 1920-1922,,,,,,,,,Miejsce zamieszkania Romana Dmowskiego,plaque
+n7040071290,"7040071290",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce salonu artystycznego prowadzonego przez Marię Paruzewską,,,,,,,,,Miejsce salonu artystycznego Marii Paruszewskiej,plaque
+n7040071291,"7040071291",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W tym hotelu mieszkał i koncertował w latach 1854–1878 kompozytor i wirtuoz skrzypiec Henryk Wieniawski z bratem Józefem. Wasze melodyje w duszach pieszczone, trwać będą w sercach Wielkopolany.",,Tablica upamiętniająca miejsce zamieszkania i koncertowania Henryka Wieniawskiego w latach 1854-1878,Roman Kosmala,,,,2011-10-19,,,,Miejsce zamieszkania Henryka Wieniawskiego,plaque
+n7040071292,"7040071292",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,هیپولیت چگیلسکی,,,,,,,,,,,,,,,,,,,,,,,,Hipolit Cegielski,plaque
+n7040071294,"7040071294",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Kaliszan,,,Q79822,"1960",,,,Pobyt Adama Mickiewicza,plaque
+n7044571604,"7044571604",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Józef Struś,,,,,,,,,,,,Józef Stasiński,,,Q1715111,"1968",,,,Dr Józef Struś,plaque
+n7060828586,"7060828586",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku mieścił się punkt kontaktowy Komendy Poznańskiego Okręgu Armii Krajowej oraz prowadzone były rozmowy pomiędzy PPR a AK",P. Andruszko,,,,"1985",,,,Miejsce punktu kontaktowego Komendy Poznańskiego Okręgu Armii Krajowej,plaque
+n7064879819,"7064879819",node,memorial,,,,,,,stone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q989,,,,,Dąb Jana Pawła II,memorial
+n7072416128,"7072416128",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca pierwsze miejsce obrad Komisji Organizacyjnej, powstałej z inicjatywy PTPN w latach 1918-1919",,,,,"2009",,,,Miejsce obrad komisji organizacyjnej UAM,plaque
+n7072416129,"7072416129",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca miejsce powstania pierwszego Aeroklubu Polski, w dniu 30.10.1919r.",,,,,"1994",,,,Pierwszy Aeroklub Polski,plaque
+n7083145500,"7083145500",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,pl:Pomnik Ofiar Więzienia przy ul. Młyńskiej w Poznaniu,Q11823375,,"1983",,,,Tablica ofiar więzienia przy ul. Młyńskiej,plaque
+n7083145529,"7083145529",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bench,,,,,,,,,,,,,Roman Kosmala,pl:Ławeczka Studentów w Poznaniu,Q86668718,,2019-06-17,,,,Ławka studentów,bench
+n7117388910,"7117388910",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bł. Sancja Szymkowiak,statue
+n7139805796,"7139805796",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Edward Raczyński,plaque
+n7164682578,"7164682578",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n7169966597,"7169966597",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Historia gmachu,plaque
+n7172978318,"7172978318",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Asp. Michał Tomiak,stone
+n7211798891,"7211798891",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik poświęcony poległym parafianom w czasie I wojny światowej, powstania wielkopolskiego i wojny bolszewickiej",Lucjan Michałowski,,,Q361,~1932,,,,Pomnik poległych parafian,war_memorial
+n7233809518,"7233809518",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Głaz upamiętniający rodzinę Kosickich,,,,,,,,,Głaz darczyńców rodzinnego ogrodu Kosickich,stone
+n7316898716,"7316898716",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Max von Laue,plaque
+n7316898717,"7316898717",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Floriana Marciniaka, twórcę Szarych Szeregów",Marian Banasiewicz,,,,"1986",,,,Hm. Florian Marciniak,plaque
+n7395630007,"7395630007",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Abp. Walenty Dymek,plaque
+n7395642993,"7395642993",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża z Lourdes,statue
+n7395642995,"7395642995",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1929",,,,10. rocznica wybuchu Powstania Wielkopolskiego,plaque
+n7395642996,"7395642996",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,J. Sobczak,,,,"1985",,,,Tablica dowódców Powstania Wielkopolskiego,plaque
+n7395643065,"7395643065",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q156277,,,,,Ks. Jerzy Popiełuszko,statue
+n7637738374,"7637738374",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1986 (?),,,,Ks. Szczęsny Dettloff,plaque
+n7637738375,"7637738375",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W. Marcinkowski,,,,"1910",,,,Fryderyk Chopin,plaque
+n7637773414,"7637773414",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2007",,,,Cyryl Ratajski,plaque
+n7637773415,"7637773415",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2007",,,,Heliodor Święcicki,plaque
+n7638062145,"7638062145",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W hołdzie poznańskim strażakom za odwagę i ofiarność,,,,,,,2008-12-10,,,,Głaz poznańskich strażaków,stone
+n7745160520,"7745160520",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Fryderyk Chopin w 1828 r. grał w tym gmachu,,,,,,,"1960",,,,Miejsce koncertu Fryderyka Chopina,plaque
+n7770424157,"7770424157",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"I. Lisiecka (projekt), Edward Haupt",,,,"1967",,,,Jan Kasprowicz,
+n7840345013,"7840345013",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Prof. Janusz Ziółkowski,
+n7894816082,"7894816082",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"""Boje Armii ""Poznań"" to wielka karta naszej narodowej epopei"" Wojciech Żukrowski. W 50. rocznicę ""Września"" Mieszkańcy Poznańskiego",,,,,,,,,,,"Tablica Armii ""Poznań""",plaque
+n7894864218,"7894864218",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tekst odezwy Stalina,,,,,,,,,Odezwa Stalina,plaque
+n8035868296,"8035868296",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kazimierz Nowak,stone
+n8035868297,"8035868297",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Sam Sandi,stone
+n8036453569,"8036453569",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2011",,,,Wawrzyniec Benzelstjern Engeström,stone
+n8050600953,"8050600953",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Feliks Michalski,stone
+n8082230837,"8082230837",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Głaz upamiętniający 20-tą rocznicę odrodzenia się Bractwa Kurkowego oraz ku chwale braciom poległym za Ojczyznę.,,,,,"2009",,,,20. rocznica odrodzenia ruchu brackiego w Poznaniu,stone
+n8082230838,"8082230838",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017-09-16,,,,Pomnik Strzelców Kurkowych,statue
+n8167607995,"8167607995",node,memorial,,,,,,,stone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ślad torowiska Średzkiej Kolei Dojazdowej,,,,,,,,,,,Średzka Kolej Dojazdowa,plaque
+n8167707016,"8167707016",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ślad torowiska Średzkiej Kolei Dojazdowej,,,,,,,,,,,Średzka Kolej Dojazdowa,plaque
+n8173402240,"8173402240",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SARP Poznań,,,,,,,,Władysław Czarnecki,stone
+n8339350244,"8339350244",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Rondo Kaponiera,plaque
+n8339350249,"8339350249",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"""W tym miejscu zostanie wzniesiony pomnik Wielkopolan ograbionych i wygnanych z własnych domów przez niemieckich najeźdźców w latach 1939-1945""",,,,pl:Pomnik Wypędzonych Wielkopolan,Q86666463,,,,,,Miejsce planowanego Pomnika Wypędzonych Wielkopolan,stele
+n8440308357,"8440308357",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus dźwigający krzyż,
+n8757757487,"8757757487",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik psa,
+n8792711391,"8792711391",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bench,,,,,,,,,,,,,,,,,,,,,Ławka Wincentego Różańskiego,bench
+n8827179923,"8827179923",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Piotr Socha,pl:Pomnik Bohdana Smolenia w Poznaniu,Q108000589,,2021-06-11,,,,Bohdan Smoleń,
+n8829523208,"8829523208",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz upamiętniający Mariana Mikołajczyka, założyciela kombinatu ogrodniczego w Naramowicach",,,,,"1997",,,,Marian Mikołajczyk,stone
+n8848170241,"8848170241",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,catholic,,christian,,,,,,Królowej Polski za powtórne wskrzeszenie Ojczyzny 1918 i 1945,,,,,,,,,,,Matka Boża Królowa Polski,statue
+n8935847236,"8935847236",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Adam Dawczak-Dębicki,pl:Pomnik Krzysztofa Komedy-Trzcińskiego w Poznaniu,Q11823306,,2010-11-19,,,,Krzysztof Komeda-Trzciński,statue
+n9070443198,"9070443198",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n9097506538,"9097506538",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n9097506548,"9097506548",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Doc. Tadeusz Łosiński,stone
+n9097506549,"9097506549",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Doc. Marcin Sarnowski,plaque
+n9097506550,"9097506550",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Płk Henryk Kowalówka,stone
+n9097506552,"9097506552",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce zebrania założycielskiego Towarzystwa Krajoznawczego,plaque
+n9098286813,"9098286813",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Głaz ""Golgota Wschodu"", odsłonięty w 70-tą rocznicę agresji WRR na Polskę",,,,,"2009",,,,Golgota Wschodu,stone
+n9098301922,"9098301922",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Miejsce uświęcone męczeńską krwią 20 bezimiennych mieszkańców Poznania, więzionych w Forcie VII i straconych przez okupanta hitlerowskiego w kwietniu 1940. Cześć ich pamięci.",,"Głaz upamiętniający miejsce uświęcone męczeńską krwią 20 bezimiennych mieszkańców Poznania, więzionych w Forcie VII i straconych przez okupanta hitlerowskiego w kwietniu 1940",Jan Cieślinski,pl:Pomnik ofiar Fortu VII nad Rusałką w Poznaniu (północny brzeg),Q4343490,,,,,,Pomnik ofiar Fortu VII (północny brzeg),
+n9098301986,"9098301986",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik proroka Eliasza w Poznaniu,Q24946984,,mid C18,,,,Prorok Eliasz,statue
+n9098302000,"9098302000",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2009",,,,Św. Michał Archanioł,statue
+n9098302001,"9098302001",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik wzniesiony przez mieszkańców Pokrzywna w dowód wdzięczności za odzyskanie niepodległości,,,,,1918..1939,,,,Pomnik wdzięczności za odzyskanie niepodległości,statue
+n9098302002,"9098302002",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Teresa,statue
+n9098302003,"9098302003",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NMP Niepokalanego Poczęcia,statue
+n9098302004,"9098302004",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1929",,,,Pomnik poległych w I i II Wojnie Światowej oraz Powstaniu Wielkopolskim,statue
+n9098519769,"9098519769",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1975; 2003",,,,Głaz ofiar II Wojny Świątowej z rejonu SP 56,stone
+n9098519770,"9098519770",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Zamęczonym pracownikom ""Stomila"", w 20-tą rocznicę wyzwolenia miasta Poznania",,,,,"1965",,,,Pomnik zamęczonych pracowników Stomila,
+n9098519773,"9098519773",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Głaz upamiętniający 50-tą rocznicę utworzenia szczepu harcerskiego imienia Edwarda Pietrzykowskiego na Osiedlu Warszawskim,"M. Pietrzykowski; Edward Smolibowski",,,,"1982",,,,50. rocznica utworzenia szczepu harcerskiego im. Edwarda Pietrzykowskiego,stone
+n9098519780,"9098519780",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Edward Gorol,,,,"1975",,,,Józef Paczoski,stone
+n9098672690,"9098672690",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2011",,,,Dąb por. Jana Szmagiera,stone
+n9098672694,"9098672694",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Głaz Franciszka Witaszka w Poznaniu,Q9284106,,1976-04-30,,,,Głaz poległych w walce z faszyzmem,stone
+n9098672696,"9098672696",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1998-10,,,,Prof. Bohdan Kiełczewski,stone
+n9098672697,"9098672697",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Józefa Rivolego w Poznaniu,Q11823283,,1948-05-18,,,,Prof. Józef Rivoli,
+n9098918013,"9098918013",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce urodzenia Romana Wilhelmiego,plaque
+n9100683050,"9100683050",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Poznański Czerwiec,,,,,,,,,"W hołdzie Poległym w Powstaniu Poznańskiego Czerwca 1956, w tym Cegielszczakom F. Lipskiemu, C. Jackowskiemu, B. M. Sobalakowi, W. Toma, Z. Janczewskiemu",,,,,,Q52967,,,,,Tablica poległych w Poznańskim Czerwcu 1956,plaque
+n9100683051,"9100683051",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Dla upamiętnienia X rocznicy powstania Niezależnego Samorządnego Związku Zawodowego „Solidarność”, Komisja Zakładowa NSZZ H. Cegielski",,,,,,Q1003,,,,,"10. rocznica powstania NSZZ ""Solidarność""",plaque
+n9101955182,"9101955182",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik polskich lotników,
+n9101955183,"9101955183",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Henryk Marcinkowski,,,,"1999",,,,"Pomnik fundacji im. gen. Henryka ""Zręba"" Kowalówki",
+n9101955184,"9101955184",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik polskich żołnierzy poległych podczas II WŚ,Zygmunt Wujek,,,,"1986",,,,Pomnik żołnierzy polskich,
+n9101955185,"9101955185",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1964",,,,Pomnik żołnierzy radzieckich,obelisk
+n9101955186,"9101955186",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,Pomnik poświęcony poległym żołnierzom z 3 Poznańskiego Pułku Lotniczego,Ryszard Skupin,,,,1989 (?),,,,Pomnik 3. Poznańskiego Pułku Lotniczego,
+n9101955187,"9101955187",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,"Pomnik poświęcony żołnierzom 57 Pułku Piechoty Wielkopolskiej, poległym w obronie Ojczyzny we wrześniu 1939r.",J. Ormowski,,,,1974-09-01,,,,Pomnik 57. Pułku Piechoty Wielkopolskiej,
+n9101955188,"9101955188",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,Ryszard Skupin,,,,"1965",,,,Pomnik cytadelowców,
+n9101955189,"9101955189",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki i rzeźby na Cytadeli w Poznaniu#Pomniki,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Pomnik bohaterów walk o niepodległość 1918-1920,
+n9101955190,"9101955190",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Łukasz Trusewicz,pl:Pomnik Wojciecha Szczęsnego Kaczmarka w Poznaniu,Q11823508,,2011-03-03,,,,Pomnik Wojciecha Szczęsnego Kaczmarka,
+n9101955191,"9101955191",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny 139 żołnierzy radzieckich, poległych w walkach o wyzwolenie rejonu Głuszyna",,,,,,,,,Pomnik nagrobny żołnierzy radzieckich,
+n9101955192,"9101955192",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomniki i głazy pamiątkowe Uniwersytetu Przyrodniczego w Poznaniu,,,1985 (?),,,,Prof. dr Mikołaj Kwinichidze,stone
+n9101955193,"9101955193",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomniki i głazy pamiątkowe Uniwersytetu Przyrodniczego w Poznaniu,,,1985 (?),,,,Prof. dr Feliks Terlikowski,stone
+n9101955196,"9101955196",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus,statue
+n9101962325,"9101962325",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jan Paweł II,stone
+n9101962327,"9101962327",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik upamiętniający mieszkańców Junikowa, którzy stawili opór niemieckiemu okupantowi",,,,,"2004",,,,Pomnik junikowskich członków ruchu oporu,
+n9101962464,"9101962464",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Starali się wykonać niewykonalny w 1939 roku obowiązek - obronę Polski,,,"Anna Rodzińska-Iwańska; Józef Iwiański",pl:Pomnik Armii Poznań,Q11823123,,1982-09-01,,,,Pomnik Armii Poznań,
+n9101962465,"9101962465",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tekst odezwy Stalina wydanego po zdobyciu Poznania (w języku rosyjskim),,,,,,,,,Odezwa Stalina,plaque
+n9101962466,"9101962466",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tekst odezwy Stalina wydanego po zdobyciu Poznania (w języku polskim),,,,,,,,,Odezwa Stalina,plaque
+n9101962470,"9101962470",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tu spoczywają prochy około 40 bezimiennych mieszkańców Poznania - więźniów Fortu VII, straconych przez okupanta hitlerowskiego w grudniu 1940 roku - Cześć Ich Pamięci.",,"Pomnik upamiętniający ok. 40 Polaków osadzonych w więzieniu przy ul. Młyńskiej i w Forcie VII, zamordowanych w grudniu 1940 roku","Jan Cieśliński; Jan M. Jakób",pl:Pomnik ofiar Fortu VII nad Rusałką w Poznaniu (południowy brzeg),Q4343488,,,,,,Pomnik ofiar Fortu VII (południowy brzeg),
+n9102009712,"9102009712",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miniatura Poznańskich Krzyży,
+n9102009713,"9102009713",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"28 VI 1956 - 28 VI 1981 / W 25-tą rocznicę robotniczego protestu pracowników fabryki wagonów. Dla pamięci żyjącym, a ku przestrodze potomnym. Wyrazy hołdu Bohaterom Czerwca składa NSZZ Solidarność fabryki lokomotyw i wagonów.",,Pomnik upamiętniający 25-tą rocznicę protestu pracowników Fabryki Pojazdów Szynowych,Józef Petruk,,,,"1981",,,,25. rocznica robotniczego protestu,
+n9103444865,"9103444865",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Ojciec Pio,
+n9103444869,"9103444869",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Na pamiątkę Kongresu Chrystusa Króla w Poznaniu w 1937 r. wdzięczni parafianie,,,,,,,"1937",,,,Kongres Chrystusa Króla w Poznaniu w 1937,statue
+n9103444870,"9103444870",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik upamiętniający miejsce pochowania 12 radzieckich żołnierzy, poległych w walkach o wyzwolenie rejonu Kobylepole",,,,,,,,,Miejsce pochówku radzieckich żołnierzy,
+n9103444871,"9103444871",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik poświęcony pracownikom ZNTK, którzy polegli w walce o wolność i demokrację (1870 - 1970)","R. Gruba, H. Rzetelski",,,,"1970",,,,Pomnik poległych pracowników ZNTK,
+n9103444872,"9103444872",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Cierpieli za słowa: ""Godności i chleba"". Pracownikom ZNTK, uczestnikom Wydarzeń Czerwcowych 1956. Solidarność 28 VI 1956",,"Pomnik poświęcony pracownikom ZNTK, którzy uczestniczyli w wydarzeniach Czerwca 1956r.",Józef Petruk,,,,"1981",,,,Pomnik pracowników ZNTK - uczestników Poznańskiego Czerwca 1956,
+n9103444873,"9103444873",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Dzieci Czerwca 1956,Q4343479,,,,,,Dzieci Poznańskiego Czerwca 1956,statue
+n9103444874,"9103444874",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik Bohaterów wojny polsko-bolczewickiej,
+n9103444875,"9103444875",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,pl:Pomnik Augusta Hlonda w Poznaniu,Q4343041,,"1981",,,,Kard. August Hlond,statue
+n9103444876,"9103444876",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2011",,,,Pomnik św. Katarzyny,
+n9103444877,"9103444877",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10 przykazań Bożych,
+n9103444881,"9103444881",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ignacy Jan Paderewski,statue
+n9103551689,"9103551689",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stefan Czarnecki,statue
+n9103551690,"9103551690",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik upamiętniający harcerzy, którzy oddali swe życia Ojczyźnie w latach 1939-1945","Z. Dłużewski, E. Grochal",pl:Pomnik Harcerski na Boninie w Poznaniu,Q11823213,,"1971",,,,Pomnik poległych harcerzy,
+n9105283727,"9105283727",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny z mogiłą 28 żołnierzy Armii Czerwonej, poległych w walkach o wyzwolenie rejonu Piątkowo - Winiary",,,,,"1985",,,,Pomnik nagrobny żołnierzy Armii Czerwonej,
+n9105283728,"9105283728",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik nagrobny z mogilą 64 żołnierzy Armii Czerwonej poległych w walkach o wyzwolenie rejonu Sołacz - Winiary,,,,,"1945",,,,Pomnik nagrobny żołnierzy Armii Czerwonej,
+n9105283730,"9105283730",node,memorial,,,,,,Kpt. Czesław Pobóg-Prusinowski,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik nagrobny kpt. Czesława Pobóg-Prusinowskiego,
+n9105283731,"9105283731",node,memorial,,,,,"1934",Gen. bryg. Oswald Frank,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny gen. bryg. Oswalda Franka, dowódcy VII Korpusu w Poznaniu",,,,,,,,,Pomnik nagrobny gen. bryg. Oswalda Franka,
+n9105283735,"9105283735",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AD 1952,stone
+n9105283736,"9105283736",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2012",,,,60-lecie Instytutu Technologii Drewna,
+n9105283737,"9105283737",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Paweł Edmund Strzelecki / 1797 – 1873 / Wybitny syn Ziemi Wielkopolskiej.,,,,pl:Pomnik Pawła Edmunda Strzeleckiego w Poznaniu,Q16589958,,"1971",,,,Paweł Edmund Strzelecki,obelisk
+n9105315269,"9105315269",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,I. Rosińska,,,,"1975",,,,Adam Mickiewicz,
+n9105702732,"9105702732",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,En: In pedestrian area.,yes,,,,,,"Bazyli Wojtowicz; Czesław Woźniak",pl:Pomnik Adama Mickiewicza w Poznaniu,Q11823093,,"1960",,,,Adam Mickiewicz,statue
+n9105702733,"9105702733",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"En: Gentle ramp from pedestrian area to south, steep ramp from patio north side.",yes,,,,,,"Adam Graczyk; Włodzimierz Wojciechowski",pl:Pomnik Ofiar Czerwca 1956,Q11823368,,1981-06-28,,,,Poznański Czerwiec 1956,
+n9105702757,"9105702757",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Władysław Saletis,pl:Pomnik Augustyna Szamarzewskiego w Poznaniu,Q11823127,,2001-06-03,,,,Ks. Augustyn Szamarzewski,bust
+n9105702758,"9105702758",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,late C19,,,,Mikołaj Kopernik,bust
+n9105702759,"9105702759",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,,,,"1969",,,,Władysław Reymont,bust
+n9107873628,"9107873628",node,memorial,,,,sculpture,,,,,,,,,,,,artwork,,,,,,,,,,,,,,,,,,,,,,,,,,,Mężczyzna z panterą,,,,,1909..1910,,,,Dramat,sculpture
+n9107873629,"9107873629",node,memorial,,,,sculpture,,,,,,,,,,,,artwork,,,,,,,,,,,,,,,,,,,,,,,,,,,Kobieta na lwie,,,,,1909..1910,,,,Liryka,sculpture
+n9108326693,"9108326693",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Józef,statue
+n9110726187,"9110726187",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W XXI rocznice zwycięstwa nad faszyzmem 9.V.1966,,,,,,,"1966",,,,21. rocznica zwycięstwa nad faszyzmem,plaque
+n9110726201,"9110726201",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym zespole budynków, w latach 1945 - 1947, mieściła się Katownia Urzędu Bezpieczeństwa",,,,,"1991",,,,Miejsce Katowni Urzędu Bezpieczeństwa,plaque
+n9110726202,"9110726202",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca o miejscu utworzenia teatru letniego, zbudowanego w czynie społecznym przez młodzież Poznania w 1968 roku",,,,,"1968",,,,Miejsce utworzenia teatru letniego,plaque
+n9110726205,"9110726205",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Stasiński,,,,"2010",,,,Feliks Nowowiejski,plaque
+n9110726206,"9110726206",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2010-07-15,,,,Tablica twórców Roty,plaque
+n9110726207,"9110726207",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica ufundowana przez kolejarzy Zachodniego Okręgu Kolei Państwowych w setną rocznicę Dyrekcji Kolei w Poznaniu,,,,,1995-04-01,,,,100. rocznica Dyrekcji Kolei w Poznaniu,plaque
+n9110726210,"9110726210",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1993",,,,Roger Raczyński,plaque
+n9110726211,"9110726211",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1990",,,,Adolf Bniński,plaque
+n9110726212,"9110726212",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2013",,,,Wojciech Trąmpczyński,plaque
+n9110726213,"9110726213",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Płk. Ludwik Bociański,plaque
+n9110726214,"9110726214",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2004",,,,Witold Celichowski,plaque
+n9110726215,"9110726215",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica informująca o historii budynku Uniwersytetu Ekonimicznego i upamiętniająca działalność zawodową architekta Adama Ballenstedta,,,,,"2011",,,,Adam Ballenstedt,plaque
+n9110726216,"9110726216",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku mieściła się siedziba naczelnego Instytutu Akcji Katolickiej w Polsce",,,,,"2004",,,,Miejsce siedziby naczelnego Instytutu Akcji Katolickiej,plaque
+n9110765617,"9110765617",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca powstanie Wielkopolskiego Związku Śpiewaczego Na Wielkie Księstwo Poznańskie,Józef Petruk,,,,"1992",,,,Miejsce założenia Wielkopolskiego Związku Śpiewaczego,plaque
+n9110765618,"9110765618",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,wall,,,,,,,,,,,,,,,https://commons.wikimedia.org/wiki/File:2012_06_Pozna%C5%84_-_tablica_Komeda.JPG,Tablica upamiętniająca miejsce zamieszkania kompozytora i pianisty jazzowego Krzysztofa Komedy Trzcińskiego w latach 1952-1956,,,,,"2008",,,,Miejsce zamieszkania Krzysztofa Komedy Trzcińskiego,plaque
+n9110765619,"9110765619",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca pobyt Juliusza Słowackiego w Poznaniu w 1848r.,Józef Petruk,,,,"1999",,,,Pobyt Juliusza Słowackiego,plaque
+n9110765620,"9110765620",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W Hotelu Bazar Henryk Sienkiewicz w dniach 14, 16, 17 IV 1880r., czytał nowelkę ""Za chlebem"". Na pamiątkę pierwszego pobytu w Poznaniu. (...)",,,Józef Petruk,,,,"1987",,,,Pobyt Henryka Sienkiewicza,plaque
+n9110765621,"9110765621",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym miejscu 26 kwietnia 1920 roku podczas demonstracji przeciwko pogorszeniu warunków bytu poległo 9 poznańskich robotników kolejowych,,"Tablica upamiętniająca robotników kolejowych, poległych w 1920 roku",Ryszard Skupin,,,,"1950; 1992",,,,Tablica poległych robotników kolejowych,plaque
+n9110765622,"9110765622",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica powświęcona ś.p proboszczom parafii p.w. św. Stanisława Kostki w Poznaniu,,,,,,,,,Tablica śp. proboszczów parafii,plaque
+n9110765623,"9110765623",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamietniająca parafian winiarskich, członków organizacji Wojska Ochotniczego Ziem Zachodnich",,,,,,,,,"Tablica parafian winiarskich, członków organizacji Wojska Ochotniczego Ziem Zachodnich",plaque
+n9110765640,"9110765640",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca 400 rocznicę śmierci Stanisława Kostki,,,,,"1968",,,,Św. Stanisław Kostka,plaque
+n9110765647,"9110765647",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Stanisław Adamski,plaque
+n9110765648,"9110765648",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica w języku łacińskim,,,,,,,,,,plaque
+n9110765649,"9110765649",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym domu od 10-XI-1918 do 6-XI-1919 mieściły się biura Komisariatu Naczelnej Rady Ludowej - kierowniczego ośrodka i władzy Polaków ziem byłego zaboru pruskiego w dniach narodzin II Rzeczpospolitej,,,Benedykt Kasznia,,,,1988-11-10,,,,Miejsce biur Komisariatu Naczelnej Rady Ludowej,plaque
+n9110765650,"9110765650",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bł. ks. Marian Konopiński,plaque
+n9110765651,"9110765651",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Głaz 15. Pułku Ułanów Poznańskich,stone
+n9110765652,"9110765652",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Budynek zabytkowy wzniesiony w 1751 na miejscu drewnianego zbudowanego w 1569. Podczas epidemii dżumy w Poznaniu stanowił oddział Miejskiego Szpitala św. Łazarza. Od poł. XVII w. był przytułkiem dla ubogich.,,,,,,,,,,,Historia budynku,plaque
+n9110765665,"9110765665",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W tym miejscu do roku 1939 tał pomnik Chrystusa Króla ufundowany przez społeczeństwo Poznania w imię wdzięczności za niepodległość, zniszczony przez hitlerowskiego okupanta.",,"Tablica informująca, że w tym miejscu znajdował się pomnik Chrystusa Króla, który został zniszczony podczas hitlerowskiej okupacji",Józef Petruk,,,,1991 (?),,,,Miejsce Pomnika Wdzięczności,plaque
+n9110843845,"9110843845",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica II: Ku czci 55 Poznańskiego Pułku Piechoty z Leszna WLKP,,,,,,,,,Tablica 55. Poznańskiego Pułku Piechoty,plaque
+n9110843846,"9110843846",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica III: Żołnierzom 57 Pułku Piechoty WLKP - 3 Pułku Strzelców WLKP Poległym w Obronie Ojczyzny w latach (1919 - 1945),,,,,"1975",,,,Tablica 57. Pułku Piechoty Wielkopolskiej,plaque
+n9110843847,"9110843847",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica IV: Żołnierzom 58 Pułku Piechoty Strzelców WLKP poległym zamęczonym i zamordowanym w obronie Ojczyzny 1918 - 1945,,,,,"1974",,,,Tablica 58. Pułku Piechoty Strzelców Wielkopolskich,plaque
+n9110843848,"9110843848",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica V: Żołnierzom 14 Pułku Artylerii,,,,,,,,,Tablica 14. Pułku Artylerii,plaque
+n9110843849,"9110843849",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica VI: Żołnierzom 7 Batalionu Telegraficznego I Kompanii Łączności 14 DP, poległych w latach 1939 - 1945",,,,,"1975",,,,Tablica 7. Batalionu Telegraficznego,plaque
+n9110843850,"9110843850",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica VII: Żołnierzom WLKP Brygady Obrony Narodowej,,,,,,,,,Tablica Wielkopolskiej Brygady Obrony Narodowej,plaque
+n9110843851,"9110843851",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica VIII: Ku pamięci I Batalionu Czołgów i Samochodów Pancernych w Poznaniu,,,,,"1977",,,,Tablica I. Batalionu Czołgów i Samochodów Pancernych,plaque
+n9110843852,"9110843852",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica IX: Lotnikom eskadr i oddziałów Lotniczych Armii ""Poznań"" i ""Pomorze"", walczących nad Bzurą w 1939r. w obronie Polskiego Nieba",,,,,,,,,"Tablica lotników eskadr i oddziałów Lotniczych Armii ""Poznań"" i ""Pomorze""",plaque
+n9110843853,"9110843853",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica X: Poległym Żołnierzom WLKP Brygady Kawalerii 15 i 17 Pułku Ułanów 7 Pułku Strzelców Konnych 7 Dywizjonu Artylerii Konnej,,,,,,,,,Tablica Wielkopolskiej Brygady Kawalerii,plaque
+n9110843854,"9110843854",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica XI: Poległym Żołnierzom 7 Pułku 14, 17 i 25 Dywizjonu Artylerii Ciężkiej Poległym w Walkach o Wolnośc i Niepodległość Ojczyzny",,,,,"1985",,,,Tablica 7. Pułku Artylerii Ciężkiej,plaque
+n9110843855,"9110843855",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica XII, upamiętniająca żołnierzy Podolskiej Brygady Kawalerii, poległych w 1939 roku",Zygmunt Wujek,,,,"1986",,,,Tablica Podolskiej Brygady Kawalerii,plaque
+n9110843856,"9110843856",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica XIII: Żołnierzom 7 WLKP Pułku Saperów Obrońcom Ojczyzny (1918 - 1945),,,,,"1991",,,,Tablica 7. Wielkopolskiego Pułku Saperów,plaque
+n9110843857,"9110843857",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica I, upamiętniająca żołnierzy 14 WLKP Dywizji Piechoty 57.58.P.P. 14.P.A.L. WLKP 14 D.A.C",,,,,"1974",,,,Tablica 14. Wielkopolskiej Dywizji Piechoty,plaque
+n9110843858,"9110843858",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica XIV: Przeciwlotnikom WLKP w dowód uznania za służbę w obronie powietrznych granic RP i WLKP miasta Poznań. W 80 rocznicę Utworzenia Pierwszej Jednostki Przeciwlotniczej w WLKP,,,,,"2004",,,,Tablica Przeciwlotników Wielkopolskich,plaque
+n9111432020,"9111432020",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Herbert Hoover / 1874-1964 / Prezydent USA / Plac Hoovera / Nazwa nadana w 1946 roku / W dowód wdzięczności za pomoc dla Polski organizowaną przez Herberta Hoovera,,Tablica upamiętniająca nazwanie placu imieniem Herberta Hoovera w 1946 r.,,,,,,,,,Plac Hoovera,plaque
+n9111432021,"9111432021",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Tadeusza Wilkanowicza - poetę, dziennikarza, Powstańca Wielkopolskiego",Barbara Kamyszek-Gieburowska,,,,"1978",,,,Tadeusz Wilkanowicz,plaque
+n9111432022,"9111432022",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2006",,,,Poznański Czarny Czwartek 28.06.1956,plaque
+n9111432023,"9111432023",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamietniająca Marię Skłodowską-Curie, w 50-tą rocznicę odkrycia polonu i radu",,,,,"1948",,,,Plac Marii Curie Skłodowskiej,plaque
+n9111432024,"9111432024",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,,,,"1995",,,,Marcel Motty,plaque
+n9111432025,"9111432025",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Napoleon Cesarz Francuzów rezydował w tym gmachu w latach 1806, 1807 oraz 1812",,,,,,,"2003",,,,Miejsce rezydowania Napoleona,plaque
+n9111432026,"9111432026",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cyryl Ratajski,plaque
+n9111432038,"9111432038",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kamień węgielny z katedry poświęcony przez Jana Pawła II,plaque
+n9111432039,"9111432039",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Marian Nowak,plaque
+n9111459358,"9111459358",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica informująca o powstaniu Mostu Teatralnego i jego inwestorach,,,,,"1995",,,,Most Teatralny,plaque
+n9112970795,"9112970795",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2002",,,,Jan Deierling,plaque
+n9112970796,"9112970796",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Murlewski,,,,"1965",,,,Pobyt Józefa Strusia,plaque
+n9112970797,"9112970797",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1958",,,,400-lecie Poczty Polskiej,plaque
+n9112970798,"9112970798",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce wizyty gen. J.H. Dąbrowskiego i J. Wybickiego w 1806 r.,,,,,"1977",,,,Pobyt Jana Dąbrowskiego i Józefa Wybickiego,plaque
+n9112970799,"9112970799",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Edward Smolibowski,,,,"1994",,,,Franciszek Jaśkowiak,plaque
+n9112970800,"9112970800",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce utworzenia Klubu Demokratycznego w czerwcu 1939r.,,,,,"1962",,,,Miejsce utworzenia Klubu Demokratycznego,plaque
+n9112970801,"9112970801",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pałac Działyńskich,plaque
+n9112970803,"9112970803",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca zawieszenie polskiej flagi na Ratuszu w dniu 28 grudnia 1918 r.,,,,,"2008",,,,Zawieszenie polskiej flagi na Ratuszu,plaque
+n9112970808,"9112970808",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,,,,"1985",,,,Miejsce powstania Koła Śpiewackiego Polskiego,plaque
+n9112970809,"9112970809",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Murlewski,,,,"1965",,,,Miejsce zamieszkania Jana Hieronima Chróściejowskiego,plaque
+n9112970810,"9112970810",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jan Żupański,plaque
+n9112970811,"9112970811",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marek Zielonka,,,,"2000",,,,Zdzisław Szulc,plaque
+n9112970812,"9112970812",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zbigniew Zieliński,plaque
+n9112970813,"9112970813",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100-lecie Stowarzyszenia Architektonicznego w Poznaniu,plaque
+n9112970814,"9112970814",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,~1960,,,,Biblioteka Raczyńskich,plaque
+n9112970815,"9112970815",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca zasługi Związku Spółek Zarobkowych i Gospodarczych dla obrony Polskości i rozwoju gospodarczego Wielkopolski,,,,,"1981",,,,Tablica Związku Spółek Zarobkowych i Gospodarczych,plaque
+n9112970816,"9112970816",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca członków polskich korporacji akademickich w latach 1920- 1939,,,,,"2008",,,,Tablica członków polskich korporacji akademickich,plaque
+n9114678699,"9114678699",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Ryksa Elżbieta,,,,,,,,,,https://commons.wikimedia.org/wiki/File:Zamek_Kr%C3%B3lewski_Pozna%C5%84_-_tablice_Kr%C3%B3la_Przemys%C5%82a_II_i_Kr%C3%B3lowej_Ryksy_El%C5%BCbiety.jpg,,,,,Q259040,,,,,Królowa Ryksa Elżbieta,plaque
+n9114678702,"9114678702",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Aleksy Stodolny,plaque
+n9114678703,"9114678703",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Aleksander Woźny,plaque
+n9114678704,"9114678704",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jan Paweł II,plaque
+n9114678706,"9114678706",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca dziennikarzy wielkopolskich poległych i zamordowanych podczas II wojny światowej,"W. Kapczyński (projekt); F. Gdeczyk (wykonanie)",,,,"1970",,,,Tablica poległych i zamordowanych dziennikarzy wielkopolskich,plaque
+n9114678707,"9114678707",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku, w latach 1928-1930, mieściła się siedziba Komitetu Okręgowego Polskiej Partii Socjalistycznej Lewicy",Jerzy Nowakowski,,,,"1983",,,,Miejsce siedziby Komitetu Okręgowego Polskiej Partii Socjalistycznej Lewicy,plaque
+n9114678709,"9114678709",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informującą, ze w tym budynku, do 1858 r., mieściło się Gimnazjum Św. Marii Magdaleny",,,,,"1988",,,,Miejsce Gimnazjum Św. Marii Magdaleny,plaque
+n9114678710,"9114678710",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku w latach 1917-1919 mieściły się siedziby Głównej Kwatery Skautowej, Komendy Polskiej Organizacji Wojskowej oraz pierwsze Harcerskie Biuro Werbunkowe do Wojska Polskiego",Marian Romała,,,,"1933",,,,"Miejsce siedzib Głównej Kwatery Skautowej, Komendy Polskiej Organizacji Wojskowej oraz pierwszego Harcerskiego Biura Werbunkowego do Wojska Polskiego",plaque
+n9114678711,"9114678711",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Edward Smolibowski,,,,"1987",,,,Miejsce zamieszkania Stanisława Kantaka,plaque
+n9114678712,"9114678712",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1984",,,,Miejsce zamieszkania Kazimiery Iłłakiewiczówny,plaque
+n9114678713,"9114678713",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W XXV rocznicę Polski Ludowej pamięci pracowników leśnictwa zamordowanych i poległych w 1939-1945 w walce z najeźdzcą hitlerowskim o wolną demokratyczną i niepodległą Polskę. Leśnicy Wielkopolscy,,,,,,,"1969",,,,Tablica zamordowanych i poległych pracowników leśnictwa,plaque
+n9114678714,"9114678714",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania Wojciecha Korfantego w latach 1919 -1922,M. Gołąbek,,,,"1999",,,,Miejsce zamieszkania Wojciecha Korfantego,plaque
+n9114678715,"9114678715",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Wiernym Bogu i Polsce harcerzom, Powstańcom Wlkp. 1918 - 1920, Żołnierzom II Wojny Światowej, Ruchu Oporu i Szarych Szeregów, zamęczonych przez okupantów druhnom i druhom ZHP Hufca Śródka odeszłym na wieczną wartę",,Tablica upamiętniająca wiernych Bogu i Polsce harcerzy,,,,,1989-04-22,,,,Tablica wiernych Bogu i Polsce harcerzy,plaque
+n9114678716,"9114678716",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W tym budynku w latach 1919–1950 mieścił się Bank Ludowy, który położył wielkie zasługi dla obrony polskości pod zaborem pruskim. Tablicę poświęcono pamięci założycieli i działaczy banku w 125-tą rocznicę powstania bankowości spółdzielczej w Polsce.",,Tablica upamiętniająca siedzibę Banku Ludowego w latach 1919 - 1950,,,,,"1986",,,,Miejsce siedziby Banku Ludowego,plaque
+n9114712217,"9114712217",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica poświęcona Henrykowi Zygalskiemu, jednemu z trzech kryptologów, którzy odkryli sposób kodowania ""Enigmy""",,,,,"2004",,,,Henryk Zygalski,plaque
+n9114712218,"9114712218",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1984",,,,Helena Nieć,plaque
+n9114712219,"9114712219",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca uczniów, którzy polegli w Powstaniu Poznańskim -Czerwiec 1956r.",,,,,,,,,Tablica uczniów poległych w Powstaniu Poznańskim,plaque
+n9114712220,"9114712220",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca mieszkańców Poznania i Wielkopolski, poległych, zamordowanych, więzionych oraz deportowanych do pracy niewolniczej, w 50-tą rocznicę zakończenia II Wojny Światowej",Józef Petruk,,,,"1995",,,,Tablica ofiar II Wojy Światowej z Poznania i Wielkopolski,plaque
+n9114712221,"9114712221",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marian Banasiewicz,,,,"1990",,,,Miejsce drukarni Narodowej Organizacji Bojowej,plaque
+n9114712222,"9114712222",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Janusz Korczak,plaque
+n9114712223,"9114712223",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2003",,,,Franciszek Witaszek,plaque
+n9114712224,"9114712224",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Górczyńskich Kosynierów, Bohaterów Powstania Wielkopolskiego oraz mieszkańców Górczyna, którzy ginęli w walce z faszyzmem i komunizmem",,,,,"1998",,,,"Tablica Górczyńskich Kosynierów, Bohaterów Powstania Wielkopolskiego oraz poległych mieszkańców Górczyna",plaque
+n9114712225,"9114712225",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca siedzibę Oficerskiego Technikum Pożarniczego w latach 1954-1959,,,,,"2004",,,,Miejsce siedziby Oficerskiego Technikum Pożarniczego,plaque
+n9114712226,"9114712226",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca anonimowego fotografa pioruna kulistego, który swoje odkrycie i pracę przypłacił życiem",,,,,"2009",,,,Tablica anonimowego fotografa pioruna,plaque
+n9114712227,"9114712227",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablice pamiątkowe poświęcone zmarłym proboszczom parafii i wszystkim, którzy ofiarowali serce przy budowie kościoła pw. Świetej Jadwigii Śląskiej",,,,,,,,,"Tablice zmarłych proboszczów i wszystkich, którzy ofiarowali serce przy budowie kościoła",plaque
+n9114712262,"9114712262",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania i twórzości Jerzego Kurczewskiego,,,,,,,,,Miejsce zamieszkania Jerzego Kurczewskiego,plaque
+n9114712275,"9114712275",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania Cyryla Ratajskiego w latach 1923-1939,Marian Banasiewicz,,,,"1984",,,,Miejsce zamieszkania Cyryla Ratajskiego,plaque
+n9114712276,"9114712276",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania i twórczości prof. Tadeusza Szeligowskiego w latach 1947-1963,Jerzy Kopczyński,,,,"1966",,,,Miejsce zamieszkania prof. Tadeusza Szeligowskiego,plaque
+n9114712277,"9114712277",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Prof. Lech Ryszkowski,plaque
+n9114712278,"9114712278",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2010-09-13,,,,Eugeniusz Kwiatkowski,plaque
+n9114712283,"9114712283",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"60. rocznica otwarcia sklepu Spółdzielni Spożywców ""Zgoda""",plaque
+n9114712288,"9114712288",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamietniająca ks. Wojciecha Owczarczaka, który zginął śmiercią męczeńską w obozie koncentracyjnym w Dachau",,,,,,,,,Ks. Wojciech Owczarczak,plaque
+n9115973783,"9115973783",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2006",,,,Ppłk. Stefan Ignaszak,plaque
+n9115973784,"9115973784",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica łazarskich Powstańców Wielkopolskich,plaque
+n9115973785,"9115973785",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Romek Strzałkowski 1943-1956 / Chłopiec-bohater, zginął od kuli w dniach robotniczego protestu",,,,,,,,,,,Romek Strzałkowski,plaque
+n9115973786,"9115973786",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Bractwo Kurkowe, Poznań, rok założenia 1253, zakład kamieniarski J.J. Domagała, Luboń Poniatowskiego 51, Poznań 3 V Anno Domini 1997",,,,,,,"1997",,,,Tablica Bractwa Kurkowego,plaque
+n9115973787,"9115973787",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku w 1942 roku odbyło się pierwsze posiedzenie Komitetu Okręgowego Polskiej Partii Robotniczej",,,,,"1952",,,,Miejsce pierwszego posiedzenia Komitetu Okręgowego PPR,plaque
+n9116212271,"9116212271",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Murlewski,,,,"1945",,,,Miejsce zamieszkania ks. Nikodema Cieszyńskiego,plaque
+n9116212272,"9116212272",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W domu tym w latach 1929-1981 mieszkał i tworzył Józef Krzyżański / 1898-1987 / Wybitny artysta malarz, kolorysta",,Tablica upamiętniająca miejsce zamieszkania Józefa Krzyżańskiego w latach 1929-1981,Józef Petruk,,,,"1997",,,,Miejsce zamieszkania Józefa Krzyżańskiego,plaque
+n9116212273,"9116212273",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1918",,,,Matka Boża z Lourdes,statue
+n9116212274,"9116212274",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża Różańcowa,statue
+n9116212275,"9116212275",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca kapłanów z parafii Najśw. Serca Pana Jezusa i św. Floriana poległych podczas II Wojny Światowej,Władysław Glinkiewicz (?),,,,,,,,Ks. Piotr Wawrzyniak,plaque
+n9116212276,"9116212276",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wielki Pontyfikat Jana Pawła II 1978-2005,plaque
+n9116212277,"9116212277",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca kapłanów z parafii Najśw. Serca Pana Jezusa i św. Floriana poległych podczas II Wojny Światowej,,,,,,,,,Tablica poległych kapłanów z parafii,plaque
+n9116212283,"9116212283",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1992",,,,Miejsce zamieszkania Anny Jantar-Kukulskiej,plaque
+n9116212288,"9116212288",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Robert Sobociński; Tomasz Akusz; Kazimierz Raba",,,,"2002",,,,Miejsce zamieszkania Leona Wyczółkowskiego,plaque
+n9116212289,"9116212289",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wojciechowi Sobczakowi i Sewerynowi Samulskiemu - twórcom osiedla. Mieszkańcy.,,,,,,,,,,,Głaz twórców osiedla,stone
+n9116212293,"9116212293",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Paweł Edmund Strzelecki,plaque
+n9116981155,"9116981155",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca żołnierzy walczących o niepodległość podczas II Wojny Światowej,,,,,1999-05,,,,Tablica polskich żołnierzy,plaque
+n9116981156,"9116981156",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica informująca o fundatorach oraz historii budynku Domu Żołnierza,,,,,"1991",,,,Dom Żołnierza,plaque
+n9116981157,"9116981157",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1995-03-24,,,,50-lecie TPŻ-LPŻ-LOK,plaque
+n9116981159,"9116981159",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca rzemieślników wielkopolskich, poległych w walce za wolność i Ojczyznę",H. Marcinkowski,,,,"1969",,,,Tablica poległych rzemieślników wielkopolskich,plaque
+n9116981161,"9116981161",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce pobytu Konstantego Antoniego Górskiego w latach 1922 - 1924,,,,,2009-05-23,,,,Miejsce zamieszkania Konstantego Antoniego Górskiego,plaque
+n9116981162,"9116981162",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"4 tablice pamięci: Maksymilian Jackowski (+ tablica portretowa); Stanisław Mikołajczyk;Juliusz Kraziewicz",,,,,"1983;1992;2012",,,,,plaque
+n9116981163,"9116981163",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca nauczycieli i pracowników szkolnictwa Województwa Poznańskiego, ofiar II wojny światowej",,,,,1989-09,,,,Tablica nauczycieli i pracowników szkolnictwa Województwa Poznańskiego,plaque
+n9116981164,"9116981164",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Szpital ten zapisał się w pamięci Poznaniaków jako symbol pomocy w cierpieniu i świadek śmierci bohaterów 56 w XXV rocznicę 28 VI 1981,,,,,,,"1981",,,,Miejsce pomocy i świadek śmierci bohaterów Poznańskiego Czerwca 1956,plaque
+n9116981165,"9116981165",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku, w latach 1945-1948, mieściła się siedziba Komitetu Wojewódzkiego Polskiej Partii Robotniczej",Edward Haupt,,,,"1967",,,,Miejsce siedziby Komitetu Wojewódzkiego PPR,plaque
+n9116981166,"9116981166",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce zamieszkania Henryka Zygalskiego,plaque
+n9116981175,"9116981175",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamietniająca miejsce założenia Polskiego Związku Hokeja na Trawie,,,,,"2006",,,,Miejsce założenia Polskiego Związku Hokeja na Trawie,plaque
+n9116981176,"9116981176",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Roman Wilhelmi,plaque
+n9116981177,"9116981177",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamietniająca mieszkańców dzielnicy, ofiar terroru hitlerowskiego",,,,,1946 (zastąpiona repliką),,,,Tablica ofiar terroru hitlerowskiego,plaque
+n9116981184,"9116981184",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Historia Akademii Lubrańskiego,,,,,,,,,Akademia Lubrańskiego,plaque
+n9116981185,"9116981185",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Stanisława Strugarka, piewcy gwary poznańskiej",,,,,"2003",,,,Stanisław Strugarek,plaque
+n9116981186,"9116981186",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania prof. Dr. Hab. Med. Wet. Stanisława Rungego w latach 1927-1939 oraz 1946-1953,,,,,"2003",,,,Miejsce zamieszkania prof. Stanisława Rungego,plaque
+n9116981187,"9116981187",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2011",,,,Miejsce zamieszkania Antoniny Kaweckiej,plaque
+n9116981188,"9116981188",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniajaca ludność Krzesin, Krzesineka i Szczepankowa, krzywdzonej w dniu 23.11.1943r. przez hitlerowską policję",,,,,,,,,Tablica ofiar niemieckiego najazdu,plaque
+n9116981201,"9116981201",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1977",,,,100-lecie Szpitala Dziecięcego,plaque
+n9116981202,"9116981202",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Tomasza Drobnika, prekursora chirurgii ortopedii",,,,,,,,,Tomasz Drobnik,plaque
+n9116981205,"9116981205",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Benedykt Kasznia,,,,"1985",,,,Miejsce Wydziału Organizacyjnego Poznańskiego Okręgu Związku Walki Zbrojnej,plaque
+n9117240873,"9117240873",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,,,,"1991",,,,Tablica Petera Mansfelda,plaque
+n9117240874,"9117240874",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca prof. dr. Brunona Czajkowskiego, fundatora budynku",Józef Petruk,,,,"1999",,,,Prof. Brunon Czajkowski,plaque
+n9117240875,"9117240875",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2 tablice: Tablica upamiętniająca miejsce założenia pierwszego składu żelaza przez Hipolita Cegielskiego; Tablica upamiętniająca Bazar Poznański",Józef Petruk,,,,"1981",,,,Bazar Poznański SA,plaque
+n9117240876,"9117240876",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce odbywania się prób chłopięcego chóru 2 Drużyny Harcerzy w Poznaniu w latach 1945 - 1951,,,,,,,,,Miejsce prób chłopięcego chóru 2. Drużyny Harcerzy,plaque
+n9119510269,"9119510269",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca DH Zygmunta Radtke, Powstańca Wielkopolskiego i działacza harcerskiego, który w czasie II wojny światowej przechowywał sztandar 2 Poznańskiej Drużyny Harcerskiej",,,,,,,,,Dh Zygmunt Radtke,plaque
+n9119510270,"9119510270",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Miejsce pierwszej harcówki drużyny ""Piast""",plaque
+n9119510271,"9119510271",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca ucznia Alfreda Rau, który poległ w Powstaniu Poznańskim w czerwcu 1956r.",,,,,,,,,Alfred Rau,plaque
+n9119510272,"9119510272",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania i pracy Wacława Taranczewskiego w latach 1905-1937 oraz 1939-1946,,,,,,,,,Miejsce zamieszkania Wacława Taranczewskiego,plaque
+n9119510273,"9119510273",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca Powstańców Wielkopolskich oraz miejsce śmierci Franciszka Ratajczaka,Edward Haupt,,,,"1956",,,,Tablica Powstańców Wielkopolskich,plaque
+n9119510274,"9119510274",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1983/1986,,,,Prof. dr. Stefan Vrtel- Wierczyński,plaque
+n9119510275,"9119510275",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Petruk,,,,"1995",,,,Miejsce zamieszkania Tadeusza Wolniewicza,plaque
+n9119510276,"9119510276",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"80. rocznica Polskiego Sejmu Dzielnicowego; Kino Apollo",,2 tablice pamięci,I. Jakubik,,,,"1998",,,,,plaque
+n9119510277,"9119510277",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jerzy Sobociński,,,,"1990",,,,Miejsce siedziby sztabu tajnej Polskiej Organizacji Wojskowej,plaque
+n9119510278,"9119510278",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca złożenie pierwszego przyrzeczenia skautowego w Poznaniu, w dniu 17.10.1912r.",,,,,"1982",,,,Miejsce złożenia pierwszego przyrzeczenia skautowego w Poznaniu,plaque
+n9119510279,"9119510279",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica zawierająca kamień z ołtarza głównego bazyliki M.B Wspomożenia Wiernych,,,,,"1976",,,,Kamień z ołtarza głównego bazyliki MB Wspomożenia Wiernych,plaque
+n9119510280,"9119510280",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca 25-tą rocznicę zwycięstwa nad faszyzmem oraz poświęcona nauczycielom poległym i zamordowanym przez hitlerowców w latach 1939 -1945,Józef Stasiński,,,,"1970",,,,Tablica poległych i zamordowanych nauczycieli,plaque
+n9119510281,"9119510281",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Harcerzy Wildeckiego Hufca, poległych w trakcie II Wojny Światowej",Józef Murlewski,,,,"1976",,,,Tablica poległych Harcerzy Wildeckiego Hufca,plaque
+n9119510291,"9119510291",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Marię Montessori, patronkę szkoły",,,,,2006 (?),,,,Maria Montessori,plaque
+n9119510292,"9119510292",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Jana Pawła II, patrona szkoły",,,,,2006 (?),,,,Jana Pawła II,plaque
+n9119529027,"9119529027",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca uczniów Romana Bentke i Andrzeja Glińskiego, którzy polegli w Powstaniu Poznańskim w czerwcu 1956r.",,,,,,,,,Roman Bentke i Andrzej Gliński,plaque
+n9119529028,"9119529028",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. abp Jerzy Stroba,plaque
+n9119529029,"9119529029",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. kan. Józef Jasiński,plaque
+n9119529030,"9119529030",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca poświęcenie przez Jana Pawła II kamienia węgielnego pod kościół Świętej Rodziny,,,,,,,,,Poświęcenie przez Jana Pawła II kamienia węgielnego,plaque
+n9119529031,"9119529031",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca miejsce zamieszkania Wacława Gieburowskiego, sławnego dyrygenta Poznańskiego Chóru Katedralnego",Katarzyna Stasińska (?),,,,2002 (?),,,,Miejsce zamieszkania Wacława Gieburowskiego,plaque
+n9119529032,"9119529032",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca dom prof. dr Zygmunta Pietruszyńskiego i jego żony, który zgodnie z ich wolą został zamieniony w przedszkole",,,,,"1991",,,,Miejsce domu prof. dr Zygmunta Pietruszyńskiego,plaque
+n9119529050,"9119529050",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1968",,,,Tablica poległych z VII Pułku Artylerii Ciężkiej,plaque
+n9119529052,"9119529052",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce pobytu Juliusza Słowackiego w 1848 roku,,,,,"1998",,,,Pobyt Juliusza Słowackiego,plaque
+n9119924940,"9119924940",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniające miejsce, w którym znajdowała się pierwsza Harcówka VII Hufca Harcerzy ZHP",,,,,"1993",,,,Miejsce pierwszej harcówki VII Hufca Harcerzy ZHP,plaque
+n9119924941,"9119924941",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca ucznia Romana Strzałkowskiego, który poległ podczas Powstania Poznańskiego Czerwca 1956r.",,,,,,,,,Roman Strzałkowski,plaque
+n9119924942,"9119924942",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W nieistniejącym budynku ul. Szewska 6 w roku 1928 mieściła się siedziba Towarzystwa Oświaty Robotniczej ""Świt"" w roku 1929 przeniesiona na ul. Prądzyńskiego 41",,,,,,,,,,,"Miejsce siedziby Towarzystwa Oświaty Robotniczej ""Świt""",plaque
+n9119924944,"9119924944",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca ucznia Wiesława Kuźnickiego, który poległ podczas Wydarzeń Czerwcowych 1956r.",,,,,,,,,Wiesław Kuźnicki,plaque
+n9119924945,"9119924945",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Rudolf Modrzejewski,plaque
+n9119924946,"9119924946",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2013-05-10,,,,Tablica Żydów poznańskich zamordowanych przez niemieckich okupantów,plaque
+n9119924947,"9119924947",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce urodzenia Stefana Stuligrosza,plaque
+n9119924958,"9119924958",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca poległych parafian w latach 1914-1920,,,,,,,,,Tablica poległych parafian 1914-1920,plaque
+n9119924959,"9119924959",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca ofiary II Wojny Światowej,,,,,,,,,Tablica ofiar II Wojny Światowej,plaque
+n9119924961,"9119924961",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9119924963,"9119924963",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1958",,,,400-lecie Poczty Polskiej,plaque
+n9119924988,"9119924988",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2012-10-16,,,,Wiktor Zbigniew Zdzisław,plaque
+n9119924989,"9119924989",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Stasiński,,,,"1984",,,,Paweł Edmund Strzelecki,plaque
+n9119924990,"9119924990",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca księcia Adama Czartoryskiego, który w roku 1915 powiększył fundusz Towarzystwa Przyjaciół Nauk oraz ułatwił jego rozwój",,,,,,,,,Adam Czartoryski,plaque
+n9119924991,"9119924991",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca Mielżyńskich Konstancji i Stefana HR. Korzbok Łąckich, którzy oddali budynek do korzystania przez Towarzystwo Przyjaciół Nauk",,,,,"1917",,,,Konstancja i Stefan hr. Korzbok Łąccy,plaque
+n9120063246,"9120063246",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Stanisław Staszic,plaque
+n9120063247,"9120063247",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca siedzibę arcybiskupiego seminarium duchowego w latach 1896-2003,,,,,,,,,Miejsce arcybiskupiego seminarium duchowego,plaque
+n9120063248,"9120063248",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce urodzenia olimpijskiej sprinterki Barbary Lerczak Janiszewskiej - Sobotty,,,,,"2009",,,,Miejsce urodzenia Barbary Janiszewskiej-Sobotty,plaque
+n9120063249,"9120063249",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1996",,,,Harcówka Poznań-Winiary,plaque
+n9120063250,"9120063250",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2004",,,,Ks. Walenty Szymański,plaque
+n9120063251,"9120063251",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Edward Taylor,plaque
+n9120654796,"9120654796",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica ku czci zmarłych Powstańców Wielkopolskich ufundowana z okazji 10-lecia Towarzystwa Uczestników Powstania Wielkopolskiego,,,,,"1933",,,,Tablica Powstańców Wielkopolskich,plaque
+n9120654799,"9120654799",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża z Lourdes,statue
+n9120654800,"9120654800",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce pierwszej siedziby Międzyzakładowego Komitetu Założycielskiego NSZZ Solidarność,plaque
+n9120684350,"9120684350",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Natalia Tułasiewiczówna,plaque
+n9120684351,"9120684351",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W domu tym w latach 1919-1927 skupiało się życie lewicy polskich klasowych związków zawodowych. Tutaj na przełomie 1920-1921 odbywały się pierwsze konspiracyjne posiedzenia Okręgowego Komitetu Komunistycznej Partii Robotniczej Polski na Poznań-Pomorze.,,,Edward Haupt,,,,"1958",,,,Miejsce posiedzeń Okręgowego Komitetu KPRP,plaque
+n9120684352,"9120684352",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Inż. Tadeusz Tański,plaque
+n9120684354,"9120684354",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce Fabryki Zeylanda,plaque
+n9120684355,"9120684355",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Z domu tego w latach 1941-1942 dr Franciszek Witaszek P.S. Warta dowodził Związkiem Odwetu Poznańskiego Okręgu Z.W.Z.,,,Jerzy Sobociński,,,,"1985",,,,Miejsce dowodzenia Związkiem Odwetu Poznańskiego Okręgu ZWZ,plaque
+n9120684357,"9120684357",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce Hotelu Saskiego,plaque
+n9120684358,"9120684358",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca miejsce tajnego zebrania, na którym uchwalono powstanie Oddziału Marynarzy Powstańców dla walk o zjednoczenie ziem polskich",,,,,,,,,Miejsce uchwalenia powstania Oddziału Marynarzy Powstańców,plaque
+n9120684359,"9120684359",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Właścicielem, mieszkańcem i twórcą renesansowej przebudowy tej kamienicy, był J. B. Di Quadro z Lugano, działający w XVI wieku w Poznaniu, autor m.in. poznańskiego Ratusza.",,,,,,,"1998",,,,Jan Baptysta Di Quadro z Lugano,plaque
+n9120684360,"9120684360",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1984",,,,Prof. Jan Sokołowski,plaque
+n9120684361,"9120684361",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1984",,,,Prof. Felicjan Cieszkowski-Dembiński,plaque
+n9120684362,"9120684362",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Collegium im. Cieszkowskich,plaque
+n9120684397,"9120684397",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,~1520,,,,Matka Boża z Dzieciątkiem,statue
+n9120684398,"9120684398",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce zamieszkania Łucji Danielewskiej,plaque
+n9120684400,"9120684400",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2013",,,,Stanisław Mrowiński,plaque
+n9120684401,"9120684401",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica upamiętniająca miejsce zamieszkania Romana Brandstaettera w latach 1960-1987,,,,,,,,,Miejsce zamieszkania Romana Brandstaettera,plaque
+n9120867786,"9120867786",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Janusz Korczak,plaque
+n9120867787,"9120867787",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Andrzej Biernacki,,,,,,,,Ignacy Jan Paderewski,plaque
+n9120867788,"9120867788",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica upamiętniająca bohaterskich żołnierzy XIV WLKP. D. P., poległych i zamordowanych w obronie Ojczyzny w latach 1918 - 1945",Mieczysław Chojnacki,,,,"1992",,,,Tablica żołnierzy 14. Wielkopolskiej Dywizji Piechoty,plaque
+n9120867789,"9120867789",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica informująca, że w tym budynku, w latach 1918-1919, mieściła się siedziba Dowództwa Głównego Powstania Wielkopolskiego",Marian Banasiewicz,,,,"1979",,,,Miejsce siedziby Dowództwa Głównego Powstania Wielkopolskiego,plaque
+n9120867790,"9120867790",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marian Banasiewicz,,,,,,,,Ks. Piotr Wawrzyniak,plaque
+n9121856246,"9121856246",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Baszta narożna zewnętrznego pierścienia średniowiecznych obwarowań miejskich, rozebranych w ciągu XIX w. Ocalały fragment odsłonięty w 1947 r.",,,,,,,,,,,Baszta narożna,plaque
+n9121856247,"9121856247",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik Kombinatu Państwowych Gospodarstw Ogrodniczych,
+n9121991937,"9121991937",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Marii Grzegorzewskiej w Poznaniu,Q11823330,,,,,,Maria Grzegorzewska,
+n9121991945,"9121991945",node,memorial,,,,,,,,,http://www.zzwp.pl/galeria-miejsc-pamieci/953/pomnik-zolnierzom-2-armii-wojska-polskiego-w-poznaniu/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Marcin Urbanek,pl:Pomnik Żołnierzy 2. Armii Wojska Polskiego w Poznaniu,Q99501532,,2015-05-16,,,,Pomnik Żołnierzy 2. Armii Wojska Polskiego,war_memorial
+n9121991950,"9121991950",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki Jana Pawła II w Poznaniu#Pomnik przy kościele pw. NMP Matki Odkupiciela,,,,,,,,,,,,,,,,,,,,,,,"2011",,,,Jan Paweł II,statue
+n9122013010,"9122013010",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,Pomniki Jana Pawła II w Poznaniu#Pomnik w Kiekrzu,,,,,,,,,,,,,,,,Otwórzcie drzwi Chrystusowi,,,,,,,2011-05-01,,,,Jan Paweł II,statue
+n9122212537,"9122212537",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2007-06-01,,,,O. Marian Żelazek,stone
+n9122212538,"9122212538",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,180-lecie Szkoły Podstawowej,plaque
+n9122712917,"9122712917",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomniki i głazy pamiątkowe Uniwersytetu Przyrodniczego w Poznaniu,,,"2012",,,,Tadeusz Chrząszcz,stone
+n9122712918,"9122712918",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Prof. Ryszard Ganowicz,stone
+n9122712919,"9122712919",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomni chlubnych tradycji naszej uczelni w 80-lecie powstania składamy hołd jej twórcom i nauczycielom. Wychowankowie. Poznań 1.X.1999,,,,,,,1999-10-01,,,,80-lecie Akademii Rolniczej w Poznaniu,plaque
+n9122712920,"9122712920",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomniki i głazy pamiątkowe Uniwersytetu Przyrodniczego w Poznaniu,,,"2004",,,,Jan Wojciechowski,stone
+n9122712921,"9122712921",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomniki i głazy pamiątkowe Uniwersytetu Przyrodniczego w Poznaniu,,,,,,,Jerzy Zwoliński,stone
+n9122712924,"9122712924",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pl:Pomnik Serca Jezusowego w Poznaniu (Piątkowo),Q97372306,,,,,,Serce Jezusa,statue
+n9122712925,"9122712925",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,bench,,,,,,,,,,,,,Grzegorz Godawa,pl:Ławeczka Michała Sobeskiego w Poznaniu,Q86668689,,2019-05-22,,,,Ławka Michała Sobeskiego,bench
+n9122712931,"9122712931",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablice ofiar II Wojny Światowej,plaque
+n9122712932,"9122712932",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kazimierz Rafalik,pl:Pomnik 600-lecia bitwy pod Grunwaldem w Poznaniu,Q11823092,,2010-07-15,,,,600-lecie bitwy pod Grunwaldem,stone
+n9122712933,"9122712933",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wiesław Koronowski,pl:Pomnik Karola Marcinkowskiego w Poznaniu (I LO),Q4343197,,2005-05-14,,,,Karol Marcinkowski,
+n9124791227,"9124791227",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Gen. Dezydery Chłapowski,stone
+n9124791229,"9124791229",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Maksymilian Kolbe,plaque
+n9124791230,"9124791230",node,memorial,,Ks. Bogdan Podhalański,30. rocznica działalności duszpasterskiej proboszcza ks. kan. Stanisława Szymkowiaka,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2 tablice pamięci,,,,,,,,,,plaque
+n9124791231,"9124791231",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kamień z 1000-letniej Katedry,plaque
+n9124791232,"9124791232",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża Królowa Świata,statue
+n9124791235,"9124791235",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Siostra zakonna,statue
+n9124791236,"9124791236",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Józef,statue
+n9124791238,"9124791238",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1726",,,,Ks. Wojciech Reuth,plaque
+n9124791239,"9124791239",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica w języku łacińskim,,,,,,,,,,plaque
+n9124791240,"9124791240",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"8.11.1879-8.1.1940 / Ks. Kazimierz Szreybrowski kanonik Kapituły Metropolitalnej, proboszcz parafii archikatedralnej zamordowany przez hitlerowców w Forcie VII w Poznaniu",,,,,,,,,,,Ks. Kazimierz Szreybrowski,plaque
+n9124866677,"9124866677",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus Dobry Pasterz,statue
+n9124884180,"9124884180",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Klaudyna Potocka,plaque
+n9125031504,"9125031504",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1994",,,,Kwatera żołnierzy Wehrmachtu,plaque
+n9125031505,"9125031505",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Rzekł Jezus: Słowa, które ja Wam mówię, duchem są i żywotem. / Par. Ewang.-Aug. Ew. Św. Jana VI.63",,,,,,,,,,,Jezus Chrystus,
+n9125031508,"9125031508",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9125954186,"9125954186",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tu spoczywa w pięciu mogiłach 1008 Żydów - ofiar terroru hitlerowskiego zamordowanych i zmarłych w latach 1939-1945,,,,,,,,,,,Kwatera żydowska,plaque
+n9127305417,"9127305417",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Antoni,statue
+n9127646191,"9127646191",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matuchno broń nas,,,,,,,,,,,Matka Boża Królowa Świata,statue
+n9127717927,"9127717927",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,catholic,,christian,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9141673836,"9141673836",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9144601143,"9144601143",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jezus Chrystus,statue
+n9171490652,"9171490652",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Józef,statue
+n9171496155,"9171496155",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9176249150,"9176249150",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pobogosław, Panie naszej polskiej ziemi",,,,,,,2016-06-03,,,,Najświętsze Serce Pana Jezusa,statue
+n9176249151,"9176249151",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Św. Jan Chrzciciel,statue
+n9176249216,"9176249216",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anioł Stróż,statue
+n9192500461,"9192500461",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Obelisk symbolicznie przedstawiający dzieje Kolegiaty św. Marii Magdaleny od jej powstania poprzez kolejne rozbudowy, destrukcje, aż do ostatecznej rozbiórki kościoła.",Piotr Wełniak,,,,2021-10,,,,Zegar Historii,
+n9195012989,"9195012989",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Roman Strzałkowski,plaque
+n9195495733,"9195495733",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9195495737,"9195495737",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n9199099568,"9199099568",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017-05-07,,,,Poświęcenie kościoła,plaque
+n9205285564,"9205285564",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pawilon wystawowy zwany halą recepcyjną lub westybulem zbudowany na Powszechną Wystawę Krajową w 1929 roku. Ciekawy przykład klasycyzmu akademickiego. Projekt wykonał Roger Sławski (1871-1963), wybitny twórca i ówczesny naczelny architekt Powszechnej...",,,,,,,,,,,Hala recepcyjna,plaque
+n9208353345,"9208353345",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dąb Ignacy Jan,stone
+n9229606688,"9229606688",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229606689,"9229606689",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229606691,"9229606691",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229606703,"9229606703",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229606704,"9229606704",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229606705,"9229606705",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229649184,"9229649184",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229649185,"9229649185",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9229935519,"9229935519",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Serce Jezusa,statue
+n9230304308,"9230304308",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Piotr Wawrzyniak,
+n9230691027,"9230691027",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Przedszkole nr 98 ""Słoneczko"" ufundowane ze środków społecznych SFBSiI w 1968 r.",,,,,,,,,,,"Przedszkole nr 98 ""Słoneczko""",plaque
+n9230691047,"9230691047",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9230926530,"9230926530",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym gmachu do roku 1939 mieściło się państwowe gimnazjum matematyczno-przyrodnicze im. Bergera,,,,,,,"1978",,,,Miejsce państwowego gimnazjum im. Gotthilfa Bergera,plaque
+n9238618673,"9238618673",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica nauczycieli i młodzieży - uczestników tajnego nauczania,plaque
+n9238618674,"9238618674",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica żołnierzy okręgu poznańskiego Armii Krajowej,plaque
+n9238618675,"9238618675",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2008",,,,Tablica wielkopolskich ofiar reżimu komunistycznego,plaque
+n9238618676,"9238618676",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2007",,,,Tablica nieugiętych Wielkopolan walczących o niepodległość Polski,plaque
+n9238618677,"9238618677",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica poległych harcerek i harcerzy chorągwi wielkopolskich,plaque
+n9238618678,"9238618678",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2009",,,,Gen. Władysław Anders,plaque
+n9238618679,"9238618679",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2007",,,,Tablica komendantów sił zbrojnych Polskiego Państwa Podziemnego i żołnierzy Armii Krajowej,plaque
+n9238618680,"9238618680",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica wskrzesicieli idei powrotu państwa polskiego na piastowskie ziemie macierzyste i uczonych środowiska poznańskiego którzy rozwinęli myśl zachodnią,plaque
+n9238618681,"9238618681",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablica zamordowanych i zmarłych działaczy organizacji Ojczyzna ""Omega""",plaque
+n9238618682,"9238618682",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica organizatorów podziemnego państwa polskiego na Ziemiach Zachodnich,plaque
+n9238618684,"9238618684",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pamięci tysięcy Polaków, którzy służąc ojczyźnie ponieśli śmierć męczeńską w Ponarach k. Wilna w latach 1941-1944",,,,,,,"2001",,,,Tablica ofiar zbrodni w Ponarach k. Wilna,plaque
+n9238618685,"9238618685",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Maciej Frankiewicz,plaque
+n9238618686,"9238618686",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Roman Brandstaetter,plaque
+n9238618687,"9238618687",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kazimiera Iłłakowiczówna,plaque
+n9238618688,"9238618688",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tablice poległych, zamęczonych i zmarłych członków poznańskich korporacji akademickich",plaque
+n9238618689,"9238618689",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zygmunt Szweykowski,plaque
+n9238618690,"9238618690",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mikołaj Rudnicki,plaque
+n9238618691,"9238618691",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2006-12-13,,,,Tablica ofiar stanu wojennego,plaque
+n9238618692,"9238618692",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brygida Kurbis,plaque
+n9238618693,"9238618693",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pamięci naszych rodaków wymordowanych na Wołyniu i w Małopolsce Wschodniej przez nacjonalistów ukraińskich w latach 1943-1947. Towarzystwo Miłośników Lwowa i Kresów Południowo-Wschodnich w Poznaniu.,,,,,,,2013-07,,,,Tablica ofiar zbrodni na Wołyniu i w Małopolsce Wschodniej,plaque
+n9238618695,"9238618695",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017-08-11,,,,Tablica rodaków prześladowanych i eksterminowanych w Rosji sowieckiej,plaque
+n9238658540,"9238658540",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Józef Stasiński,,,,"1985",,,,Prof. Józef Kostrzewski,plaque
+n9238658541,"9238658541",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Jan III Sobieski,plaque
+n9238847787,"9238847787",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2012",,,,Ppłk. Łukasz Ciepliński,plaque
+n9238847788,"9238847788",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2012",,,,Rtm. Witold Pilecki,plaque
+n9238847789,"9238847789",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2005",,,,Stanisław Kasznica i Lech Neyman,plaque
+n9239047321,"9239047321",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Osiedle studenckie im-12-Kwietnia dla upamietnienia pierwszego lotu człowieka obywatela Z.S.R.R. w kosmos dokonanego 12-IV-1961. Mieszkancy osiedla,,,,,,,"1962",,,,Pierwszy lot człowieka w kosmos,plaque
+n9239047336,"9239047336",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce spoczynku nieznanych ofiar terroru hitlerowskiego,stele
+n9239047337,"9239047337",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik nagrobny działaczy Związku Odwetu ZWZ Miasta Poznania straconych przez hitlerowców,
+n9239047338,"9239047338",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""Obóz karny w Żabikowie""",
+n9239047339,"9239047339",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""Poznańskie więzienie przy ul. Młyńskiej""",
+n9239047340,"9239047340",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""Siedziba Gestapo i Fort VII""",
+n9239047341,"9239047341",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""Polska się o Was upomniała""",
+n9239047342,"9239047342",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""Lasy roznowskie i palędzkie""",
+n9239047343,"9239047343",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik nagrobny ""1939-45""",
+n9239047344,"9239047344",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kazamaty Fortu Winiary,plaque
+n9239047357,"9239047357",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce spoczynku Józefa Kramarkiewicza,plaque
+n9239047358,"9239047358",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica bohaterów Armii Krajowej Okręgów Wileńskiego i Nowogrodzkiego,plaque
+n9239047359,"9239047359",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Płk. Henryk Kowalówka ""Zrąb""",plaque
+n9239047360,"9239047360",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dr. med. Antoni S. Jurasz i Antoni T. Jurasz,plaque
+n9239047363,"9239047363",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2000-12,,,,Ks. kan. dr Czesław Piotrowski,plaque
+n9239047364,"9239047364",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. kan. Hieronim Lewandowski,plaque
+n9239047365,"9239047365",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1898",,,,Emilia Sczaniecka,plaque
+n9239047366,"9239047366",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dr Franciszek Chłapowski,plaque
+n9239047367,"9239047367",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wanda z hr. Kwileckich Władysławowa Niegolewska,plaque
+n9239047368,"9239047368",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Aniela Tułodziecka,plaque
+n9239047369,"9239047369",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ks. Leon Laskowski,plaque
+n9239047371,"9239047371",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1860",,,,Karol Marcinkowski,plaque
+n9239047372,"9239047372",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Maria Swinarska,plaque
+n9239047373,"9239047373",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1983-04,,,,Dr. Konstancja Swinarska,plaque
+n9240109262,"9240109262",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kaplica Matki Bożej Fatimskiej,plaque
+n9240109263,"9240109263",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Teskt przyrzeczenia Matce Bożej Królowej Polski,plaque
+n9243915179,"9243915179",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Szkoła-pomnik 1000-lecia,plaque
+n9256652755,"9256652755",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"9111",,,,,,,,,,,MiG-21,aircraft
+n9270328969,"9270328969",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9274960746,"9274960746",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce pracy ks. dra Czesława Białka,plaque
+n9274960748,"9274960748",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mury miejskie. City wall 1253-1793,,,,,,,,,,,Mury miejskie,plaque
+n9275183193,"9275183193",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Historia budynków,plaque
+n9275183195,"9275183195",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica poległych i zmarłych członków Towarzystwa Powstańców i Wojaków im. Franciszka Ratajczaka,plaque
+n9275183196,"9275183196",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2008-11-30,,,,Hipolit Cegielski,plaque
+n9275183197,"9275183197",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica w języku łacińskim,,,,,,,,,,plaque
+n9275183198,"9275183198",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2009-06-02,,,,Leopold Węgrzynowicz,plaque
+n9275183199,"9275183199",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Olga Sławska-Lipczyńska / 1915-1991 / Taniec był radością i pasją jej życia,,,,,,,,,,,Olga Sławska-Lipczyńska,plaque
+n9275183200,"9275183200",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Dawna Szkoła Jezuicka zbudowana w końcu XVIIw., rozbudowana wokół dziedzińca w 2 ćw. XVIIIw. Mieściła się tu pierwsza w Poznaniu Sala Teatralna, 1919-1939 Szkoła sztuk zdobniczych, 1945 zniszczona, 1954-1957 odbudowana.",,,,,,,"1960",,,,Historia budynku,plaque
+n9275183201,"9275183201",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1981",,,,540. rocznica założenie Cechu Ślusarzy i Rzemiosł Pokrewnych w Poznaniu,plaque
+n9275183202,"9275183202",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Odwach,plaque
+n9275191521,"9275191521",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mur obwodowy XVI w.,,,,,,,,,,,Mur obwodowy,plaque
+n9275191522,"9275191522",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Wieża strażnicza z murem obwodowym XIII w.,,,,,,,,,,,Wieża strażnicza,plaque
+n9275292157,"9275292157",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Historia kościoła,plaque
+n9275292158,"9275292158",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pomnik i dzwon,plaque
+n9275292162,"9275292162",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Magnolia Dwóch Dekad,stone
+n9275292163,"9275292163",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Pomnik poległych, zamordowanych i zaginionych na Wschodzie w latach 1939-1945",,,,,"2009",,,,"Pomnik poległych, zamordowanych i zaginionych na Wschodzie",
+n9340409250,"9340409250",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dawny słup trolejbusowy - pomnik,
+n9344468755,"9344468755",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Roman Maciejewski,bust
+n9565902671,"9565902671",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Szkoła nr 104. Pomnik tysiąc-lecia Państwa Polskiego im. Juliana Marchlewskiego ufundowana przez Centralną Radę Związków Zawodowych i społeczeństwo Poznania,,,,,,,,,,,Szkoła-pomnik 1000-lecia,plaque
+n9565902690,"9565902690",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Wieczna chwała bohaterom walk o wyzwolenie miatsta Poznania. W tym miejscu 4 lutego 1945 oddał swe młode życie w walce z hitlerowskim najeźdźcą 19-letni Mikołaj Usolcew, oficer Armii Radzieckiej. W X rocznicę wyzwolenia miasta - młodzież Poznania.",,,,,,,"1955",,,,Mikołaj Usolcew,plaque
+n9565906418,"9565906418",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Dąb pamięci posadzony dla uhonorowania kapitana Edmunda Cezarego Gaussa, ur. 12.12.1905r. w Poznaniu, zamordowanego strzałem w tył głowy przez NKWD w Katyniu w roku 1940",,,,,,,,,,,Dąb Edmunda Cezarego Gaussa,stone
+n9566116980,"9566116980",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dąb Absolwenta Wydziału Technologii Drewna Uniwersytetu Przyrodniczego w Poznaniu (...),,,,,,,"2016",,,,Dąb Absolwenta,plaque
+n9572680158,"9572680158",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W tym domu 29 września 1988 tymczasowy zarząd regionu Wielkopolska NSZZ Solidarność otworzył jawny ośrodek konsultacyjno-informacyjny,,,,,,,2010-09-29,,,,Miejsce jawnego ośrodka konsultacyjno-informacyjnego NSZZ Solidarność,plaque
+n9572680159,"9572680159",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Solidarność Walcząca,stone
+n9653743909,"9653743909",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"""... i te strzały nie były już dane w powietrze, ale do ludzi..."" - fragment mowy mec. Stanisława Hejmowskiego z 16.10.1956 roku / W 60. rocznicę Poznańskiego Czerwca '56 roku Wojewoda Wielkopolski Zbigniew Hoffmann",,,,,,,2016-06-28,,,,60. rocznica Poznańskiego Czerwca 1956,plaque
+n9653743910,"9653743910",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Prof. Andrzej Koszewski,plaque
+n9653743911,"9653743911",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Szkoła-pomnik 1000-lecia nr 939,plaque
+n9653743912,"9653743912",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2008-09-26,,,,Witold Pilecki,plaque
+n9653743913,"9653743913",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arkady Fiedler,plaque
+n9653743914,"9653743914",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W ""Domu Tramwajarza"" przy ul. Słowackiego w latach 1926-1931 mieszkał generał Józef Haller, który po długiej niewoli w imieniu narodu w lutym 1920 roku dokonał symbolicznego objęcia polskiego Bałtyku. W 85 rocznicę ""Zaślubin z Morzem"", Poznaniacy.",,,,,,,2005-02-10,,,,Miejsce zamieszkania Józefa Hallera,plaque
+n9653743915,"9653743915",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Prof. Jerzy Regulski,plaque
+n9653743916,"9653743916",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2021-01-26,,,,Sala gimnastyczna im. Wiktora Haglauera,plaque
+n9653778522,"9653778522",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ppłk Stanisław Kasznica i ppor. Jan Kasznica,stone
+n9653778523,"9653778523",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stefan Borsukiewicz,stone
+n9653778526,"9653778526",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hm. Jerzy Chrzanowski,stone
+n9654621625,"9654621625",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Miejsce narodzin Arkadego Fiedlera,plaque
+n9658671885,"9658671885",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1933-08-14,,,,Cokół pomnika Józefa Piłsudskiego,
+n9678524707,"9678524707",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ostatni kurs Gracjana
+12.04.2021",,,,,,,,,,,Ostatni kurs Gracjana,ghost_bike
+n9714617397,"9714617397",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"W roku jubileuszu 30-lecia Szkoły Podstawowej nr 50. Dyrekcja i Społeczność Szkoły oraz Rada Osiedla Żegrze. Poznań, 14.10.2020",,,,,,,2020-10-14,,,,"Dąb ""Generał""",stone
+n9714617399,"9714617399",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Szkoła Podstawowa nr 14 im. Władysława Łokietka w Poznaniu,,,,,,,,,,,Szkoła Podstawowa nr 14 im. Władysława Łokietka,plaque
+n9714617400,"9714617400",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Teatr letni zbudowany czynem społecznym młodzieży, mieszkańców i zakładów pracy dzielnicy Poznań-Nowe Miasto pod patronatem Związku Młodzieży Socjalistycznej. Poznań, lipiec 1970 r.",,,,,,,1970-07,,,,Teatr letni,plaque
+n9730706585,"9730706585",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,X. Stanisław Kostka Kinosowicz,plaque
+n9730706586,"9730706586",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1856",,,,Pomnik Niepokalanego Poczęcia Marii Panny,
+n9730706587,"9730706587",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,X. Walenty Zientkiewicz,plaque
+n9730706590,"9730706590",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża z Dzieciątkiem,statue
+n9730768225,"9730768225",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matka Boża,statue
+n9730768227,"9730768227",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dąb pamięci por. Zenona Szczepańskiego ur. 03.12.1907 w Strzelnie. Zamordowanego strzałem w tył głowy przez NKWD w Charkowie w roku 1940,,,,,,,,,,,Dąb por. Zenona Szczepańskiego,stone
+n9739438121,"9739438121",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1986",,,,Prof. Zbyszko Tucholka,stone
+n9739438123,"9739438123",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dąb Monument posadzony dnia 22 września 2019 przez uczestników zjazdu zorganizowanego z okazji 100-lecia Koła Leśników Uniwersytetu Przyrodniczego w Poznaniu,,,,,,,2019-09-22,,,,Dąb Monument,plaque
+n9739438125,"9739438125",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1960",,,,Dr Stanisław Runge,plaque
+n9739438126,"9739438126",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2009-12-11,,,,Dąb prof. Edwarda Ralskiego,plaque
+n9739438128,"9739438128",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Siewca - dar społeczeństwa Wielkopolski. Autor Marcin Rożek 1885-1944 zginął w Oświęcimiu. 1979. Odlew wykonany w Z. M. Pomet.,,,,,,,"1979",,,,Marcin Rożek,plaque
+n9739438129,"9739438129",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1995-06-16,,,,125-lecie studiów rolniczych w Wielkopolsce i 75-lecie akademickich studiów rolniczych i leśnych w Poznaniu,plaque
+n9739438138,"9739438138",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Dąb pamięci por. Leona Stefana Lebensarta, ur. 09.08.1900 w Dobromilu zamordowanego strzałem w tył głowy przez NKWD w roku 1940",,,,,,,,,,,Dąb por. Leona Stefana Lebensarta,stone
+n9739438141,"9739438141",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"90 poległym na wiekopomną cześć i chwałę, Gmina Winiary 1923. Poległym w I Wojnie Światowej 1914-1918. Bohaterom poległym na polu chwały 1918-1919. Obrońcom ojczyzny przed najazdem bolszewickim.",,,,,,,2021-10-04,,,,Pomnik Poległych Winiarczyków,
+n9739438142,"9739438142",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Dąb pamięci Stanisława Bręczewskiego, posterunkowego Policji Państwowej, więźnia Ostaszkowa, ur. 02.10.1911r. w Winiarach, zamordowanego strzałem w tył głowy przez NKWD w kwietniu 1940r.w Twerze",,,,,,,2014-09-19,,,,Dąb Stanisława Bręczewskiego,stone
+n9739559601,"9739559601",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lipa srebrzysta posadzona 10 października 2019 z okazji jubileuszu 100-lecia studiów rolniczo-leśnych w Poznaniu przez Stowarzyszenie Absolwentów UPP,,,,,,,,,,,Lipa srebrzysta,plaque
+n9739559603,"9739559603",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2021",,,,Dr Tadeusz Krokowski,stone
+n9739559604,"9739559604",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2010-11-26,,,,Dąb dr Tadeusza Krokowskiego,stone
+n9739559608,"9739559608",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"2010",,,,Dąb Zygmunta Młot-Przepałkowskiego,plaque
+n9739559614,"9739559614",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Prof. Stefan Barbacki,stone
+n9744931004,"9744931004",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pamięć o nich pozostanie na zawsze. Społeczeństwo Nowego Miasta.,,,,,,,,,,,Pomnik poległych w walkach o Poznań 1939,
+n9747024208,"9747024208",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tablica Bohaterskich Żołnierzy 14. Wielkopolskiej Dywizji Piechoty,plaque
+n9747024209,"9747024209",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M. Skrzypczak,,,,,,,,Pomnik pomordowanych w hitlerowskich obozach koncentracyjnych,
+n9825583905,"9825583905",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Obiekt sportowo-rekreacyjny wybudowany w czynie społecznym przez komitet mieszkańców Naramowic dla uczczenia 25-lecia PRL. Poznań 1969,,,,,,,,,,,Obiekt wybudowany w czynie społecznym przez komitet mieszkańców Naramowic,
+n9825596119,"9825596119",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Głaz ofiar bezsensownych i niszczycielskich wojen,stone
+n9856165457,"9856165457",node,memorial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Drzewa ufundowane i posadzone przez uczniów i absolwentów oraz nauczycieli i pracowników szkoły z okazji Jubileuszu 25-lecia ZSO nr 4 im. ks. prof. J. Tischnera w Poznaniu. Poznań 2017,,,,,,,"2017",,,,Drzewa 25-lecia ZSO nr 4,plaque
