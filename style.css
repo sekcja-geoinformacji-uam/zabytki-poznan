@@ -34,3 +34,7 @@ body {
     float: left;
     background-color: rgb(96, 150, 26);
 }
+
+label {
+    color:'#ffffff'
+}

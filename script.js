@@ -28,6 +28,22 @@ var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1,
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
 var zabytki_grupa = L.layerGroup([zabytki]).addTo(map);
 var granice_poznania = L.geoJson(granice_poznania, {color:'#bbbb68', weight: 3.7}).addTo(map);
+var dzielnice = L.geoJson(dzielnice, {color:'#bbbb99', weight: 3.7,
+    onEachFeature: function(feature, layer) {
+      var label = L.marker(layer.getBounds().getCenter(), {
+        icon: L.divIcon({
+          className: 'label',
+          html: feature.properties.name,
+          iconSize: [100, 40]
+        })
+      });
+    }
+});
+var cmentarze = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+onEachFeature: function(feature, layer){
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + "<br/><b>Zdjęcia/strona internetowa:</b> " + feature.properties.nowe_website + "<br/><b>Artukuł z Wikipedii:</b> " + feature.properties.nowe_wikipedia_adres);
+}});
+
 
 // grupy warstw
 var baseMaps = {
@@ -37,7 +53,9 @@ var baseMaps = {
 var overlayMaps = {
     "punkt": marker,
     "zabytki": zabytki_grupa,
-    "granice Poznania": granice_poznania
+    "granice Poznania": granice_poznania,
+    "dzielnice Poznania": dzielnice,
+    "cmentarze": cmentarze
 };
 
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
@@ -49,5 +67,6 @@ map.on('zoomend', function(ev){
     } else {
         zabytki_grupa.addLayer(zabytki_punkty);
         zabytki_grupa.removeLayer(zabytki);
+        map.removeLayer(label);
     }
 });

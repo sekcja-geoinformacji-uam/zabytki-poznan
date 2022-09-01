@@ -1,0 +1,55 @@
+full_id,osm_id,osm_type,landuse,start_date,source:start_date,source:end_date,end_date,abandoned,image:0,url,image,description,addr:street,source:name,source:geometry,operator,leisure,website,fence_type,amenity,surveillance,opening_hours,name:cs,barrier,wikipedia,wikidata,religion,ref:nid,heritage:operator,heritage,denomination,name
+w18943464,"18943464",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cmentarz Komunalny nr 1 Miłostowo
+w23858555,"23858555",way,cemetery,,,,,,,,,,,,,,,,,,,,,,pl:Cmentarz Bożego Ciała w Poznaniu,Q8511867,christian,"236",nid,"2",roman_catholic,Cmentarz parafii Bożego Ciała
+w23875243,"23875243",way,cemetery,,,,,,,,,,,,,,,,,,public,"Apr 1-Sep 15: 07:00-21:00; Sep 16-Mar 31: 07:00-19:00",Junikovský hřbitov,fence,pl:Cmentarz Junikowo w Poznaniu,Q6397776,,,,,,Cmentarz Komunalny nr 2 Junikowo
+w24440977,"24440977",way,cemetery,,,,,,,,,,,,,,,,,,,,,,pl:Cmentarz parafialny św. Jana Vianneya w Poznaniu,Q8511014,christian,,,,catholic,Cmentarz parafii pw. św. Jana Vianneya
+w27926251,"27926251",way,cemetery,,,,,,,,,,,,,,,,,,,,,,pl:Cmentarz przy ul. Samotnej w Poznaniu,Q8511931,christian,279/Wlkp/A,nid,"2",,
+w28377947,"28377947",way,cemetery,,,,,,,,,,,,,,,,,grave_yard,,Mo-Su 08:00-20:30,,fence,,,christian,,,,roman_catholic,Cmentarz parafialny
+w28621397,"28621397",way,cemetery,,,,,,,,,,,,,,,,,,,,,fence,pl:Cmentarz Jeżycki w Poznaniu,Q8511943,christian,"237",nid,"2",catholic,Cmentarz Jeżycki
+w28683435,"28683435",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cmentarz parafii pw. Imienia Maryi
+w31820931,"31820931",way,cemetery,,,,,,,,,,,,,,,,chain_link,,,,,fence,,,,,,,,
+w38776952,"38776952",way,cemetery,,,,,,,,,,,,,,,,,grave_yard,,,,,,,,,,,,
+w123975265,"123975265",way,cemetery,,,,,,,,,,,,,,,https://www.mbcz.poznan.pl/biuro-cmentarza/,,,,,,,,,christian,,,,,Cmentarz parafii Matki Boskiej Częstochowskiej
+w129682742,"129682742",way,cemetery,,,,,,,,,,,,,,park,,,,,,,,pl:Cmentarz Zasłużonych Wielkopolan,Q8510713,,A-181,nid,"2",,Cmentarz Zasłużonych Wielkopolan
+w130598224,"130598224",way,cemetery,,,,,,,,,,,,,Parafia pw. Świętego Andrzeja Apostoła w Spławiu,,,,,,,,fence,,,,,,,,Cmentarz Parafialny
+w130919990,"130919990",way,cemetery,,,,,,,,,,,Geopoz: mapa bazowa,Geopoz: mapa bazowa,,,,,,,,,,,,,,,,,Cmentarz parafii pw. św. Jakuba Większego Apostoła
+w130921037,"130921037",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+w131441577,"131441577",way,cemetery,,,,,,,,,,Henryka Łowmiańskiego,,,,,,,,,,,,,,christian,,,,catholic,Cmentarz parafii św. Stanisława Kostki
+w179404004,"179404004",way,cemetery,,,,,,,,,,,,,,,,,,,,,fence,pl:Cmentarz Parafii Matki Bożej Pocieszenia w Poznaniu,Q8510991,christian,,,,,Cmentarz parafii Matki Bożej Pocieszenia
+w181331644,"181331644",way,cemetery,,,,,,,,,Wyszukiwarka grobów pod adresem https://www.pro-gis.pl/,,,,,,https://www.pro-gis.pl/,,,,,,,,,christian,,,,roman_catholic,Cmentarz parafialny
+w222954813,"222954813",way,cemetery,,,,,,,,,,,,,,,,,,,,,,pl:Cmentarz Górczyński w Poznaniu,Q8511006,,"238",nid,"2",,Cmentarz Górczyński
+w262427489,"262427489",way,cemetery,,,,,,,,"https://polska-org.pl/7524082,Poznan,Cmentarz_zolnierzy_brytyjskich_z_okresu_I_i_II_wojny_swiatowej.html",British and Commonwealth war cemetery for the First and Second World Wars,,,,,,,,,,,,,pl:Cmentarz Wojenny Wspólnoty Brytyjskiej w Poznaniu,Q8513606,,,,,,Cmentarz Wojenny Wspólnoty Brytyjskiej
+w262682740,"262682740",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,christian,,,,roman_catholic,Cmentarz parafialny
+w430035671,"430035671",way,cemetery,,,,,,,"https://fotopolska.eu/72049,obiekt.html?map_z=18",,,,,,,,,,,,,,,pl:Cmentarz żydowski w Poznaniu,Q11691095,,,,,,Cmentarz żydowski
+w430073209,"430073209",way,cemetery,,,,,,"https://polska-org.pl/7524074,Poznan,Cmentarz_Armii_Radzieckiej.html",,https://fotopolska.eu/Fort_Winiary_-_Cytadela_Cmentarz_Bohaterow_Radzieckich?map_z=17,,,,,,,,,,,,,,pl:Cmentarz Bohaterów Polskich w Poznaniu,Q16537136,,,,,,Cmentarz Żołnierzy Radzieckich
+w443443559,"443443559",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,christian,,,,protestant,Opuszczony cmentarz ewangelicki
+w443443560,"443443560",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,christian,,,,lutheran,Opuszczony cmentarz ewangelicki
+w443445189,"443445189",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,christian,,,,lutheran,Opuszczony cmentarz ewangelicki
+w751010573,"751010573",way,cemetery,"1938",Wikipedia,Wikipedia,"1962",yes,,,,Opuszczony cmentarz rzymskokatolicki przy ulicy Leśnej w Poznaniu,,,,,,,,,,,,,pl:Cmentarz przy ulicy Leśnej w Poznaniu,Q60862414,christian,,,,catholic,Cmentarz przy ulicy Leśnej w Poznaniu
+w808141302,"808141302",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,christian,,,,roman_catholic,Cmentarz sióstr urszulanek
+w817480210,"817480210",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 1
+w817480211,"817480211",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 2
+w817480212,"817480212",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 3
+w817480213,"817480213",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 4
+w817480214,"817480214",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 18
+w817480215,"817480215",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 5
+w817480216,"817480216",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 6
+w817480217,"817480217",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 7
+w817480218,"817480218",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 8
+w817480219,"817480219",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 9
+w817480220,"817480220",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 10
+w817480221,"817480221",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 11
+w817480222,"817480222",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 12
+w817480223,"817480223",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 13
+w817480224,"817480224",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 14
+w817480225,"817480225",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 15
+w817480226,"817480226",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 17
+w817480227,"817480227",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sektor 17
+w983869184,"983869184",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cmentarz rodziny von Treskow
+w984363188,"984363188",way,cemetery,,,,,,,,"https://polska-org.pl/7524079,Poznan,Cmentarz_powstancow_wielkopolskich.html",,,,,,,,,,,,,,,,,,,,,Cmentarz Garnizonowy
+w984363189,"984363189",way,cemetery,,,,,,,,"https://polska-org.pl/7524078,Poznan,Cmentarz_parafii_sw_Wojciecha.html",,,,,,,,,,,,,,pl:Cmentarz parafii św. Wojciecha w Poznaniu,Q8513645,,,,,,Cmentarz parafii pw. św. Wojciecha
+w984363190,"984363190",way,cemetery,,,,,,"https://polska-org.pl/7524074,Poznan,Cmentarz_Armii_Radzieckiej.html",,https://fotopolska.eu/Fort_Winiary_-_Cytadela_Cmentarz_Bohaterow_Radzieckich?map_z=17,,,,,,,,,,,,,,,,,,,,,Cmentarz Żołnierzy Radzieckich
+w984363191,"984363191",way,cemetery,,,,,,,,"https://polska-org.pl/7524079,Poznan,Cmentarz_powstancow_wielkopolskich.html",,,,,,,,,,,,,,,,,,,,,Cmentarz Garnizonowy
+w984363205,"984363205",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cmentarz Prawosławny
+w1000914676,"1000914676",way,cemetery,,,,,,,,"https://polska-org.pl/7524081,Poznan,Cmentarz_zolnierzy_polskich_z_okresu_II_wojny_swiatowej.html",,,,,,,,,,,,,,pl:Cmentarz Bohaterów Polskich w Poznaniu,Q16537136,,,,,,Cmentarz Bohaterów Polskich
+w1059029509,"1059029509",way,cemetery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
