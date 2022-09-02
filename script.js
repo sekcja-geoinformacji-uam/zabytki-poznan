@@ -174,6 +174,7 @@ map.on('zoomend', function(ev){
     }
 });
 var brak_powtarzania = 1;
+
 //Timelapse z granicami Poznania
 var stateChangingButton = L.easyButton({
     states: [{
@@ -190,9 +191,10 @@ var stateChangingButton = L.easyButton({
                 m1986.remove();
                 m1925.remove();       // and its callback
                 m1925.addTo(map);
+                //document.getElementById('komunikat').innerHTML = "Rok 1925";
                 setTimeout(function (){
-  
                     m1925.remove();
+                 //   document.getElementById('komunikat').innerHTML = "Rok 1933";
                     m1933.addTo(map)
                     setTimeout(function(){
                         m1933.remove();
@@ -223,3 +225,34 @@ var stateChangingButton = L.easyButton({
 });
 
 stateChangingButton.setPosition('topleft').addTo(map);
+
+
+function openFiltr(evt, pole) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(pole).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  $(function() {
+    $( "#dialog-1" ).dialog({
+       autoOpen: false,  
+    });
+    $( "#opener" ).click(function() {
+       $( "#dialog-1" ).dialog( "open" );
+    });
+ });
