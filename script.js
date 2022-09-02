@@ -64,8 +64,6 @@ var mapbox = L.tileLayer.wms('https://api.mapbox.com/styles/v1/acisek/cl4i8m7gf0
             format: 'image/png'
         });
 
-
-
 function punkty(point, latlng){
     return L.circleMarker(latlng, {radius: 1, color: '#ff0000'})
 }
@@ -86,7 +84,6 @@ var Ikona_pomniki = L.icon({
     iconUrl: 'ikona_posagu.png',
     iconSize:     [20, 20], // size of the icon
 });
-
 
 var pomniki = L.geoJson(pomniki, {  
     
@@ -111,9 +108,6 @@ onEachFeature: function(feature, layer){
         feature.properties.Pomniki_edycja_Powstanie + napis);
 }});
 
-
-
-
 var granice_poznania = L.geoJson(granice_poznania, {color:'#bbbb68', weight: 3.7}).addTo(map);
 var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight: 3.7,
     onEachFeature: function(feature, layer) {
@@ -136,7 +130,6 @@ onEachFeature: function(feature, layer){
         var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
     }
 
-
     if (feature.properties.nowe_wikipedia_adres==="Brak"){
         var napis2 = "<br><b>Artykuł:</b> Brak";
     }
@@ -146,7 +139,6 @@ onEachFeature: function(feature, layer){
 
     layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
-
 
 // grupy warstw
 var baseMaps = {
@@ -167,8 +159,6 @@ var overlayMaps = {
     "Obecne granice Poznania": granice_poznania,
 };
 
-
-
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
 
 map.on('zoomend', function(ev){
@@ -180,15 +170,16 @@ map.on('zoomend', function(ev){
         zabytki_grupa.removeLayer(zabytki);
     }
 });
-
-
+var brak_powtarzania = 1;
 //Timelapse z granicami Poznania
 var stateChangingButton = L.easyButton({
     states: [{
             stateName: 'timelapse',        // name the state
-            icon:      'ikona',               // and define its properties
+            icon:      'icon ion-home',    // and define its properties
             title:     'Granice Poznania na przestrzeni lat.',      // like its title
             onClick: function(btn, map) {
+                if(brak_powtarzania===1){
+                brak_powtarzania = 0;
                 m1933.remove();
                 m1940.remove();
                 m1945.remove();
@@ -214,14 +205,16 @@ var stateChangingButton = L.easyButton({
                                     m1986.addTo(map);
                                     setTimeout(function(){
                                         m1986.remove();
+                                        brak_powtarzania = 1;
                                     },2000);
                                 },2000);
                             }, 2000);
                         }, 2000);
                     }, 2000);
                   }, 2000);
-
                 btn.state('timelapse');   // change state on click!
+
+                }
             }
         },]
 });
