@@ -69,7 +69,7 @@ function punkty(point, latlng){
 }
 // warstwy wektorowe
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
-var zabytki = L.geoJson(zabytki, {color: '#ff0000', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+var zabytki = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
     onEachFeature: function(feature, layer){
         layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
         "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
@@ -160,6 +160,9 @@ var overlayMaps = {
 };
 
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
+//Bez tych 2 linijek punkty są czarne, muszą zostać
+zabytki_grupa.addLayer(zabytki_punkty);
+zabytki_grupa.removeLayer(zabytki);
 
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
