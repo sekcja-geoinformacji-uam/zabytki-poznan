@@ -1,5 +1,5 @@
 // stworzenie mapy i paneli
-var map = L.map('map', {center: [52.408, 16.934], zoom: 14});
+var map = L.map('map', {center: [52.40, 16.900], zoom: 11});
 map.createPane('warstwy'); map.createPane('base'); map.createPane('dzielnice'); map.createPane('granice');
 map.createPane('granice1');map.createPane('granice2');map.createPane('granice3');map.createPane('granice4');map.createPane('granice5');
 map.getPane('warstwy').style.zIndex = 20;
@@ -97,11 +97,18 @@ var pomniki = L.geoJson(pomniki, {
 },
 
 onEachFeature: function(feature, layer){
+    //Gdy nie ma linku, to nie ma hiperłącza
+        if (feature.properties.Pomniki_edycja_url==="Brak"){
+            var napis = "<br><b>Artykuł:</b> Brak";
+        }
+        else{
+            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
+        }
         layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
         "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
         "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania:</b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + "<br><b>Artykuł: </b>" + feature.properties.Pomniki_edycja_url);
+        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
+        feature.properties.Pomniki_edycja_Powstanie + napis);
 }});
 
 
@@ -122,7 +129,22 @@ var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight
 });
 var cmentarze = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + "<br/><b>Zdjęcia/strona internetowa:</b> " + feature.properties.nowe_website + "<br/><b>Artukuł z Wikipedii:</b> " + feature.properties.nowe_wikipedia_adres);
+    if (feature.properties.nowe_website==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+
+    if (feature.properties.nowe_wikipedia_adres==="Brak"){
+        var napis2 = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
 
 
