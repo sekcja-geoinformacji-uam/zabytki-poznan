@@ -176,9 +176,6 @@ map.on('zoomend', function(ev){
 var brak_powtarzania = 1;
 
 
-
-
-
 //Timelapse z granicami Poznania
 var myImage = '<img class="button-image" src="clock.png"/>';
 
@@ -191,12 +188,11 @@ var stateChangingButton = L.easyButton('<img class="button-image" src="clock.png
                 m1945.remove();
                 m1973.remove();
                 m1986.remove();
-                m1925.remove();       // and its callback
+                m1925.remove();
                 m1925.addTo(map);
 
                 setTimeout(function (){
                     m1925.remove();
-                    document.getElementById('komunikat').innerHTML = "Rok 1933";
                     m1933.addTo(map)
                     setTimeout(function(){
                         m1933.remove();
@@ -212,8 +208,7 @@ var stateChangingButton = L.easyButton('<img class="button-image" src="clock.png
                                     m1986.addTo(map);
                                     setTimeout(function(){
                                         m1986.remove();
-                                        brak_powtarzania = 1;
-                                        textbox.remove();
+                                        brak_powtarzania = 1;                                    
                                     },2000);
                                 },2000);
                             }, 2000);
@@ -252,6 +247,14 @@ function openFiltr(evt, pole) {
   }
 
 
+//TESTY filtrów
+// L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+// L.control.textbox({ position: 'topleft' }).addTo(map);
 
-L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
-L.control.textbox({ position: 'topleft' }).addTo(map);
+
+// var newArray = pomniki.features.filter(function (el) {
+//     return el.image==="Brak";
+//   });
+//   console.log(newArray);
+
+// newArray.addTo(map);
