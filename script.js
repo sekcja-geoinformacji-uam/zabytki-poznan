@@ -175,13 +175,15 @@ map.on('zoomend', function(ev){
 });
 var brak_powtarzania = 1;
 
+
+
+
+
 //Timelapse z granicami Poznania
-var stateChangingButton = L.easyButton({
-    states: [{
-            stateName: 'timelapse',        // name the state
-            icon:      'icon ion-home',    // and define its properties
-            title:     'Granice Poznania na przestrzeni lat.',      // like its title
-            onClick: function(btn, map) {
+var myImage = '<img class="button-image" src="clock.png"/>';
+
+var stateChangingButton = L.easyButton('<img class="button-image" src="clock.png"/>',
+            function(btn, map) {
                 if(brak_powtarzania===1){
                 brak_powtarzania = 0;
                 m1933.remove();
@@ -191,10 +193,10 @@ var stateChangingButton = L.easyButton({
                 m1986.remove();
                 m1925.remove();       // and its callback
                 m1925.addTo(map);
-                //document.getElementById('komunikat').innerHTML = "Rok 1925";
+
                 setTimeout(function (){
                     m1925.remove();
-                 //   document.getElementById('komunikat').innerHTML = "Rok 1933";
+                    document.getElementById('komunikat').innerHTML = "Rok 1933";
                     m1933.addTo(map)
                     setTimeout(function(){
                         m1933.remove();
@@ -211,6 +213,7 @@ var stateChangingButton = L.easyButton({
                                     setTimeout(function(){
                                         m1986.remove();
                                         brak_powtarzania = 1;
+                                        textbox.remove();
                                     },2000);
                                 },2000);
                             }, 2000);
@@ -221,8 +224,8 @@ var stateChangingButton = L.easyButton({
 
                 }
             }
-        },]
-});
+        
+);
 
 stateChangingButton.setPosition('topleft').addTo(map);
 
@@ -248,11 +251,7 @@ function openFiltr(evt, pole) {
     evt.currentTarget.className += " active";
   }
 
-  $(function() {
-    $( "#dialog-1" ).dialog({
-       autoOpen: false,  
-    });
-    $( "#opener" ).click(function() {
-       $( "#dialog-1" ).dialog( "open" );
-    });
- });
+
+
+L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+L.control.textbox({ position: 'topleft' }).addTo(map);
