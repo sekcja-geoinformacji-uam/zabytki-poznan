@@ -76,9 +76,10 @@ var zabytki = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpac
         "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
     }});
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
-var zabytki_grupa = L.layerGroup([zabytki]).addTo(map);
+var zabytki_grupa = L.featureGroup([zabytki]).addTo(map);
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
+zabytki_punkty.setStyle({color:'#b30000', opacity: 0.6});
 
 //trzeba dodać ikonę zamiast markerów pomników - do zrobienia
 var Ikona_pomniki = L.icon({
