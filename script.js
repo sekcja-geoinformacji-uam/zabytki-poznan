@@ -177,10 +177,12 @@ var brak_powtarzania = 1;
 
 
 //Timelapse z granicami Poznania
-var myImage = '<img class="button-image" src="clock.png"/>';
-
-var stateChangingButton = L.easyButton('<img class="button-image" src="clock.png"/>',
-            function(btn, map) {
+var stateChangingButton = L.easyButton({
+    states: [{
+            stateName: 'wlacz_mapki',        // name the state
+            icon:      'fa-solid fa-clock',               // and define its properties
+            title:     'mapki_po_kolei',      // like its title
+            onClick: function(btn, map) {
                 if(brak_powtarzania===1){
                 brak_powtarzania = 0;
                 m1933.remove();
@@ -217,10 +219,10 @@ var stateChangingButton = L.easyButton('<img class="button-image" src="clock.png
                   }, 2000);
                 btn.state('timelapse');   // change state on click!
 
-                }
-            }
+                }}
+            }]
         
-);
+        });
 
 stateChangingButton.setPosition('topleft').addTo(map);
 
