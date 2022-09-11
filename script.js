@@ -79,6 +79,7 @@ var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: pu
 var zabytki_grupa = L.layerGroup([zabytki]).addTo(map);
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
+
 //trzeba dodać ikonę zamiast markerów pomników - do zrobienia
 var Ikona_pomniki = L.icon({
     iconUrl: 'ikona_posagu.png',
@@ -94,7 +95,7 @@ var pomniki = L.geoJson(pomniki, {
 },
 
 onEachFeature: function(feature, layer){
-    //Gdy nie ma linku, to nie ma hiperłącza
+    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
         if (feature.properties.Pomniki_edycja_url==="Brak"){
             var napis = "<br><b>Artykuł:</b> Brak";
         }
@@ -164,6 +165,7 @@ var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
 zabytki_grupa.addLayer(zabytki_punkty);
 zabytki_grupa.removeLayer(zabytki);
 
+//Warunek - gdy mapa oddalona, to punkty zamiast poligonów
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
         zabytki_grupa.addLayer(zabytki);
@@ -173,13 +175,12 @@ map.on('zoomend', function(ev){
         zabytki_grupa.removeLayer(zabytki);
     }
 });
-var brak_powtarzania = 1;
-
 
 //Timelapse z granicami Poznania
+var brak_powtarzania = 1;
 var stateChangingButton = L.easyButton({
     states: [{
-            stateName: 'wlacz_mapki',        // name the state
+            stateName: 'mapki_po_kolei',        // name the state
             icon:      'fa-solid fa-clock',               // and define its properties
             title:     'mapki_po_kolei',      // like its title
             onClick: function(btn, map) {
