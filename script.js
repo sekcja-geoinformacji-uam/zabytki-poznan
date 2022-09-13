@@ -77,6 +77,11 @@ var zabytki = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpac
     }});
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
 var zabytki_grupa = L.featureGroup([zabytki]).addTo(map);
+//!!!!!!!!!!!!!!!!FILTROWANIE TAK DZIAŁA
+// var cmentarze = L.geoJson(cmentarze, {pane: 'warstwy', filter: function(feature, layer) {
+//     return feature.properties.nowe_website === "Brak";
+// }}).addTo(map);
+
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
 zabytki_punkty.setStyle({color:'#b30000', opacity: 0.6});
@@ -271,23 +276,18 @@ function BrakLinku() {
     //var text = document.getElementById("Cmentarz1");
   
     // If the checkbox is checked, display the output text
+
     if (checkBox.checked == true){
-      text.style.display = "block";
-    } else {
-      text.style.display = "none";
+        L.geoJSON(test, {
+            filter: function(feature) {
+                return feature.properties.nowe_website === "Brak";
+            }
+        }).addTo(map);
     }
-  }
-  function BrakWikipedii() {
-    // Get the checkbox
-    var checkBox = document.getElementById("BrakWikipedii");
-    // Get the output text
-    //GDY WCIŚNIĘTY TO....
-    //var text = document.getElementById("Cmentarz2");
-  
-    // If the checkbox is checked, display the output text
-    if (checkBox.checked == true){
-      text.style.display = "block";
-    } else {
+    else {
       text.style.display = "none";
-    }
-  }
+    }   
+}
+
+
+
