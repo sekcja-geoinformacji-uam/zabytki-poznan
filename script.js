@@ -64,6 +64,8 @@ var mapbox = L.tileLayer.wms('https://api.mapbox.com/styles/v1/acisek/cl4i8m7gf0
             format: 'image/png'
         });
 
+
+
 function punkty(point, latlng){
     return L.circleMarker(latlng, {radius: 1, color: '#ff0000'})
 }
@@ -81,6 +83,7 @@ var zabytki_grupa = L.featureGroup([zabytki]).addTo(map);
 // var cmentarze = L.geoJson(cmentarze, {pane: 'warstwy', filter: function(feature, layer) {
 //     return feature.properties.nowe_website === "Brak";
 // }}).addTo(map);
+
 
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
@@ -128,6 +131,7 @@ var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight
       });
     }
 });
+
 var cmentarze = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
     if (feature.properties.nowe_website==="Brak"){
@@ -172,6 +176,7 @@ zabytki_grupa.addLayer(zabytki_punkty);
 zabytki_grupa.removeLayer(zabytki);
 
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
+
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
         zabytki_grupa.addLayer(zabytki);
@@ -267,7 +272,6 @@ function openFiltr(evt, pole) {
 //   console.log(newArray);
 
 // newArray.addTo(map);
-
 function BrakLinku() {
     // Get the checkbox
     var checkBox = document.getElementById("BrakLinku");
@@ -278,16 +282,11 @@ function BrakLinku() {
     // If the checkbox is checked, display the output text
 
     if (checkBox.checked == true){
-        L.geoJSON(test, {
-            filter: function(feature) {
-                return feature.properties.nowe_website === "Brak";
-            }
-        }).addTo(map);
+        cmentarze.remove();
     }
     else {
-      text.style.display = "none";
-    }   
+
+    cmentarze.addTo(map);
 }
 
-
-
+}
