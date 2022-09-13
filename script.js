@@ -133,7 +133,7 @@ onEachFeature: function(feature, layer){
     }
 
     if (feature.properties.nowe_wikipedia_adres==="Brak"){
-        var napis2 = "<br><b>Artykuł:</b> Brak";
+        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
     }
     else{
         var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
@@ -262,3 +262,32 @@ function openFiltr(evt, pole) {
 //   console.log(newArray);
 
 // newArray.addTo(map);
+
+function BrakLinku() {
+    // Get the checkbox
+    var checkBox = document.getElementById("BrakLinku");
+    // Get the output text
+    //GDY WCIŚNIĘTY TO....
+    //var text = document.getElementById("Cmentarz1");
+  
+    // If the checkbox is checked, display the output text
+    if (checkBox.checked == true){
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+  function BrakWikipedii() {
+    // Get the checkbox
+    var checkBox = document.getElementById("BrakWikipedii");
+    // Get the output text
+    //GDY WCIŚNIĘTY TO....
+    //var text = document.getElementById("Cmentarz2");
+  
+    // If the checkbox is checked, display the output text
+    if (checkBox.checked == true){
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
