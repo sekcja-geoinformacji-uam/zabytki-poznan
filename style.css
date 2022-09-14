@@ -16,7 +16,7 @@ body {
 }
 
 .button-image{
-  padding-top:5px;
+  padding-top: 5px;
   max-width: 100%;
   display: block;
 }
@@ -24,17 +24,17 @@ body {
 #menu {
     height: 5%;
     width: 100%;
-    background-color: rgba(225, 225, 225, 0.208);
+    background-color: rgb(223, 223, 223);
     font-family: 'Quicksand', sans-serif;
-    font-size: larger;
-    padding-top: 5px;
+    font-size: 30px;
+    line-height: 40px;
     letter-spacing: 5px;
     text-align: center;
     font-weight: bold;
 }
 
 #container {
-    height: 94%;
+    height: 95%;
     width: 100%;
 }
 

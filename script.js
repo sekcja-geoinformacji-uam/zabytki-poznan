@@ -1,5 +1,5 @@
 // stworzenie mapy i paneli
-var map = L.map('map', {center: [52.40, 16.900], zoom: 11});
+var map = L.map('map', {center: [52.40, 16.900], zoom: 12});
 map.createPane('warstwy'); map.createPane('base'); map.createPane('dzielnice'); map.createPane('granice');
 map.createPane('granice1');map.createPane('granice2');map.createPane('granice3');map.createPane('granice4');map.createPane('granice5');
 map.getPane('warstwy').style.zIndex = 20;
