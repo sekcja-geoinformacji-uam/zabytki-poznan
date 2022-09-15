@@ -88,8 +88,9 @@ NIŻEJ STYL PRZYCISKÓW FILTRÓW
     border-top: none;
   }
 
-
-
+#sidebar {
+  height: 50%;
+}
 
 /* The switch - the box around the slider */
 .switch {
