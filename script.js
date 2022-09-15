@@ -132,7 +132,21 @@ var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight
     }
 });
 
-var cmentarze = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+//warstwy z cmentarzami
+
+function FiltrWebsiteBrak(feature){
+    if(feature.properties.nowe_website != "Brak") return true
+}
+
+function FiltrWikipediaBrak(feature){
+    if(feature.properties.nowe_wikipedia_adres != "Brak") return true
+}
+
+function FiltrWikiAndWebsiteBrak(feature){
+    if(feature.properties.nowe_wikipedia_adres != "Brak" && feature.properties.nowe_website != "Brak") return true
+}
+
+var cmentarze_all = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
     if (feature.properties.nowe_website==="Brak"){
         var napis = "<br><b>Artykuł:</b> Brak";
@@ -151,6 +165,66 @@ onEachFeature: function(feature, layer){
     layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
 
+var cmentarze_website_brak = L.geoJson(cmentarze, {filter: FiltrWebsiteBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+onEachFeature: function(feature, layer){
+    if (feature.properties.nowe_website==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    if (feature.properties.nowe_wikipedia_adres==="Brak"){
+        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
+    }
+    else{
+        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
+}});
+
+var cmentarze_wikipedia_brak = L.geoJson(cmentarze, {filter: FiltrWikipediaBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+onEachFeature: function(feature, layer){
+    if (feature.properties.nowe_website==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    if (feature.properties.nowe_wikipedia_adres==="Brak"){
+        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
+    }
+    else{
+        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
+}});
+
+
+var cmentarze_wiki_and_website_brak = L.geoJson(cmentarze, {filter: FiltrWikiAndWebsiteBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+onEachFeature: function(feature, layer){
+    if (feature.properties.nowe_website==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    if (feature.properties.nowe_wikipedia_adres==="Brak"){
+        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
+    }
+    else{
+        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
+}});
+
+var cmentarze = L.layerGroup([cmentarze_all, cmentarze_website_brak, cmentarze_wikipedia_brak, cmentarze_wiki_and_website_brak]);
+
 // grupy warstw
 var baseMaps = {
     "OSM": OSM,
@@ -158,7 +232,7 @@ var baseMaps = {
 };
 var overlayMaps = {
     "Zabytki": zabytki_grupa,
-    "Cmentarze": cmentarze,
+    "Cmentarze": cmentarze_all,
     "Pomniki": pomniki,
     "Dzielnice Poznania": dzielnice,
     "Granica z 1925 roku": m1925,
@@ -273,20 +347,49 @@ function openFiltr(evt, pole) {
 
 // newArray.addTo(map);
 function BrakLinku() {
+    //Link do artykułu
     // Get the checkbox
-    var checkBox = document.getElementById("BrakLinku");
+    var checkBox1 = document.getElementById("BrakLinku");
+    var checkBox2 = document.getElementById("BrakWikipedii");
     // Get the output text
     //GDY WCIŚNIĘTY TO....
     //var text = document.getElementById("Cmentarz1");
   
     // If the checkbox is checked, display the output text
-
-    if (checkBox.checked == true){
-        cmentarze.remove();
+    if (checkBox1.checked == true && checkBox2.checked == true){
+        cmentarze_all.remove();
+        cmentarze_website_brak.remove();
+        cmentarze_wikipedia_brak.remove();
+        cmentarze_wiki_and_website_brak.remove();
+        cmentarze_wiki_and_website_brak.addTo(map);
     }
-    else {
-
-    cmentarze.addTo(map);
-}
-
+    else{
+        if (checkBox1.checked == true){
+            cmentarze_all.remove();
+            cmentarze_website_brak.remove();
+            cmentarze_wiki_and_website_brak.remove();
+            cmentarze_wikipedia_brak.remove();
+            cmentarze_website_brak.addTo(map);
+        }
+        else if (checkBox1.checked == false && checkBox2.checked == true){
+            cmentarze_all.remove();
+            cmentarze_website_brak.remove();
+            cmentarze_wiki_and_website_brak.remove();
+            cmentarze_wikipedia_brak.remove();
+            cmentarze_wikipedia_brak.addTo(map);
+        }
+        else if (checkBox2.checked == true){
+            cmentarze_all.remove();
+            cmentarze_website_brak.remove();
+            cmentarze_wiki_and_website_brak.remove();
+            cmentarze_wikipedia_brak.remove();
+            cmentarze_wikipedia_brak.addTo(map);
+        }
+        else if (checkBox2.checked == false){
+            cmentarze_all.remove();
+            cmentarze_website_brak.remove();
+            cmentarze_wiki_and_website_brak.remove();
+            cmentarze_wikipedia_brak.remove();
+        }
+    }
 }
