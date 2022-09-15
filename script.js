@@ -628,9 +628,7 @@ function Wiek() {
     }
 }
 
-
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
-
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
         zabytki_grupa.addLayer(zabytki_all);
