@@ -69,16 +69,88 @@ var mapbox = L.tileLayer.wms('https://api.mapbox.com/styles/v1/acisek/cl4i8m7gf0
 function punkty(point, latlng){
     return L.circleMarker(latlng, {radius: 1, color: '#ff0000'})
 }
+
+
+function FiltrXXI(feature){
+    if(feature.properties._Wiek_zabytku == "XXI") return true
+}
+function FiltrXX(feature){
+    if(feature.properties._Wiek_zabytku == "XX") return true
+}
+function FiltrXIX(feature){
+    if(feature.properties._Wiek_zabytku == "XIX") return true
+}
+function FiltrXVIII(feature){
+    if(feature.properties._Wiek_zabytku == "XVIII") return true
+}
+function FiltrXVII(feature){
+    if(feature.properties._Wiek_zabytku == "XVII") return true
+}
+function FiltrXVI(feature){
+    if(feature.properties._Wiek_zabytku == "XVI") return true
+}
+function FiltrXV(feature){
+    if(feature.properties._Wiek_zabytku == "XV") return true
+}
+
+
+
+
 // warstwy wektorowe
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
-var zabytki = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
     onEachFeature: function(feature, layer){
         layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
         "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
         "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
     }});
+
+    var zabytkiXXI = L.geoJson(zabytki, {filter: FiltrXXI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXX = L.geoJson(zabytki, {filter: FiltrXX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXIX = L.geoJson(zabytki, {filter: FiltrXIX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXVIII = L.geoJson(zabytki, {filter: FiltrXVIII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXVII = L.geoJson(zabytki, {filter: FiltrXVII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXVI = L.geoJson(zabytki, {filter: FiltrXVI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+    var zabytkiXV = L.geoJson(zabytki, {filter: FiltrXV, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
+    onEachFeature: function(feature, layer){
+        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+    }});
+
+
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
-var zabytki_grupa = L.featureGroup([zabytki]).addTo(map);
+var zabytki_grupa = L.featureGroup([zabytki_all]).addTo(map);
 //!!!!!!!!!!!!!!!!FILTROWANIE TAK DZIAŁA
 // var cmentarze = L.geoJson(cmentarze, {pane: 'warstwy', filter: function(feature, layer) {
 //     return feature.properties.nowe_website === "Brak";
@@ -247,17 +319,17 @@ var overlayMaps = {
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
 //Bez tych 2 linijek punkty są czarne, muszą zostać
 zabytki_grupa.addLayer(zabytki_punkty);
-zabytki_grupa.removeLayer(zabytki);
+zabytki_grupa.removeLayer(zabytki_all);
 
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
 
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
-        zabytki_grupa.addLayer(zabytki);
+        zabytki_grupa.addLayer(zabytki_all);
         zabytki_grupa.removeLayer(zabytki_punkty);
     } else {
         zabytki_grupa.addLayer(zabytki_punkty);
-        zabytki_grupa.removeLayer(zabytki);
+        zabytki_grupa.removeLayer(zabytki_all);
     }
 });
 
@@ -391,5 +463,78 @@ function BrakLinku() {
             cmentarze_wiki_and_website_brak.remove();
             cmentarze_wikipedia_brak.remove();
         }
+    }
+}
+
+function Wiek() {
+
+    var checkBoxXXI = document.getElementById("XXIw");
+    var checkBoxXX = document.getElementById("XXw");
+    var checkBoxXIX = document.getElementById("XIXw");
+    var checkBoxXVIII = document.getElementById("XVIIIw");
+    var checkBoxXVII = document.getElementById("XVIIw");
+    var checkBoxXVI = document.getElementById("XVIw");
+    var checkBoxXV = document.getElementById("XVw");
+
+    if(checkBoxXXI.checked == true){
+        zabytkiXXI.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXXI.checked == false){
+        zabytkiXXI.remove();
+        zabytki_all.remove();
+    }
+    if(checkBoxXX.checked == true){
+        zabytkiXX.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXX.checked == false){
+        zabytkiXX.remove();
+        zabytki_all.remove();
+    }
+
+    if(checkBoxXIX.checked == true){
+        zabytkiXIX.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXIX.checked == false){
+        zabytkiXIX.remove();
+        zabytki_all.remove();
+    }
+
+    if(checkBoxXVIII.checked == true){
+        zabytkiXVIII.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXVIII.checked == false){
+        zabytkiXVIII.remove();
+        zabytki_all.remove();
+    }
+
+    if(checkBoxXVII.checked == true){
+        zabytkiXVII.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXVII.checked == false){
+        zabytkiXVII.remove();
+        zabytki_all.remove();
+    }
+
+    if(checkBoxXVI.checked == true){
+        zabytkiXVI.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXVI.checked == false){
+        zabytkiXVI.remove();
+        zabytki_all.remove();
+    }
+
+    if(checkBoxXV.checked == true){
+        zabytkiXV.addTo(map);
+        zabytki_all.remove();
+    }
+    if(checkBoxXV.checked == false){
+        zabytkiXV.remove();
+        zabytki_all.remove();
     }
 }
