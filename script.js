@@ -371,17 +371,6 @@ var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
 zabytki_grupa.addLayer(zabytki_punkty);
 zabytki_grupa.removeLayer(zabytki_all);
 
-//Warunek - gdy mapa oddalona, to punkty zamiast poligonów
-
-map.on('zoomend', function(ev){
-    if (map.getZoom() > 13){
-        zabytki_grupa.addLayer(zabytki_all);
-        zabytki_grupa.removeLayer(zabytki_punkty);
-    } else {
-        zabytki_grupa.addLayer(zabytki_punkty);
-        zabytki_grupa.removeLayer(zabytki_all);
-    }
-});
 
 //Timelapse z granicami Poznania
 var brak_powtarzania = 1;
@@ -533,108 +522,122 @@ function Wiek() {
 
     if(checkBoxXXI.checked == true){
         zabytkiXXI.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXXI.checked == false){
         zabytkiXXI.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXX.checked == true){
         zabytkiXX.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXX.checked == false){
         zabytkiXX.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXIX.checked == true){
         zabytkiXIX.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXIX.checked == false){
         zabytkiXIX.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXVIII.checked == true){
         zabytkiXVIII.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXVIII.checked == false){
         zabytkiXVIII.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXVII.checked == true){
         zabytkiXVII.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXVII.checked == false){
         zabytkiXVII.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXVI.checked == true){
         zabytkiXVI.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXVI.checked == false){
         zabytkiXVI.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXV.checked == true){
         zabytkiXV.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXV.checked == false){
         zabytkiXV.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     
     if(checkBoxXIV.checked == true){
         zabytkiXIV.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXIV.checked == false){
         zabytkiXIV.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXIII.checked == true){
         zabytkiXIII.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXIII.checked == false){
         zabytkiXIII.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXII.checked == true){
         zabytkiXII.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXII.checked == false){
         zabytkiXII.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxXI.checked == true){
         zabytkiXI.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxXI.checked == false){
         zabytkiXI.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 
     if(checkBoxBrak.checked == true){
         zabytkiBrak.addTo(map);
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
     if(checkBoxBrak.checked == false){
         zabytkiBrak.remove();
-        zabytki_all.remove();
+        zabytki_grupa.remove();
     }
 }
+
+
+//Warunek - gdy mapa oddalona, to punkty zamiast poligonów
+
+map.on('zoomend', function(ev){
+    if (map.getZoom() > 13){
+        zabytki_grupa.addLayer(zabytki_all);
+        zabytki_grupa.removeLayer(zabytki_punkty);
+    } else {
+        zabytki_grupa.addLayer(zabytki_punkty);
+        zabytki_grupa.removeLayer(zabytki_all);
+    }
+    Wiek;
+});
