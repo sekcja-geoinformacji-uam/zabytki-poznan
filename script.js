@@ -382,6 +382,9 @@ var stateChangingButton = L.easyButton({
             onClick: function(btn, map) {
                 if(brak_powtarzania===1){
                 brak_powtarzania = 0;
+                var date = document.getElementById("data");
+                date.style.display = 'block'
+                date.innerHTML = "1925";
                 m1933.remove();
                 m1940.remove();
                 m1945.remove();
@@ -392,22 +395,28 @@ var stateChangingButton = L.easyButton({
 
                 setTimeout(function (){
                     m1925.remove();
+                    date.innerHTML = "1933";
                     m1933.addTo(map)
                     setTimeout(function(){
                         m1933.remove();
+                        date.innerHTML = "1940";
                         m1940.addTo(map);
                         setTimeout(function(){
                             m1940.remove();
+                            date.innerHTML = "1945";
                             m1945.addTo(map);
                             setTimeout(function(){
                                 m1945.remove();
+                                date.innerHTML = "1973";
                                 m1973.addTo(map);
                                 setTimeout(function(){
                                     m1973.remove();
+                                    date.innerHTML = "1986";
                                     m1986.addTo(map);
                                     setTimeout(function(){
                                         m1986.remove();
-                                        brak_powtarzania = 1;                                    
+                                        brak_powtarzania = 1;
+                                        date.style.display = 'none';                                   
                                     },2000);
                                 },2000);
                             }, 2000);

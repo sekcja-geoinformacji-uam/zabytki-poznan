@@ -155,5 +155,19 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-
+#data {
+  font-size: 1.5vw;
+  color: #cccccc;
+  display: none;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background: #5c4242;
+  border-color: #272727;
+  border-style: solid;
+  z-index: 1000;
+}
   
