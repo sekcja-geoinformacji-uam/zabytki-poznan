@@ -787,6 +787,16 @@ function Brak(){
     map.removeLayer(pomnikiOpis);
     map.removeLayer(pomnikiPowstanie);
     map.removeLayer(pomnikiUrl);
+    yesBTN = document.getElementById('Tworca');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('Inskrypcja');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('Rok_powstania');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('Opis');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('Artykul');
+    yesBTN.checked = false;
     pomnikiNew.addTo(map);
 }
 function Opis(){
