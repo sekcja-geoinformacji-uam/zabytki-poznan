@@ -532,6 +532,31 @@ map.on('zoomend', function(ev){
     Wiek;
 });
 
+function BrakZabytki(){
+    zabytki_grupa.clearLayers();
+    zabytki_grupa.addLayer(zabytki_all);
+    yesBTN = document.getElementById('XXw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIXw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVIIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVII');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVI');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIVw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XII');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XI');
+    yesBTN.checked = false;
+ 
+}
 
 function Brak(){
     pomniki_grupa.clearLayers();
