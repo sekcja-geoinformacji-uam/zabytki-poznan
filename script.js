@@ -70,7 +70,6 @@ function punkty(point, latlng){
     return L.circleMarker(latlng, {radius: 1, color: '#ff0000'})
 }
 
-
 function FiltrXXI(feature){
     if(feature.properties._Wiek_zabytku == "XXI") return true
 }
@@ -111,87 +110,41 @@ function FiltrBrakZabytki(feature){
     if(feature.properties._Wiek_zabytku == "BRAK DANYCH") return true
 }
 
+function ZabytkiPopup(feature, layer){
+    layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
+        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
+}
+
 // warstwy wektorowe
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
 var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
 
     var zabytkiXXI = L.geoJson(zabytki, {filter: FiltrXXI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXX = L.geoJson(zabytki, {filter: FiltrXX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXIX = L.geoJson(zabytki, {filter: FiltrXIX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXVIII = L.geoJson(zabytki, {filter: FiltrXVIII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXVII = L.geoJson(zabytki, {filter: FiltrXVII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXVI = L.geoJson(zabytki, {filter: FiltrXVI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXV = L.geoJson(zabytki, {filter: FiltrXV, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXIV = L.geoJson(zabytki, {filter: FiltrXIV, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXIII = L.geoJson(zabytki, {filter: FiltrXIII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXII = L.geoJson(zabytki, {filter: FiltrXII, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiXI = L.geoJson(zabytki, {filter: FiltrXI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
     var zabytkiBrak = L.geoJson(zabytki, {filter: FiltrBrakZabytki, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: function(feature, layer){
-        layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
-        "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
-        "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
-    }});
+    onEachFeature: ZabytkiPopup});
 
 
 var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
