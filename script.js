@@ -111,11 +111,6 @@ function FiltrBrakZabytki(feature){
     if(feature.properties._Wiek_zabytku == "BRAK DANYCH") return true
 }
 
-
-
-
-
-
 // warstwy wektorowe
 var marker = L.marker([52.4, 17], {pane: 'warstwy'});
 var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
@@ -211,6 +206,20 @@ var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
 zabytki_punkty.setStyle({color:'#b30000', opacity: 0.6});
 
+function PomnikiPopup(feature, layer){
+    if (feature.properties.Pomniki_edycja_url==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
+    }
+    layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
+    "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
+    "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
+    + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
+    feature.properties.Pomniki_edycja_Powstanie + napis);
+}
+
 //trzeba dodać ikonę zamiast markerów pomników - do zrobienia
 var Ikona_pomniki = L.icon({
     iconUrl: 'ikona_posagu.png',
@@ -223,24 +232,7 @@ var pomnikiNew = L.geoJson(pomniki, {
     return new L.marker(latlng, {
         icon: Ikona_pomniki
     });
-},
-
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
-
-
+}, onEachFeature: PomnikiPopup});
 
 var pomnikiOpis = L.geoJson(pomniki, {  
     
@@ -251,21 +243,7 @@ var pomnikiOpis = L.geoJson(pomniki, {
 },filter: function(feature, layer) {
          return feature.properties.Pomniki_edycja_Opis != "Brak";
      },
-
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
+onEachFeature: PomnikiPopup});
 
 
 var pomnikiNapis = L.geoJson(pomniki, {  
@@ -277,21 +255,7 @@ var pomnikiNapis = L.geoJson(pomniki, {
 },filter: function(feature, layer) {
          return feature.properties.Pomniki_edycja_Napis_na_pomniku != "Brak";
      },
-
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
+onEachFeature: PomnikiPopup});
 
 
 var pomnikiArtysta = L.geoJson(pomniki, {  
@@ -303,21 +267,7 @@ var pomnikiArtysta = L.geoJson(pomniki, {
 },filter: function(feature, layer) {
          return feature.properties.Pomniki_edycja_Artysta != "Brak";
      },
-
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
+onEachFeature: PomnikiPopup});
 
 
 var pomnikiPowstanie = L.geoJson(pomniki, {  
@@ -329,21 +279,7 @@ var pomnikiPowstanie = L.geoJson(pomniki, {
 },filter: function(feature, layer) {
          return feature.properties.Pomniki_edycja_Powstanie != "Brak";
      },
-
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
+onEachFeature: PomnikiPopup});
 
 
 var pomnikiUrl = L.geoJson(pomniki, {  
@@ -355,21 +291,9 @@ var pomnikiUrl = L.geoJson(pomniki, {
 },filter: function(feature, layer) {
          return feature.properties.Pomniki_edycja_url != "Brak";
      },
+onEachFeature: PomnikiPopup});
 
-onEachFeature: function(feature, layer){
-    //Warunek - gdy nie ma linku, to nie pokazuje hiperłącza
-        if (feature.properties.Pomniki_edycja_url==="Brak"){
-            var napis = "<br><b>Artykuł:</b> Brak";
-        }
-        else{
-            var napis = "<br><b>Artykuł: </b><a href='" + feature.properties.Pomniki_edycja_url +"'"+ 'target="_blank"' +">Link</a>";
-        }
-        layer.bindPopup("<b>Nazwa: </b>" + feature.properties.Pomniki_edycja_Nazwa +
-        "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
-        "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
-        + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-        feature.properties.Pomniki_edycja_Powstanie + napis);
-}});
+var pomniki_grupa = L.layerGroup([pomnikiNew]);
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -488,7 +412,7 @@ var baseMaps = {
 var overlayMaps = {
     "Zabytki": zabytki_grupa,
     "Cmentarze": cmentarze,
-    "Pomniki": pomnikiNew,
+    "Pomniki": pomniki_grupa,
     "Dzielnice Poznania": dzielnice,
     "Granica z 1925 roku": m1925,
     "Granica z 1933 roku": m1933,
@@ -690,11 +614,7 @@ map.on('zoomend', function(ev){
 
 
 function Brak(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
+    pomniki_grupa.clearLayers();
     yesBTN = document.getElementById('Tworca');
     yesBTN.checked = false;
     yesBTN = document.getElementById('Inskrypcja');
@@ -705,50 +625,25 @@ function Brak(){
     yesBTN.checked = false;
     yesBTN = document.getElementById('Artykul');
     yesBTN.checked = false;
-    pomnikiNew.addTo(map);
+    pomniki_grupa.addLayer(pomnikiNew);
 }
 function Opis(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
-    map.removeLayer(pomnikiNew);
-    pomnikiOpis.addTo(map);
+    pomniki_grupa.clearLayers();
+    pomniki_grupa.addLayer(pomnikiOpis);
 }
 function Inskrypcja(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
-    map.removeLayer(pomnikiNew);
-    pomnikiNapis.addTo(map);
+    pomniki_grupa.clearLayers();
+    pomniki_grupa.addLayer(pomnikiNapis);
 }
 function Tworca(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
-    map.removeLayer(pomnikiNew);
-    pomnikiArtysta.addTo(map);
+    pomniki_grupa.clearLayers();
+    pomniki_grupa.addLayer(pomnikiArtysta);
 }
 function Rok_powstania(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
-    map.removeLayer(pomnikiNew);
-    pomnikiPowstanie.addTo(map);
+    pomniki_grupa.clearLayers();
+    pomniki_grupa.addLayer(pomnikiPowstanie);
 }
 function Artykul(){
-    map.removeLayer(pomnikiArtysta);
-    map.removeLayer(pomnikiNapis);
-    map.removeLayer(pomnikiOpis);
-    map.removeLayer(pomnikiPowstanie);
-    map.removeLayer(pomnikiUrl);
-    map.removeLayer(pomnikiNew);
-    pomnikiUrl.addTo(map);
+    pomniki_grupa.clearLayers();
+    pomniki_grupa.addLayer(pomnikiUrl);
 }
