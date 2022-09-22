@@ -501,9 +501,31 @@ function Wiek() {
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
+        document.getElementById("XXw").disabled = false;
+        document.getElementById("XIXw").disabled = false;
+        document.getElementById("XVIIIw").disabled = false;
+        document.getElementById("XVIIw").disabled = false;
+        document.getElementById("XVIw").disabled = false;
+        document.getElementById("XVw").disabled = false;
+        document.getElementById("XIVw").disabled = false;
+        document.getElementById("XIIIw").disabled = false;
+        document.getElementById("XIIw").disabled = false;
+        document.getElementById("XIw").disabled = false;
+        document.getElementById("Brak").disabled = false;
         zabytki_grupa.addLayer(zabytki_all);
         zabytki_grupa.removeLayer(zabytki_punkty);
     } else {
+        document.getElementById("XXw").disabled = true;
+        document.getElementById("XIXw").disabled = true;
+        document.getElementById("XVIIIw").disabled = true;
+        document.getElementById("XVIIw").disabled = true;
+        document.getElementById("XVIw").disabled = true;
+        document.getElementById("XVw").disabled = true;
+        document.getElementById("XIVw").disabled = true;
+        document.getElementById("XIIIw").disabled = true;
+        document.getElementById("XIIw").disabled = true;
+        document.getElementById("XIw").disabled = true;
+        document.getElementById("Brak").disabled = true;
         zabytki_grupa.addLayer(zabytki_punkty);
         zabytki_grupa.removeLayer(zabytki_all);
     }
