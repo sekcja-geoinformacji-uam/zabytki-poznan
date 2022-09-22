@@ -498,6 +498,40 @@ function Wiek() {
     }
 }
 
+function ResetZabytki(){
+    yesBTN = document.getElementById('XXw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIXw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVIIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XVw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIVw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIIw');
+    yesBTN.checked = false;
+    yesBTN = document.getElementById('XIw');
+    yesBTN.checked = false;
+}
+
+function BrakZabytki(){
+    if (map.getZoom() > 13){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytki_all);
+    } else{
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytki_punkty);
+    }
+    ResetZabytki();
+}
+
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
@@ -512,8 +546,7 @@ map.on('zoomend', function(ev){
         document.getElementById("XIIw").disabled = false;
         document.getElementById("XIw").disabled = false;
         document.getElementById("Brak").disabled = false;
-        zabytki_grupa.addLayer(zabytki_all);
-        zabytki_grupa.removeLayer(zabytki_punkty);
+        Wiek();
     } else {
         document.getElementById("XXw").disabled = true;
         document.getElementById("XIXw").disabled = true;
@@ -526,37 +559,11 @@ map.on('zoomend', function(ev){
         document.getElementById("XIIw").disabled = true;
         document.getElementById("XIw").disabled = true;
         document.getElementById("Brak").disabled = true;
+        //ResetZabytki();
+        zabytki_grupa.clearLayers();
         zabytki_grupa.addLayer(zabytki_punkty);
-        zabytki_grupa.removeLayer(zabytki_all);
     }
-    Wiek;
 });
-
-function BrakZabytki(){
-    zabytki_grupa.clearLayers();
-    zabytki_grupa.addLayer(zabytki_all);
-    yesBTN = document.getElementById('XXw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XIXw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XVIIIw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XVII');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XVI');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XVw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XIVw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XIIIw');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XII');
-    yesBTN.checked = false;
-    yesBTN = document.getElementById('XI');
-    yesBTN.checked = false;
- 
-}
 
 function Brak(){
     pomniki_grupa.clearLayers();
