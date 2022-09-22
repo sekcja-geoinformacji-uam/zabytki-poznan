@@ -638,102 +638,41 @@ function Wiek() {
 
 
     if(checkBoxXX.checked == true){
-        zabytkiXX.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXX.checked == false){
-        zabytkiXX.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXIX.checked == true){
-        zabytkiXIX.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXIX.checked == false){
-        zabytkiXIX.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXVIII.checked == true){
-        zabytkiXVIII.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXVIII.checked == false){
-        zabytkiXVIII.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXVII.checked == true){
-        zabytkiXVII.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXVII.checked == false){
-        zabytkiXVII.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXVI.checked == true){
-        zabytkiXVI.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXVI.checked == false){
-        zabytkiXVI.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXV.checked == true){
-        zabytkiXV.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXV.checked == false){
-        zabytkiXV.remove();
-        zabytki_grupa.remove();
-    }
-    
-    if(checkBoxXIV.checked == true){
-        zabytkiXIV.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXIV.checked == false){
-        zabytkiXIV.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXIII.checked == true){
-        zabytkiXIII.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXIII.checked == false){
-        zabytkiXIII.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXII.checked == true){
-        zabytkiXII.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXII.checked == false){
-        zabytkiXII.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxXI.checked == true){
-        zabytkiXI.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxXI.checked == false){
-        zabytkiXI.remove();
-        zabytki_grupa.remove();
-    }
-
-    if(checkBoxBrak.checked == true){
-        zabytkiBrak.addTo(map);
-        zabytki_grupa.remove();
-    }
-    if(checkBoxBrak.checked == false){
-        zabytkiBrak.remove();
-        zabytki_grupa.remove();
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXX);
+    } else if(checkBoxXIX.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXIX);
+    } else if(checkBoxXVIII.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXVIII);
+    } else if(checkBoxXVII.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXVII);
+    } else if(checkBoxXVI.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXVI);
+    } else if(checkBoxXV.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXV);
+    } else if(checkBoxXIV.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXIV);
+    } else if(checkBoxXIII.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXIII);
+    } else if(checkBoxXII.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXII);
+    } else if(checkBoxXI.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiXI);
+    } else if(checkBoxBrak.checked == true){
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytkiBrak);
+    } else{
+        zabytki_grupa.clearLayers();
+        zabytki_grupa.addLayer(zabytki_all);
     }
 }
 
