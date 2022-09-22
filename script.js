@@ -253,18 +253,29 @@ var pomniki_grupa = L.layerGroup([pomnikiNew]);
 var granice_poznania = L.geoJson(granice_poznania, {color:'#bbbb68', weight: 3.7}).addTo(map);
 var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight: 3.7,
     onEachFeature: function(feature, layer) {
-        //nie działają etykiety, nawet, gdy działały, to wyglądały brzydko fest
-      var label = L.marker(layer.getBounds().getCenter(), {
-        icon: L.divIcon({
-          className: 'label',
-          html: feature.properties.name,
-          iconSize: [100, 40]
-        })
-      });
+        layer.bindPopup(feature.properties.name);
     }
 });
 
 //warstwy z cmentarzami
+
+function CmentarzePopup(feature, layer){
+    if (feature.properties.nowe_website==="Brak"){
+        var napis = "<br><b>Artykuł:</b> Brak";
+    }
+    else{
+        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    if (feature.properties.nowe_wikipedia_adres==="Brak"){
+        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
+    }
+    else{
+        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
+    }
+
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
+}
 
 function FiltrWebsite(feature){
     if(feature.properties.nowe_website != "Brak") return true
@@ -279,81 +290,16 @@ function FiltrWikiAndWebsite(feature){
 }
 
 var cmentarze_all = L.geoJson(cmentarze, {color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
-onEachFeature: function(feature, layer){
-    if (feature.properties.nowe_website==="Brak"){
-        var napis = "<br><b>Artykuł:</b> Brak";
-    }
-    else{
-        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    if (feature.properties.nowe_wikipedia_adres==="Brak"){
-        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
-    }
-    else{
-        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
-}});
+onEachFeature: CmentarzePopup});
 
 var cmentarze_website = L.geoJson(cmentarze, {filter: FiltrWebsite, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
-onEachFeature: function(feature, layer){
-    if (feature.properties.nowe_website==="Brak"){
-        var napis = "<br><b>Artykuł:</b> Brak";
-    }
-    else{
-        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    if (feature.properties.nowe_wikipedia_adres==="Brak"){
-        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
-    }
-    else{
-        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
-}});
+onEachFeature: CmentarzePopup});
 
 var cmentarze_wikipedia = L.geoJson(cmentarze, {filter: FiltrWikipedia, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
-onEachFeature: function(feature, layer){
-    if (feature.properties.nowe_website==="Brak"){
-        var napis = "<br><b>Artykuł:</b> Brak";
-    }
-    else{
-        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    if (feature.properties.nowe_wikipedia_adres==="Brak"){
-        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
-    }
-    else{
-        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
-}});
-
+onEachFeature: CmentarzePopup});
 
 var cmentarze_wiki_and_website = L.geoJson(cmentarze, {filter: FiltrWikiAndWebsite, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
-onEachFeature: function(feature, layer){
-    if (feature.properties.nowe_website==="Brak"){
-        var napis = "<br><b>Artykuł:</b> Brak";
-    }
-    else{
-        var napis = "<br/><b>Zdjęcia/strona internetowa: </b><a href=' " + feature.properties.nowe_website +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    if (feature.properties.nowe_wikipedia_adres==="Brak"){
-        var napis2 = "<br><b>Artykuł z Wikipedii:</b> Brak";
-    }
-    else{
-        var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
-    }
-
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
-}});
+onEachFeature: CmentarzePopup});
 
 var cmentarze = L.layerGroup([cmentarze_all]);
 
