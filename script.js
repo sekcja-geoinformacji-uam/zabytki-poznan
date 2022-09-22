@@ -383,7 +383,6 @@ var stateChangingButton = L.easyButton({
 
                 }}
             }]
-        
         });
 
 stateChangingButton.setPosition('topleft').addTo(map);

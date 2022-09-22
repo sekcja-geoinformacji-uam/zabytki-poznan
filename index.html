@@ -41,23 +41,20 @@
         <div id="menu">Interaktywna mapa zabytków Poznania</div>
         <div id="container">
             <div id="sidebar" class="sidebar collapsed">
-                <!-- Nav tabs -->
                 <div class="sidebar-tabs">
                     <ul role="tablist">
                         <li><a href="#home" role="tab"><i class="fa fa-filter"></i></a></li>
-                        <!-- <li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li> -->
-                        <!--<li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>-->
-                        
+                        <li><a href="#about" role="tab"><i class="fa fa-question-circle"></i></a></li>
                     </ul>
             
                     <ul role="tablist">
-                        <li><a href="#settings" role="tab"><i class="fa fa-question-circle"></i></a></li>
                         <li><a href="https://github.com/TomekMatuszek/zabytki-poznan" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
-                        
+                        <li><a href="https://sekcjageoinformacji.web.amu.edu.pl/?fbclid=IwAR2JoWLFdtWH_a0amZyQeDqSfJ5l41tUJ1-hRdkeGeFRbALLMvWwtbFE35w" role="tab" target="_blank">
+                            <img src="logo_geoinfo.png" style="height:1.8vw;margin-top:0.2vw"></a>
+                        </li>
                     </ul>
                 </div>
             
-                <!-- Tab panes -->
                 <div class="sidebar-content">
                     <div class="sidebar-pane" id="home">
                         <h1 class="sidebar-header">
@@ -65,14 +62,12 @@
                             <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
                                                     </h1>
                                                     <br>
-                                                        <!-- Tab links -->
                             <div class="tab">
                                 <button class="tablinks" onclick="openFiltr(event, 'Zabytki')">Zabytki</button>
                                 <button class="tablinks" onclick="openFiltr(event, 'Cmentarze')">Cmentarze</button>
                                 <button class="tablinks" onclick="openFiltr(event, 'Pomniki')">Pomniki</button>
                             </div>
                             
-                            <!-- Tab content -->
                             <div id="Zabytki" class="tabcontent">
                                 <h3>Zabytki</h3>
                                     XX wiek: <input type="checkbox" id="XXw" onclick="Wiek()"><br><br>
@@ -107,17 +102,8 @@
                                     Rok powstania: <input type="radio" id="Rok_powstania" name="pomnik_wybor" value="rok_powstania" onclick="Rok_powstania()"><br><br>
                                     Artykuł: <input type="radio" id="Artykul" name="pomnik_wybor" value="artykul" onclick="Artykul()"><br><br>
                             </div>
-                        </div>
-            
-                    <!--<div class="sidebar-pane" id="profile">
-                        <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
-                    </div>
-            
-                    <div class="sidebar-pane" id="messages">
-                        <h1 class="sidebar-header">Messages<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
-                    </div>-->
-            
-                    <div class="sidebar-pane" id="settings">
+                        </div>          
+                    <div class="sidebar-pane" id="about">
                         <h1 class="sidebar-header">O projekcie<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
                     </div>    
                 </div>
