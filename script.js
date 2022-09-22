@@ -389,15 +389,15 @@ var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight
 
 //warstwy z cmentarzami
 
-function FiltrWebsiteBrak(feature){
+function FiltrWebsite(feature){
     if(feature.properties.nowe_website != "Brak") return true
 }
 
-function FiltrWikipediaBrak(feature){
+function FiltrWikipedia(feature){
     if(feature.properties.nowe_wikipedia_adres != "Brak") return true
 }
 
-function FiltrWikiAndWebsiteBrak(feature){
+function FiltrWikiAndWebsite(feature){
     if(feature.properties.nowe_wikipedia_adres != "Brak" && feature.properties.nowe_website != "Brak") return true
 }
 
@@ -420,7 +420,7 @@ onEachFeature: function(feature, layer){
     layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
 
-var cmentarze_website_brak = L.geoJson(cmentarze, {filter: FiltrWebsiteBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+var cmentarze_website = L.geoJson(cmentarze, {filter: FiltrWebsite, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
     if (feature.properties.nowe_website==="Brak"){
         var napis = "<br><b>Artykuł:</b> Brak";
@@ -439,7 +439,7 @@ onEachFeature: function(feature, layer){
     layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
 
-var cmentarze_wikipedia_brak = L.geoJson(cmentarze, {filter: FiltrWikipediaBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+var cmentarze_wikipedia = L.geoJson(cmentarze, {filter: FiltrWikipedia, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
     if (feature.properties.nowe_website==="Brak"){
         var napis = "<br><b>Artykuł:</b> Brak";
@@ -459,7 +459,7 @@ onEachFeature: function(feature, layer){
 }});
 
 
-var cmentarze_wiki_and_website_brak = L.geoJson(cmentarze, {filter: FiltrWikiAndWebsiteBrak, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
+var cmentarze_wiki_and_website = L.geoJson(cmentarze, {filter: FiltrWikiAndWebsite, color: 'black', fillOpacity: 0.2, weight: 1, pane: 'warstwy',
 onEachFeature: function(feature, layer){
     if (feature.properties.nowe_website==="Brak"){
         var napis = "<br><b>Artykuł:</b> Brak";
@@ -478,7 +478,7 @@ onEachFeature: function(feature, layer){
     layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
 }});
 
-var cmentarze = L.layerGroup([cmentarze_all, cmentarze_website_brak, cmentarze_wikipedia_brak, cmentarze_wiki_and_website_brak]);
+var cmentarze = L.layerGroup([cmentarze_all]);
 
 // grupy warstw
 var baseMaps = {
@@ -487,7 +487,7 @@ var baseMaps = {
 };
 var overlayMaps = {
     "Zabytki": zabytki_grupa,
-    "Cmentarze": cmentarze_all,
+    "Cmentarze": cmentarze,
     "Pomniki": pomnikiNew,
     "Dzielnice Poznania": dzielnice,
     "Granica z 1925 roku": m1925,
@@ -599,57 +599,26 @@ function openFiltr(evt, pole) {
 //   console.log(newArray);
 
 // newArray.addTo(map);
+
 function BrakLinku() {
-    //Link do artykułu
-    // Get the checkbox
     var checkBox1 = document.getElementById("BrakLinku");
     var checkBox2 = document.getElementById("BrakWikipedii");
-    // Get the output text
-    //GDY WCIŚNIĘTY TO....
-    //var text = document.getElementById("Cmentarz1");
-  
-    // If the checkbox is checked, display the output text
+
     if (checkBox1.checked == true && checkBox2.checked == true){
-        cmentarze_all.remove();
-        cmentarze_website_brak.remove();
-        cmentarze_wikipedia_brak.remove();
-        cmentarze_wiki_and_website_brak.remove();
-        cmentarze_wiki_and_website_brak.addTo(map);
+        cmentarze.clearLayers();
+        cmentarze.addLayer(cmentarze_wiki_and_website);
+    }
+    else if (checkBox1.checked == true && checkBox2.checked == false){
+        cmentarze.clearLayers();
+        cmentarze.addLayer(cmentarze_website);
+    }
+    else if (checkBox1.checked == false && checkBox2.checked == true){
+        cmentarze.clearLayers();
+        cmentarze.addLayer(cmentarze_wikipedia);
     }
     else if (checkBox1.checked == false && checkBox2.checked == false){
-        cmentarze_all.addTo(map);
-        cmentarze_website_brak.remove();
-        cmentarze_wikipedia_brak.remove();
-        cmentarze_wiki_and_website_brak.remove();
-    }
-    else{
-        if (checkBox1.checked == true){
-            cmentarze_all.remove();
-            cmentarze_website_brak.remove();
-            cmentarze_wiki_and_website_brak.remove();
-            cmentarze_wikipedia_brak.remove();
-            cmentarze_website_brak.addTo(map);
-        }
-        else if (checkBox1.checked == false && checkBox2.checked == true){
-            cmentarze_all.remove();
-            cmentarze_website_brak.remove();
-            cmentarze_wiki_and_website_brak.remove();
-            cmentarze_wikipedia_brak.remove();
-            cmentarze_wikipedia_brak.addTo(map);
-        }
-        else if (checkBox2.checked == true){
-            cmentarze_all.remove();
-            cmentarze_website_brak.remove();
-            cmentarze_wiki_and_website_brak.remove();
-            cmentarze_wikipedia_brak.remove();
-            cmentarze_wikipedia_brak.addTo(map);
-        }
-        else if (checkBox2.checked == false){
-            cmentarze_all.remove();
-            cmentarze_website_brak.remove();
-            cmentarze_wiki_and_website_brak.remove();
-            cmentarze_wikipedia_brak.remove();
-        }
+        cmentarze.clearLayers();
+        cmentarze.addLayer(cmentarze_all);
     }
 }
 
