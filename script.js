@@ -149,7 +149,7 @@ var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fill
 
 
 var zabytki_pkt_all = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty, color:'#b30000', opacity: 0.6
- }).addTo(map);
+ });
 var zabytkiXX_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXX,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
 });
 var zabytkiXIX_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXIX,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
@@ -178,7 +178,7 @@ var zabytki_pkt_grupa = L.layerGroup([zabytkiXI_pkt,zabytkiXV_pkt,zabytkiXX_pkt,
 
 
 
-var zabytki_grupa = L.featureGroup([zabytki_all]).addTo(map);
+var zabytki_grupa = L.featureGroup([zabytki_pkt_all]).addTo(map);
 //!!!!!!!!!!!!!!!!FILTROWANIE TAK DZIAŁA
 // var cmentarze = L.geoJson(cmentarze, {pane: 'warstwy', filter: function(feature, layer) {
 //     return feature.properties.nowe_website === "Brak";
@@ -564,17 +564,19 @@ function BrakZabytki(){
 //Warunek - gdy mapa oddalona, to punkty zamiast poligonów
 map.on('zoomend', function(ev){
     if (map.getZoom() > 13){
-        document.getElementById("XXw").disabled = false;
-        document.getElementById("XIXw").disabled = false;
-        document.getElementById("XVIIIw").disabled = false;
-        document.getElementById("XVIIw").disabled = false;
-        document.getElementById("XVIw").disabled = false;
-        document.getElementById("XVw").disabled = false;
-        document.getElementById("XIVw").disabled = false;
-        document.getElementById("XIIIw").disabled = false;
-        document.getElementById("XIIw").disabled = false;
-        document.getElementById("XIw").disabled = false;
-        document.getElementById("Brak").disabled = false;
+        if (map.hasLayer(zabytki_grupa)){
+            document.getElementById("XXw").disabled = false;
+            document.getElementById("XIXw").disabled = false;
+            document.getElementById("XVIIIw").disabled = false;
+            document.getElementById("XVIIw").disabled = false;
+            document.getElementById("XVIw").disabled = false;
+            document.getElementById("XVw").disabled = false;
+            document.getElementById("XIVw").disabled = false;
+            document.getElementById("XIIIw").disabled = false;
+            document.getElementById("XIIw").disabled = false;
+            document.getElementById("XIw").disabled = false;
+            document.getElementById("Brak").disabled = false;
+        }
         Wiek();
     } else {
         document.getElementById("XXw").disabled = true;
