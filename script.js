@@ -647,8 +647,9 @@ test.addEventListener("mouseover", (event) => {
         document.getElementById("Brak").disabled = true;
         ResetZabytki();
   } 
-  
+  //!!!!! ZOOM
   if((map.hasLayer(zabytki_grupa)==true)){
+    if (map.getZoom() > 13){
         document.getElementById("XXw").disabled = false;
         document.getElementById("XIXw").disabled = false;
         document.getElementById("XVIIIw").disabled = false;
@@ -660,7 +661,7 @@ test.addEventListener("mouseover", (event) => {
         document.getElementById("XIIw").disabled = false;
         document.getElementById("XIw").disabled = false;
         document.getElementById("Brak").disabled = false;
-  } 
+  } }
   
   if((map.hasLayer(pomniki_grupa)==true)){
     document.getElementById("Opis").disabled = false;
