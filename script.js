@@ -599,3 +599,65 @@ function Artykul(){
     pomniki_grupa.clearLayers();
     pomniki_grupa.addLayer(pomnikiUrl);
 }
+
+
+const test = document.getElementById("map");
+test.addEventListener("mouseover", (event) => {
+    // highlight the mouseover target
+    if(map.hasLayer(zabytki_grupa)==false){
+        document.getElementById("XXw").disabled = true;
+        document.getElementById("XIXw").disabled = true;
+        document.getElementById("XVIIIw").disabled = true;
+        document.getElementById("XVIIw").disabled = true;
+        document.getElementById("XVIw").disabled = true;
+        document.getElementById("XVw").disabled = true;
+        document.getElementById("XIVw").disabled = true;
+        document.getElementById("XIIIw").disabled = true;
+        document.getElementById("XIIw").disabled = true;
+        document.getElementById("XIw").disabled = true;
+        document.getElementById("Brak").disabled = true;
+  } 
+  
+  if((map.hasLayer(zabytki_grupa)==true)){
+        document.getElementById("XXw").disabled = false;
+        document.getElementById("XIXw").disabled = false;
+        document.getElementById("XVIIIw").disabled = false;
+        document.getElementById("XVIIw").disabled = false;
+        document.getElementById("XVIw").disabled = false;
+        document.getElementById("XVw").disabled = false;
+        document.getElementById("XIVw").disabled = false;
+        document.getElementById("XIIIw").disabled = false;
+        document.getElementById("XIIw").disabled = false;
+        document.getElementById("XIw").disabled = false;
+        document.getElementById("Brak").disabled = false;
+        Wiek();
+  } 
+  
+  if((map.hasLayer(pomniki_grupa)==true)){
+    document.getElementById("Opis").disabled = false;
+    document.getElementById("Inskrypcja").disabled = false;
+    document.getElementById("Tworca").disabled = false;
+    document.getElementById("Rok_powstania").disabled = false;
+    document.getElementById("Artykul").disabled = false;
+  }
+
+  if((map.hasLayer(pomniki_grupa)==false)){
+    document.getElementById("Opis").disabled = true;
+    document.getElementById("Inskrypcja").disabled = true;
+    document.getElementById("Tworca").disabled = true;
+    document.getElementById("Rok_powstania").disabled = true;
+    document.getElementById("Artykul").disabled = true;
+  }
+
+  if((map.hasLayer(cmentarze)==true)){
+    document.getElementById("BrakLinku").disabled = false;
+    document.getElementById("BrakWikipedii").disabled = false;
+  }
+
+  if((map.hasLayer(cmentarze)==false)){
+    document.getElementById("BrakLinku").disabled = true;
+    document.getElementById("BrakWikipedii").disabled = true;
+  }
+
+
+}, false);
