@@ -121,8 +121,6 @@ var marker = L.marker([52.4, 17], {pane: 'warstwy'});
 var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
     onEachFeature: ZabytkiPopup});
 
-    var zabytkiXXI = L.geoJson(zabytki, {filter: FiltrXXI, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
-    onEachFeature: ZabytkiPopup});
     var zabytkiXX = L.geoJson(zabytki, {filter: FiltrXX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
     onEachFeature: ZabytkiPopup});
     var zabytkiXIX = L.geoJson(zabytki, {filter: FiltrXIX, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
@@ -145,9 +143,41 @@ var zabytki_all = L.geoJson(zabytki, {color: 'black', fillColor: '#FF0000', fill
     onEachFeature: ZabytkiPopup});
     var zabytkiBrak = L.geoJson(zabytki, {filter: FiltrBrakZabytki, color: 'black', fillColor: '#FF0000', fillOpacity: 0.3, weight: 1, pane: 'warstwy',
     onEachFeature: ZabytkiPopup});
+    
+
+//var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
 
 
-var zabytki_punkty = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty});
+var zabytki_pkt_all = L.geoJson(zabytki_punkty, {pane: 'warstwy',pointToLayer: punkty, color:'#b30000', opacity: 0.6
+ }).addTo(map);
+var zabytkiXX_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXX,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXIX_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXIX,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXVIII_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXVIII,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXVII_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXVII,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXVI_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXVI,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXV_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXV,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXIV_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXIV,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXIII_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXIII,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+ });
+var zabytkiXII_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXII,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiXI_pkt = L.geoJson(zabytki_punkty, {filter: FiltrXI,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+var zabytkiBrak_pkt = L.geoJson(zabytki_punkty, {filter: FiltrBrakZabytki,pointToLayer: punkty, color:'#b30000', opacity: 0.6, pane: 'warstwy'
+});
+
+
+var zabytki_pkt_grupa = L.layerGroup([zabytkiXI_pkt,zabytkiXV_pkt,zabytkiXX_pkt,zabytkiXII_pkt,zabytkiXIV_pkt,zabytkiXIX_pkt,zabytkiXVI_pkt,zabytkiBrak_pkt,zabytkiXIII_pkt,zabytkiXVII_pkt,zabytkiXVIII_pkt]);
+
+
+
 var zabytki_grupa = L.featureGroup([zabytki_all]).addTo(map);
 //!!!!!!!!!!!!!!!!FILTROWANIE TAK DZIAŁA
 // var cmentarze = L.geoJson(cmentarze, {pane: 'warstwy', filter: function(feature, layer) {
@@ -157,7 +187,7 @@ var zabytki_grupa = L.featureGroup([zabytki_all]).addTo(map);
 
 var granice_grupa = L.layerGroup([m1925,m1933,m1940,m1945,m1973,m1986]);
 
-zabytki_punkty.setStyle({color:'#b30000', opacity: 0.6});
+//zabytki_punkty.setStyle({color:'#b30000', opacity: 0.6});
 
 function PomnikiPopup(feature, layer){
     if (feature.properties.Pomniki_edycja_url==="Brak"){
@@ -324,7 +354,6 @@ var overlayMaps = {
 
 var layer_control = L.control.layers(baseMaps, overlayMaps).addTo(map);
 //Bez tych 2 linijek punkty są czarne, muszą zostać
-zabytki_grupa.addLayer(zabytki_punkty);
 zabytki_grupa.removeLayer(zabytki_all);
 
 
@@ -527,7 +556,7 @@ function BrakZabytki(){
         zabytki_grupa.addLayer(zabytki_all);
     } else{
         zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytki_punkty);
+        zabytki_grupa.addLayer(zabytki_pkt_all);
     }
     ResetZabytki();
 }
@@ -561,7 +590,7 @@ map.on('zoomend', function(ev){
         document.getElementById("Brak").disabled = true;
         //ResetZabytki();
         zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytki_punkty);
+        zabytki_grupa.addLayer(zabytki_pkt_all);
     }
 });
 
