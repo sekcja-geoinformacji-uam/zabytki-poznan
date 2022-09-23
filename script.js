@@ -630,7 +630,6 @@ test.addEventListener("mouseover", (event) => {
         document.getElementById("XIIw").disabled = false;
         document.getElementById("XIw").disabled = false;
         document.getElementById("Brak").disabled = false;
-        Wiek();
   } 
   
   if((map.hasLayer(pomniki_grupa)==true)){
