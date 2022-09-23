@@ -616,6 +616,7 @@ test.addEventListener("mouseover", (event) => {
         document.getElementById("XIIw").disabled = true;
         document.getElementById("XIw").disabled = true;
         document.getElementById("Brak").disabled = true;
+        ResetZabytki();
   } 
   
   if((map.hasLayer(zabytki_grupa)==true)){
