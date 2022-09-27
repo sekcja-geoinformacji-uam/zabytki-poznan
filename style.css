@@ -38,15 +38,12 @@ body {
     width: 100%;
 }
 
-/*#side {
-    height: 100%;
-    width: 17%;
-    float: right;
-    background-color: rgb(96, 150, 26);
+#about {
+    font-size: 20px;
+    text-align: justify;
 }
 
-NIŻEJ STYL PRZYCISKÓW FILTRÓW
-*/
+/* NIŻEJ STYL PRZYCISKÓW FILTRÓW */
 
 /* Style the tab */
 .tab {
