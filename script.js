@@ -19,6 +19,11 @@ var OSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap',
     pane: 'base'
 });
+googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 19,
+    subdomains:['mt0','mt1','mt2','mt3'],
+    pane: 'base'
+});
 var mapbox = L.tileLayer.wms('https://api.mapbox.com/styles/v1/acisek/cl4i8m7gf004q15jklyllx4jo/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYWNpc2VrIiwiYSI6ImNsMXdiY3N1NzB6MmMzY3FveGxkb25uNmEifQ.lFUlRnYFhPtGaPrP_8vtqg',
     {pane: 'base'}).addTo(map);
 
@@ -335,8 +340,9 @@ var cmentarze = L.layerGroup([cmentarze_all]);
 
 // grupy warstw
 var baseMaps = {
+    "Mapbox": mapbox,
     "OSM": OSM,
-    "Mapbox": mapbox
+    "Satelita": googleSat
 };
 var overlayMaps = {
     "Zabytki": zabytki_grupa,
@@ -648,6 +654,7 @@ test.addEventListener("mouseover", (event) => {
         document.getElementById("XIw").disabled = true;
         document.getElementById("Brak").disabled = true;
         ResetZabytki();
+        Wiek();
   } 
   //!!!!! ZOOM
   if((map.hasLayer(zabytki_grupa)==true)){
