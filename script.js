@@ -179,7 +179,7 @@ var zabytkiBrak_pkt = L.geoJson(zabytki_punkty, {filter: FiltrBrakZabytki,pointT
 });
 
 
-var zabytki_pkt_grupa = L.layerGroup([zabytkiXI_pkt,zabytkiXV_pkt,zabytkiXX_pkt,zabytkiXII_pkt,zabytkiXIV_pkt,zabytkiXIX_pkt,zabytkiXVI_pkt,zabytkiBrak_pkt,zabytkiXIII_pkt,zabytkiXVII_pkt,zabytkiXVIII_pkt]);
+var zabytki_pkt_grupa = L.layerGroup([zabytki_pkt_all, zabytkiXI_pkt,zabytkiXV_pkt,zabytkiXX_pkt,zabytkiXII_pkt,zabytkiXIV_pkt,zabytkiXIX_pkt,zabytkiXVI_pkt,zabytkiBrak_pkt,zabytkiXIII_pkt,zabytkiXVII_pkt,zabytkiXVIII_pkt]);
 
 
 
@@ -582,6 +582,7 @@ map.on('zoomend', function(ev){
             document.getElementById("XIIw").disabled = false;
             document.getElementById("XIw").disabled = false;
             document.getElementById("Brak").disabled = false;
+            
         }
         Wiek();
     } else {
@@ -598,7 +599,43 @@ map.on('zoomend', function(ev){
         document.getElementById("Brak").disabled = true;
         //ResetZabytki();
         zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytki_pkt_all);
+
+        if(document.getElementById('XXw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXX_pkt);
+        }
+        if(document.getElementById('XIXw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXIX_pkt);
+        }
+        if(document.getElementById('XVIIIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXVIII_pkt);
+        }
+        if(document.getElementById('XVIIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXVII_pkt);
+        }
+        if(document.getElementById('XVIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXVI_pkt);
+        }
+        if(document.getElementById('XVw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXV_pkt);
+        }
+        if(document.getElementById('XIVw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXIV_pkt);
+        }
+        if(document.getElementById('XIIIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXIII_pkt);
+        }
+        if(document.getElementById('XIIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXII_pkt);
+        }
+        if(document.getElementById('XIw').checked == true){
+            zabytki_grupa.addLayer(zabytkiXI_pkt);
+        }
+        if(document.getElementById('Brak').checked == true){
+            zabytki_grupa.addLayer(zabytkiBrak_pkt);
+        }
+        
+        
+        
     }
 });
 
