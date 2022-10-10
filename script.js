@@ -633,9 +633,21 @@ map.on('zoomend', function(ev){
         if(document.getElementById('Brak').checked == true){
             zabytki_grupa.addLayer(zabytkiBrak_pkt);
         }
-        
-        
-        
+        if(
+            document.getElementById('XXw').checked == false &&
+            document.getElementById('XIXw').checked == false &&
+            document.getElementById('XVIIIw').checked == false &&
+            document.getElementById('XVIIw').checked == false &&
+            document.getElementById('XVIw').checked == false &&
+            document.getElementById('XVw').checked == false &&
+            document.getElementById('XIVw').checked == false &&
+            document.getElementById('XIIIw').checked == false &&
+            document.getElementById('XIIw').checked == false &&
+            document.getElementById('XIw').checked == false &&
+            document.getElementById('Brak').checked == false
+        ){
+            zabytki_grupa.addLayer(zabytki_pkt_all);
+        }
     }
 });
 
