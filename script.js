@@ -116,7 +116,7 @@ function FiltrBrakZabytki(feature){
 }
 
 function ZabytkiPopup(feature, layer){
-    layer.bindPopup("<b>Funkcja szczegółowa:</b> " + feature.properties.FUNSZCZ_PL +
+    layer.bindPopup("<b>Przeznaczenie obiektu:</b> " + feature.properties.FUNSZCZ_PL +
         "<br><b>Wiek powstania:</b> " + feature.properties._Wiek_zabytku +
         "<br><b>Nr rejestru:</b> " + feature.properties._ID_REJESTRU);
 }
