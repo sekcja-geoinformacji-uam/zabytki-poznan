@@ -120,13 +120,10 @@ li.active {
 
 /* Customize Leaflet default styles  */
 
-.popupCustom .leaflet-popup-content-wrapper {
-  background: #dcac79;
+.popupCustom .leaflet-popup-tip, .popupCustom .leaflet-popup-content-wrapper {
+  background-color: #dcac79;
   color: #000;
   box-shadow: 0 3px 14px rgb(0 0 0 / 80%);
-}
-.popupCustom .leaflet-popup-tip {
-  background: #dcac79 ;
 }
 
 /* The switch - the box around the slider */
