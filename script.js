@@ -664,18 +664,6 @@ map.on('zoomend', function(ev){
         }
         Wiek();
     } else {
-        /*document.getElementById("XXw").disabled = true;
-        document.getElementById("XIXw").disabled = true;
-        document.getElementById("XVIIIw").disabled = true;
-        document.getElementById("XVIIw").disabled = true;
-        document.getElementById("XVIw").disabled = true;
-        document.getElementById("XVw").disabled = true;
-        document.getElementById("XIVw").disabled = true;
-        document.getElementById("XIIIw").disabled = true;
-        document.getElementById("XIIw").disabled = true;
-        document.getElementById("XIw").disabled = true;
-        document.getElementById("Brak").disabled = true;*/
-        //ResetZabytki();
         zabytki_grupa.clearLayers();
 
         if(document.getElementById('XXw').checked == true){
