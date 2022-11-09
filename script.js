@@ -220,7 +220,8 @@ function PomnikiPopup(feature, layer){
     "<br><b>Opis: </b>" + feature.properties.Pomniki_edycja_Opis +
     "<br><b>Inskrypcja: </b> " + feature.properties.Pomniki_edycja_Napis_na_pomniku + "<br><b>Twórca: </b>" 
     + feature.properties.Pomniki_edycja_Artysta + "<br><b>Rok powstania: </b>" + 
-    feature.properties.Pomniki_edycja_Powstanie + napis);
+    feature.properties.Pomniki_edycja_Powstanie + napis,
+    {className: 'popupCustom'});
 }
 
 //trzeba dodać ikonę zamiast markerów pomników - do zrobienia
@@ -303,7 +304,7 @@ var pomniki_grupa = L.layerGroup([pomnikiNew]);
 var granice_poznania = L.geoJson(granice_poznania, {color:'#bbbb68', weight: 3.7}).addTo(map);
 var dzielnice = L.geoJson(dzielnice, {pane: 'dzielnice', color:'#bbbb99', weight: 3.7,
     onEachFeature: function(feature, layer) {
-        layer.bindPopup(feature.properties.name);
+        layer.bindPopup(feature.properties.name, {className: 'popupCustom'});
     }
 });
 
@@ -324,7 +325,7 @@ function CmentarzePopup(feature, layer){
         var napis2 = "<br/><b>Artukuł z Wikipedii: </b><a href=' " + feature.properties.nowe_wikipedia_adres +"'"+ 'target="_blank"' +">Link</a>";
     }
 
-    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2);
+    layer.bindPopup("<b>Nazwa:</b> " + feature.properties.nowe_name + napis + napis2, {className: 'popupCustom'});
 }
 
 function FiltrWebsite(feature){
@@ -508,43 +509,105 @@ function Wiek() {
     var checkBoxXI = document.getElementById("XIw");
     var checkBoxBrak = document.getElementById("Brak");
 
-
-    if(checkBoxXX.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXX);
-    } else if(checkBoxXIX.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXIX);
-    } else if(checkBoxXVIII.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXVIII);
-    } else if(checkBoxXVII.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXVII);
-    } else if(checkBoxXVI.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXVI);
-    } else if(checkBoxXV.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXV);
-    } else if(checkBoxXIV.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXIV);
-    } else if(checkBoxXIII.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXIII);
-    } else if(checkBoxXII.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXII);
-    } else if(checkBoxXI.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiXI);
-    } else if(checkBoxBrak.checked == true){
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytkiBrak);
+    if (map.getZoom() > 13){
+        if(checkBoxXX.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXX);
+        } else if(checkBoxXIX.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIX);
+        } else if(checkBoxXVIII.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVIII);
+        } else if(checkBoxXVII.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVII);
+        } else if(checkBoxXVI.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVI);
+        } else if(checkBoxXV.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXV);
+        } else if(checkBoxXIV.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIV);
+        } else if(checkBoxXIII.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIII);
+        } else if(checkBoxXII.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXII);
+        } else if(checkBoxXI.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXI);
+        } else if(checkBoxBrak.checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiBrak);
+        } else{
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytki_all);
+        }
     } else{
-        zabytki_grupa.clearLayers();
-        zabytki_grupa.addLayer(zabytki_all);
+        if(document.getElementById('XXw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXX_pkt);
+        }
+        if(document.getElementById('XIXw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIX_pkt);
+        }
+        if(document.getElementById('XVIIIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVIII_pkt);
+        }
+        if(document.getElementById('XVIIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVII_pkt);
+        }
+        if(document.getElementById('XVIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXVI_pkt);
+        }
+        if(document.getElementById('XVw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXV_pkt);
+        }
+        if(document.getElementById('XIVw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIV_pkt);
+        }
+        if(document.getElementById('XIIIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXIII_pkt);
+        }
+        if(document.getElementById('XIIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXII_pkt);
+        }
+        if(document.getElementById('XIw').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiXI_pkt);
+        }
+        if(document.getElementById('Brak').checked == true){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytkiBrak_pkt);
+        }
+        if(
+            document.getElementById('XXw').checked == false &&
+            document.getElementById('XIXw').checked == false &&
+            document.getElementById('XVIIIw').checked == false &&
+            document.getElementById('XVIIw').checked == false &&
+            document.getElementById('XVIw').checked == false &&
+            document.getElementById('XVw').checked == false &&
+            document.getElementById('XIVw').checked == false &&
+            document.getElementById('XIIIw').checked == false &&
+            document.getElementById('XIIw').checked == false &&
+            document.getElementById('XIw').checked == false &&
+            document.getElementById('Brak').checked == false
+        ){
+            zabytki_grupa.clearLayers();
+            zabytki_grupa.addLayer(zabytki_pkt_all);
+        }
     }
 }
 
@@ -601,7 +664,7 @@ map.on('zoomend', function(ev){
         }
         Wiek();
     } else {
-        document.getElementById("XXw").disabled = true;
+        /*document.getElementById("XXw").disabled = true;
         document.getElementById("XIXw").disabled = true;
         document.getElementById("XVIIIw").disabled = true;
         document.getElementById("XVIIw").disabled = true;
@@ -611,7 +674,7 @@ map.on('zoomend', function(ev){
         document.getElementById("XIIIw").disabled = true;
         document.getElementById("XIIw").disabled = true;
         document.getElementById("XIw").disabled = true;
-        document.getElementById("Brak").disabled = true;
+        document.getElementById("Brak").disabled = true;*/
         //ResetZabytki();
         zabytki_grupa.clearLayers();
 
