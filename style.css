@@ -22,23 +22,23 @@ body {
 }
 
 #menu {
-    height: 5.5%;
+    height: 50px;
     width: 100%;
     background-color: rgb(222, 229, 220);
     font-family: 'Quicksand', sans-serif;
-    font-size: 2vw;
-    line-height: 2.5vw;
+    font-size: 40px;
+    line-height: 50px;
     letter-spacing: 5px;
     text-align: center;
     font-weight: bold;
     box-shadow: 0px 7px 20px 0px rgb(49, 49, 49);
     outline: 1px solid rgb(49, 49, 49);
-    position: relative;
+    position: absolute;
     z-index: 1000;
 }
 
 #container {
-    height: 94.5%;
+    height: 100%;
     width: 100%;
 }
 
@@ -91,6 +91,7 @@ body {
 
 #sidebar {
   height: 80%;
+  top: 60px!important;
 }
 
 .sidebar-header {
@@ -99,6 +100,10 @@ body {
 
 li.active {
   background-color: #5c4242!important;
+}
+
+.leaflet-control-layers {
+  top: 50px !important;
 }
 
 .leaflet-control-layers-expanded {
@@ -116,6 +121,14 @@ li.active {
 
 .leaflet-control-layers-selector {
   accent-color: #361f1f;
+}
+
+.leaflet-control-zoom {
+  top: 50px !important;
+}
+
+.easy-button-container {
+  top: 50px !important;
 }
 
 /* Customize Leaflet default styles  */
